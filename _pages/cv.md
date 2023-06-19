@@ -55,12 +55,16 @@ Work experience
 
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Programming
+  * Python, MATLAB, R, C, C++, C#, Java, NodeJS
+* Deep Learning
+  * Pytorch, TensorFlow, Keras
+* Databases
+  * SQL (SQL Server, MYSQL, PostgreSql)
+  * NOSQL (Cassandra, MongoDB, Redis, SolR, Elasticsearch, Lucene)
+* DevOps
+  * CI/CD, Docker, VM, RabbitMQ
+
 
 Publications
 ======
