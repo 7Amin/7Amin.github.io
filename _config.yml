@@ -84,8 +84,8 @@ author:
   avatar           : "avatar.jpg"
   bio              : "I am currently on an exciting academic journey, pursuing a Ph.D. in Computer Science at Ohio State University"
   location         : "Columbus - Ohio"
-  employer         :
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  employer         : "The Ohio State University"
+  pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.com/citations?user=TLDQxC8AAAAJ&hl=en"
   email            :  "amin.karimi1992@gmail.com"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
@@ -109,7 +109,7 @@ author:
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "replacethistwitterhandle"
+  twitter          : # "replacethistwitterhandle"
   vine             :
   weibo            :
   xing             :
