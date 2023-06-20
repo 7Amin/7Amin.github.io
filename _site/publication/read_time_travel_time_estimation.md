@@ -19,7 +19,7 @@
 
 
 
-<title>Deep Learning Prediction of Heat Propagation on 2-D Domain via Numerical Solution - Amin’s Personal Website</title>
+<title>Real-time Travel Time Estimation Using Matrix Factorization - Amin’s Personal Website</title>
 
 
 
@@ -29,15 +29,15 @@
 
 <meta property="og:locale" content="en-US">
 <meta property="og:site_name" content="Amin's Personal Website">
-<meta property="og:title" content="Deep Learning Prediction of Heat Propagation on 2-D Domain via Numerical Solution">
+<meta property="og:title" content="Real-time Travel Time Estimation Using Matrix Factorization">
 
 
-  <link rel="canonical" href="https://7amin.github.io/publication/deep_learning_prediction_heat_propagation.md">
-  <meta property="og:url" content="https://7amin.github.io/publication/deep_learning_prediction_heat_propagation.md">
+  <link rel="canonical" href="https://7amin.github.io/publication/read_time_travel_time_estimation.md">
+  <meta property="og:url" content="https://7amin.github.io/publication/read_time_travel_time_estimation.md">
 
 
 
-  <meta property="og:description" content="Deep learning’s role in tackling complicated engineering problems becomes more and more effective by advances in computer science. One of the classical problems in physics is representing the solution of heat propagation in the arbitrary 2-D domain. Study of two-dimensional heat transfer provides a precious bed for related physical issues. In this work, by using finite volume method, we solved the two-dimensional heat equation on the arbitrary domain with specified limitations (considering three heated rectangular obstacles inside the main domain) for 100000 different cases. These cases were divided into big batches in order to reduce the computational cost. The solution for each case was used as sample data to train our deep neural network. After the training process, deep learning results have been compared to results which were produced by the commercial program (ANSYS). After analyzing deep learning efficiency, obviously, our network successfully was able to predict the solution of heat transfer physics with satisfactory precision.">
+  <meta property="og:description" content="Estimating the travel time of any route is of great importance for trip planners, traffic operators, online taxi dispatching and ride-sharing platforms, and navigation provider systems. With the advance of technology, many traveling cars, including online taxi dispatch systems vehicles are equipped with Global Positioning System (GPS) devices that can report the location of the vehicle every few seconds. This paper uses GPS data and the Matrix Factorization techniques to estimate the travel times on all road segments and time intervals simultaneously. We aggregate GPS data into a matrix, where each cell of the original matrix contains the average vehicle speed for a segment and a specific time interval. One of the problems with this matrix is its high sparsity. We use Alternating Least Squares (ALS) method along with a regularization term to factorize the matrix. Since this approach can solve the sparsity problem that arises from the absence of cars in many road segments in a specific time interval, matrix factorization is suitable for estimating the travel time. Our comprehensive evaluation results using real data provided by one of the largest online taxi dispatching systems in Iran, shows the strength of our proposed method.">
 
 
 
@@ -52,7 +52,7 @@
 
 
   <meta property="og:type" content="article">
-  <meta property="article:published_time" content="2020-02-23T00:00:00-05:00">
+  <meta property="article:published_time" content="2019-12-01T00:00:00-05:00">
 
 
 
@@ -264,35 +264,35 @@
 
 
   <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
-    <meta itemprop="headline" content="Deep Learning Prediction of Heat Propagation on 2-D Domain via Numerical Solution">
-    <meta itemprop="description" content="Deep learning’s role in tackling complicated engineering problems becomes more and more effective by advances in computer science. One of the classical problems in physics is representing the solution of heat propagation in the arbitrary 2-D domain. Study of two-dimensional heat transfer provides a precious bed for related physical issues. In this work, by using finite volume method, we solved the two-dimensional heat equation on the arbitrary domain with specified limitations (considering three heated rectangular obstacles inside the main domain) for 100000 different cases. These cases were divided into big batches in order to reduce the computational cost. The solution for each case was used as sample data to train our deep neural network. After the training process, deep learning results have been compared to results which were produced by the commercial program (ANSYS). After analyzing deep learning efficiency, obviously, our network successfully was able to predict the solution of heat transfer physics with satisfactory precision.">
-    <meta itemprop="datePublished" content="February 23, 2020">
+    <meta itemprop="headline" content="Real-time Travel Time Estimation Using Matrix Factorization">
+    <meta itemprop="description" content="Estimating the travel time of any route is of great importance for trip planners, traffic operators, online taxi dispatching and ride-sharing platforms, and navigation provider systems. With the advance of technology, many traveling cars, including online taxi dispatch systems vehicles are equipped with Global Positioning System (GPS) devices that can report the location of the vehicle every few seconds. This paper uses GPS data and the Matrix Factorization techniques to estimate the travel times on all road segments and time intervals simultaneously. We aggregate GPS data into a matrix, where each cell of the original matrix contains the average vehicle speed for a segment and a specific time interval. One of the problems with this matrix is its high sparsity. We use Alternating Least Squares (ALS) method along with a regularization term to factorize the matrix. Since this approach can solve the sparsity problem that arises from the absence of cars in many road segments in a specific time interval, matrix factorization is suitable for estimating the travel time. Our comprehensive evaluation results using real data provided by one of the largest online taxi dispatching systems in Iran, shows the strength of our proposed method.">
+    <meta itemprop="datePublished" content="December 01, 2019">
     
 
     <div class="page__inner-wrap">
       
         <header>
-          <h1 class="page__title" itemprop="headline">Deep Learning Prediction of Heat Propagation on 2-D Domain via Numerical Solution
+          <h1 class="page__title" itemprop="headline">Real-time Travel Time Estimation Using Matrix Factorization
 </h1>
           
         
         
         
-          <p>Published in <i>The 7th International Conference on Contemporary Issues in Data Science</i>, 2020 </p>
+          <p>Published in <i>arXiv preprint</i>, 2019 </p>
         
         
              
         
-          <p>Recommended citation: Zakeri, Behzad, Amin Karimi Monsefi, and Babak Darafarin. "Deep learning prediction of heat propagation on 2-d domain via numerical solution." Data Science: From Research to Application. Springer International Publishing, 2020. <a href="https://link.springer.com/chapter/10.1007/978-3-030-37309-2_13"><u>https://link.springer.com/chapter/10.1007/978-3-030-37309-2_13</u></a></p>
+          <p>Recommended citation: Badrestani E, Bahrak B, Elahi A, Faramarzi A, Golshanrad P, Monsefi AK, Mahini H, Zirak A. Real-time travel time estimation using matrix factorization. arXiv preprint arXiv:1912.00455. 2019 Dec 1. <a href="https://arxiv.org/pdf/1912.00455.pdf"><u>https://arxiv.org/pdf/1912.00455.pdf</u></a></p>
         
     
         </header>
       
 
       <section class="page__content" itemprop="text">
-        <p>Deep learning’s role in tackling complicated engineering problems becomes more and more effective by advances in computer science. One of the classical problems in physics is representing the solution of heat propagation in the arbitrary 2-D domain. Study of two-dimensional heat transfer provides a precious bed for related physical issues. In this work, by using finite volume method, we solved the two-dimensional heat equation on the arbitrary domain with specified limitations (considering three heated rectangular obstacles inside the main domain) for 100000 different cases. These cases were divided into big batches in order to reduce the computational cost. The solution for each case was used as sample data to train our deep neural network. After the training process, deep learning results have been compared to results which were produced by the commercial program (ANSYS). After analyzing deep learning efficiency, obviously, our network successfully was able to predict the solution of heat transfer physics with satisfactory precision.</p>
+        <p>Estimating the travel time of any route is of great importance for trip planners, traffic operators, online taxi dispatching and ride-sharing platforms, and navigation provider systems. With the advance of technology, many traveling cars, including online taxi dispatch systems’ vehicles are equipped with Global Positioning System (GPS) devices that can report the location of the vehicle every few seconds. This paper uses GPS data and the Matrix Factorization techniques to estimate the travel times on all road segments and time intervals simultaneously. We aggregate GPS data into a matrix, where each cell of the original matrix contains the average vehicle speed for a segment and a specific time interval. One of the problems with this matrix is its high sparsity. We use Alternating Least Squares (ALS) method along with a regularization term to factorize the matrix. Since this approach can solve the sparsity problem that arises from the absence of cars in many road segments in a specific time interval, matrix factorization is suitable for estimating the travel time. Our comprehensive evaluation results using real data provided by one of the largest online taxi dispatching systems in Iran, shows the strength of our proposed method.</p>
 
-<p><a href="https://link.springer.com/chapter/10.1007/978-3-030-37309-2_13">Download paper here</a></p>
+<p><a href="https://arxiv.org/pdf/1912.00455.pdf">Download paper here</a></p>
 
         
       </section>
@@ -313,11 +313,11 @@
     <h4 class="page__share-title">Share on</h4>
   
 
-  <a href="https://twitter.com/intent/tweet?text=https://7amin.github.io/publication/deep_learning_prediction_heat_propagation.md" class="btn btn--twitter" title="Share on Twitter"><i class="fab fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+  <a href="https://twitter.com/intent/tweet?text=https://7amin.github.io/publication/read_time_travel_time_estimation.md" class="btn btn--twitter" title="Share on Twitter"><i class="fab fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
 
-  <a href="https://www.facebook.com/sharer/sharer.php?u=https://7amin.github.io/publication/deep_learning_prediction_heat_propagation.md" class="btn btn--facebook" title="Share on Facebook"><i class="fab fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https://7amin.github.io/publication/read_time_travel_time_estimation.md" class="btn btn--facebook" title="Share on Facebook"><i class="fab fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
 
-  <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://7amin.github.io/publication/deep_learning_prediction_heat_propagation.md" class="btn btn--linkedin" title="Share on LinkedIn"><i class="fab fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://7amin.github.io/publication/read_time_travel_time_estimation.md" class="btn btn--linkedin" title="Share on LinkedIn"><i class="fab fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
 </section>
 
       
@@ -325,11 +325,11 @@
 
   <nav class="pagination">
     
-      <a href="https://7amin.github.io/publication/solving_reaction_diffusion_equation.md" class="pagination--pager" title="Solving the Reaction-Diffusion equation based on analytical methods and deep learning algorithm; the Case study of sulfate attack to concrete
+      <a href="https://7amin.github.io/publication/weakly_supervised_learning.md" class="pagination--pager" title="Weakly Supervised Learning Technique for Solving Partial Differential Equations; Case Study of 1-D Reaction-Diffusion Equation
 ">Previous</a>
     
     
-      <a href="https://7amin.github.io/publication/will_construction_predicting_heterogeneous.md" class="pagination--pager" title="Will There Be A Construction? Predicting Road Constructions Based On Heterogeneous Spatiotemporal Data
+      <a href="https://7amin.github.io/publication/solving_reaction_diffusion_equation.md" class="pagination--pager" title="Solving the Reaction-Diffusion equation based on analytical methods and deep learning algorithm; the Case study of sulfate attack to concrete
 ">Next</a>
     
   </nav>

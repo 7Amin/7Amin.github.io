@@ -19,7 +19,7 @@
 
 
 
-<title>Deep Learning Prediction of Heat Propagation on 2-D Domain via Numerical Solution - Amin’s Personal Website</title>
+<title>Will There Be A Construction? Predicting Road Constructions Based On Heterogeneous Spatiotemporal Data - Amin’s Personal Website</title>
 
 
 
@@ -29,15 +29,15 @@
 
 <meta property="og:locale" content="en-US">
 <meta property="og:site_name" content="Amin's Personal Website">
-<meta property="og:title" content="Deep Learning Prediction of Heat Propagation on 2-D Domain via Numerical Solution">
+<meta property="og:title" content="Will There Be A Construction? Predicting Road Constructions Based On Heterogeneous Spatiotemporal Data">
 
 
-  <link rel="canonical" href="https://7amin.github.io/publication/deep_learning_prediction_heat_propagation.md">
-  <meta property="og:url" content="https://7amin.github.io/publication/deep_learning_prediction_heat_propagation.md">
+  <link rel="canonical" href="https://7amin.github.io/publication/will_construction_predicting_heterogeneous.md">
+  <meta property="og:url" content="https://7amin.github.io/publication/will_construction_predicting_heterogeneous.md">
 
 
 
-  <meta property="og:description" content="Deep learning’s role in tackling complicated engineering problems becomes more and more effective by advances in computer science. One of the classical problems in physics is representing the solution of heat propagation in the arbitrary 2-D domain. Study of two-dimensional heat transfer provides a precious bed for related physical issues. In this work, by using finite volume method, we solved the two-dimensional heat equation on the arbitrary domain with specified limitations (considering three heated rectangular obstacles inside the main domain) for 100000 different cases. These cases were divided into big batches in order to reduce the computational cost. The solution for each case was used as sample data to train our deep neural network. After the training process, deep learning results have been compared to results which were produced by the commercial program (ANSYS). After analyzing deep learning efficiency, obviously, our network successfully was able to predict the solution of heat transfer physics with satisfactory precision.">
+  <meta property="og:description" content="Road construction projects maintain transportation infrastructures, and range from short- to long-term. Deciding what the next construction project is and when it is to be scheduled is traditionally done through inspection by humans using special equipment, which is costly and difficult to scale. An alternative is the use of computational approaches that integrate and analyze multiple types of past and present spatiotemporal data to predict location and time of future road constructions. This paper reports on such an approach, one that uses a deep-neural-network-based model to predict future constructions, based on a heterogeneous dataset consisting of construction, weather, map and road-network data. We also report on how we addressed the lack of adequate publicly available data - by building a large scale dataset named “US-Constructions”, that includes 6.2 million road constructions augmented by a variety of spatiotemporal attributes and road-network features, collected in the contiguous United States (US) between 2016 and 2021. Extensive experiments on several major cities in the US show the applicability of our approach to accurately predict future constructions.">
 
 
 
@@ -52,7 +52,7 @@
 
 
   <meta property="og:type" content="article">
-  <meta property="article:published_time" content="2020-02-23T00:00:00-05:00">
+  <meta property="article:published_time" content="2022-08-14T00:00:00-04:00">
 
 
 
@@ -264,35 +264,35 @@
 
 
   <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
-    <meta itemprop="headline" content="Deep Learning Prediction of Heat Propagation on 2-D Domain via Numerical Solution">
-    <meta itemprop="description" content="Deep learning’s role in tackling complicated engineering problems becomes more and more effective by advances in computer science. One of the classical problems in physics is representing the solution of heat propagation in the arbitrary 2-D domain. Study of two-dimensional heat transfer provides a precious bed for related physical issues. In this work, by using finite volume method, we solved the two-dimensional heat equation on the arbitrary domain with specified limitations (considering three heated rectangular obstacles inside the main domain) for 100000 different cases. These cases were divided into big batches in order to reduce the computational cost. The solution for each case was used as sample data to train our deep neural network. After the training process, deep learning results have been compared to results which were produced by the commercial program (ANSYS). After analyzing deep learning efficiency, obviously, our network successfully was able to predict the solution of heat transfer physics with satisfactory precision.">
-    <meta itemprop="datePublished" content="February 23, 2020">
+    <meta itemprop="headline" content="Will There Be A Construction? Predicting Road Constructions Based On Heterogeneous Spatiotemporal Data">
+    <meta itemprop="description" content="Road construction projects maintain transportation infrastructures, and range from short- to long-term. Deciding what the next construction project is and when it is to be scheduled is traditionally done through inspection by humans using special equipment, which is costly and difficult to scale. An alternative is the use of computational approaches that integrate and analyze multiple types of past and present spatiotemporal data to predict location and time of future road constructions. This paper reports on such an approach, one that uses a deep-neural-network-based model to predict future constructions, based on a heterogeneous dataset consisting of construction, weather, map and road-network data. We also report on how we addressed the lack of adequate publicly available data - by building a large scale dataset named “US-Constructions”, that includes 6.2 million road constructions augmented by a variety of spatiotemporal attributes and road-network features, collected in the contiguous United States (US) between 2016 and 2021. Extensive experiments on several major cities in the US show the applicability of our approach to accurately predict future constructions.">
+    <meta itemprop="datePublished" content="August 14, 2022">
     
 
     <div class="page__inner-wrap">
       
         <header>
-          <h1 class="page__title" itemprop="headline">Deep Learning Prediction of Heat Propagation on 2-D Domain via Numerical Solution
+          <h1 class="page__title" itemprop="headline">Will There Be A Construction? Predicting Road Constructions Based On Heterogeneous Spatiotemporal Data
 </h1>
           
         
         
         
-          <p>Published in <i>The 7th International Conference on Contemporary Issues in Data Science</i>, 2020 </p>
+          <p>Published in <i>Proceedings of the 30th International Conference on Advances in Geographic Information Systems. 2022</i>, 2022 </p>
         
         
              
         
-          <p>Recommended citation: Zakeri, Behzad, Amin Karimi Monsefi, and Babak Darafarin. "Deep learning prediction of heat propagation on 2-d domain via numerical solution." Data Science: From Research to Application. Springer International Publishing, 2020. <a href="https://link.springer.com/chapter/10.1007/978-3-030-37309-2_13"><u>https://link.springer.com/chapter/10.1007/978-3-030-37309-2_13</u></a></p>
+          <p>Recommended citation: Monsefi, Amin Karimi, Sobhan Moosavi, and Rajiv Ramnath. "Will there be a construction? Predicting road constructions based on heterogeneous spatiotemporal data." Proceedings of the 30th International Conference on Advances in Geographic Information Systems. 2022. <a href="https://arxiv.org/abs/2209.06813"><u>https://arxiv.org/abs/2209.06813</u></a></p>
         
     
         </header>
       
 
       <section class="page__content" itemprop="text">
-        <p>Deep learning’s role in tackling complicated engineering problems becomes more and more effective by advances in computer science. One of the classical problems in physics is representing the solution of heat propagation in the arbitrary 2-D domain. Study of two-dimensional heat transfer provides a precious bed for related physical issues. In this work, by using finite volume method, we solved the two-dimensional heat equation on the arbitrary domain with specified limitations (considering three heated rectangular obstacles inside the main domain) for 100000 different cases. These cases were divided into big batches in order to reduce the computational cost. The solution for each case was used as sample data to train our deep neural network. After the training process, deep learning results have been compared to results which were produced by the commercial program (ANSYS). After analyzing deep learning efficiency, obviously, our network successfully was able to predict the solution of heat transfer physics with satisfactory precision.</p>
+        <p>Road construction projects maintain transportation infrastructures, and range from short- to long-term. Deciding what the next construction project is and when it is to be scheduled is traditionally done through inspection by humans using special equipment, which is costly and difficult to scale. An alternative is the use of computational approaches that integrate and analyze multiple types of past and present spatiotemporal data to predict location and time of future road constructions. This paper reports on such an approach, one that uses a deep-neural-network-based model to predict future constructions, based on a heterogeneous dataset consisting of construction, weather, map and road-network data. We also report on how we addressed the lack of adequate publicly available data - by building a large scale dataset named “US-Constructions”, that includes 6.2 million road constructions augmented by a variety of spatiotemporal attributes and road-network features, collected in the contiguous United States (US) between 2016 and 2021. Extensive experiments on several major cities in the US show the applicability of our approach to accurately predict future constructions.</p>
 
-<p><a href="https://link.springer.com/chapter/10.1007/978-3-030-37309-2_13">Download paper here</a></p>
+<p><a href="https://arxiv.org/abs/2209.06813">Download paper here</a></p>
 
         
       </section>
@@ -313,11 +313,11 @@
     <h4 class="page__share-title">Share on</h4>
   
 
-  <a href="https://twitter.com/intent/tweet?text=https://7amin.github.io/publication/deep_learning_prediction_heat_propagation.md" class="btn btn--twitter" title="Share on Twitter"><i class="fab fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+  <a href="https://twitter.com/intent/tweet?text=https://7amin.github.io/publication/will_construction_predicting_heterogeneous.md" class="btn btn--twitter" title="Share on Twitter"><i class="fab fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
 
-  <a href="https://www.facebook.com/sharer/sharer.php?u=https://7amin.github.io/publication/deep_learning_prediction_heat_propagation.md" class="btn btn--facebook" title="Share on Facebook"><i class="fab fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https://7amin.github.io/publication/will_construction_predicting_heterogeneous.md" class="btn btn--facebook" title="Share on Facebook"><i class="fab fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
 
-  <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://7amin.github.io/publication/deep_learning_prediction_heat_propagation.md" class="btn btn--linkedin" title="Share on LinkedIn"><i class="fab fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://7amin.github.io/publication/will_construction_predicting_heterogeneous.md" class="btn btn--linkedin" title="Share on LinkedIn"><i class="fab fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
 </section>
 
       
@@ -325,11 +325,11 @@
 
   <nav class="pagination">
     
-      <a href="https://7amin.github.io/publication/solving_reaction_diffusion_equation.md" class="pagination--pager" title="Solving the Reaction-Diffusion equation based on analytical methods and deep learning algorithm; the Case study of sulfate attack to concrete
+      <a href="https://7amin.github.io/publication/deep_learning_prediction_heat_propagation.md" class="pagination--pager" title="Deep Learning Prediction of Heat Propagation on 2-D Domain via Numerical Solution
 ">Previous</a>
     
     
-      <a href="https://7amin.github.io/publication/will_construction_predicting_heterogeneous.md" class="pagination--pager" title="Will There Be A Construction? Predicting Road Constructions Based On Heterogeneous Spatiotemporal Data
+      <a href="https://7amin.github.io/publication/smart_collaborative_industrial_iot_federated_learning.md" class="pagination--pager" title="Smart and collaborative industrial IoT: A federated learning and data space approach
 ">Next</a>
     
   </nav>
