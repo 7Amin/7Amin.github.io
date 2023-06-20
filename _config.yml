@@ -184,9 +184,9 @@ collections:
   portfolio:
     output: true
     permalink: /_portfolio
-#  talks:
-#    output: false
-#    permalink: /_talks
+  talks:
+    output: false
+    permalink: /_talks
 
 
 # Defaults
