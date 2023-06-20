@@ -62,12 +62,13 @@ Skills
 
 Honors & Awards
 ======
+* Nov 2022 30th ACM SIGSPATIAL Conference, Student Travel Award
 * June 2015 Ranked 1st, National M.Sc Entrance Exam of Computer Engineering, Among More Than 10.000 Students - Iran
 * June 2011 Ranked Top 1%, National B.Sc Entrance Exam of Mathematics, Among More Than 256,000 Students - Iran
 * Mar 2009 Bronze Medal, Mathematics Olympiad of Waterloo University
 
 * __ACM-ICPC__:
-  * Coach And Team Lead:
+  * __Coach And Team Lead__:
     * __Apr 2018, 42nd Annual World Finals__ Beijing, China 
     * Dec 2017, 7th and 17th teams, Regional Contest Tehran, Iran 
     * Nov 2017, 10th and 16th teams, Internet Programming Contest Tehran, Iran 
@@ -76,7 +77,7 @@ Honors & Awards
     * Oct 2015, The 11th team, Iran-Internet-PC-IU Online Programming ContestTehran, Iran 
     * Oct 2015, The 23rd team, Iran-Internet-PC-SBU Online Programming ContestTehran, Iran 
     * Nov 2014, The 12th, 53rd, and 131st teams, Internet Programming ContestTehran, Iran
-  * Contestant:
+  * __Contestant__:
     * Dec 2014 10th Place, Asia Regional ContestTehran, Iran
     * Oct 2014 2nd Place, Qualification Contest, Shahid Beheshti UniversityTehran, Iran
     * Dec 2013 3rd Place, Asia Regional ContestTehran, Iran
@@ -87,8 +88,12 @@ Honors & Awards
     * Nov 2012 16th Place, The 3rd ACM National Collegiate Programming Contest, Amir Kabir University of TechnologyTehran, Iran
     * Oct 2012 2nd Place, Qualification Contest, Shahid Beheshti UniversityTehran, Iran
 
-Teaching
-======
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+[//]: # (Teaching)
+
+[//]: # (======)
+
+[//]: # (  <ul>{% for post in site.teaching %})
+
+[//]: # (    {% include archive-single-cv.html %})
+
+[//]: # (  {% endfor %}</ul>)
