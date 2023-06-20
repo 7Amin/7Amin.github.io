@@ -27,10 +27,6 @@
 <lastmod>2199-01-01T00:00:00-05:00</lastmod>
 </url>
 <url>
-<loc>https://7amin.github.io/publication/software_test_oracle</loc>
-<lastmod>2019-02-23T00:00:00-05:00</lastmod>
-</url>
-<url>
 <loc>https://7amin.github.io/publication/weakly_supervised_learning</loc>
 <lastmod>2019-02-23T00:00:00-05:00</lastmod>
 </url>
@@ -41,6 +37,10 @@
 <url>
 <loc>https://7amin.github.io/publication/solving_reaction_diffusion_equation</loc>
 <lastmod>2019-12-07T00:00:00-05:00</lastmod>
+</url>
+<url>
+<loc>https://7amin.github.io/publication/software_test_oracle</loc>
+<lastmod>2019-12-23T00:00:00-05:00</lastmod>
 </url>
 <url>
 <loc>https://7amin.github.io/publication/deep_learning_prediction_heat_propagation</loc>

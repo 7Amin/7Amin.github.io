@@ -3,7 +3,7 @@ title: "Performing Software Test Oracle Based on Deep Neural Network With Fuzzy 
 collection: publications
 permalink: /publication/software_test_oracle
 excerpt: 'This work introduces a novel software test Oracle based on deep learning and a fuzzy inference system, aimed at automating the testing process while minimizing time and cost. The Oracle maps the software output to a fuzzy space using Takagi-Sugeno-Kang fuzzy inference and trains a deep neural network. The performance of the Oracle is evaluated using different models, demonstrating its ability to accurately detect correct and false results.'
-date: 2019-02-23
+date: 2019-12-23
 venue: 'High-Performance Computing and Big Data Analysis: Second International Congress, TopHPC 2019'
 paperurl: 'https://link.springer.com/chapter/10.1007/978-3-030-33495-6_31'
 citation: 'Monsefi, Amin Karimi, et al. "Performing software test oracle based on deep neural network with fuzzy inference system." High-Performance Computing and Big Data Analysis: Second International Congress, TopHPC 2019, Tehran, Iran, April 23–25, 2019, Revised Selected Papers 2. Springer International Publishing, 2019.'
