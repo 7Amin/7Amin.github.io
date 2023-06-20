@@ -325,11 +325,12 @@
 
   <nav class="pagination">
     
-      <a href="https://7amin.github.io/publication/weakly_supervised_learning.md" class="pagination--pager" title="Weakly Supervised Learning Technique for Solving Partial Differential Equations; Case Study of 1-D Reaction-Diffusion Equation
+      <a href="https://7amin.github.io/publication/solving_reaction_diffusion_equation.md" class="pagination--pager" title="Solving the Reaction-Diffusion equation based on analytical methods and deep learning algorithm; the Case study of sulfate attack to concrete
 ">Previous</a>
     
     
-      <a href="#" class="pagination--pager disabled">Next</a>
+      <a href="https://7amin.github.io/publication/smart_collaborative_industrial_iot_federated_learning.md" class="pagination--pager" title="Smart and collaborative industrial IoT: A federated learning and data space approach
+">Next</a>
     
   </nav>
 

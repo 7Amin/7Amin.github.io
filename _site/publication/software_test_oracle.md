@@ -325,8 +325,7 @@
 
   <nav class="pagination">
     
-      <a href="https://7amin.github.io/publication/2009-10-01-paper-title-number-1" class="pagination--pager" title="Paper Title Number 1
-">Previous</a>
+      <a href="#" class="pagination--pager disabled">Previous</a>
     
     
       <a href="https://7amin.github.io/publication/weakly_supervised_learning.md" class="pagination--pager" title="Weakly Supervised Learning Technique for Solving Partial Differential Equations; Case Study of 1-D Reaction-Diffusion Equation

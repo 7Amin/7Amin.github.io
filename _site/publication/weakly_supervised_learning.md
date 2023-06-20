@@ -329,7 +329,7 @@
 ">Previous</a>
     
     
-      <a href="https://7amin.github.io/publication/deep_learning_prediction_heat_propagation.md" class="pagination--pager" title="Deep Learning Prediction of Heat Propagation on 2-D Domain via Numerical Solution
+      <a href="https://7amin.github.io/publication/read_time_travel_time_estimation.md" class="pagination--pager" title="Real-time Travel Time Estimation Using Matrix Factorization
 ">Next</a>
     
   </nav>
