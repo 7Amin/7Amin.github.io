@@ -19,7 +19,7 @@
 
 
 
-<title>Paper Title Number 2 - Amin’s Personal Website</title>
+<title>Deep Learning Prediction of Heat Propagation on 2-D Domain via Numerical Solution - Amin’s Personal Website</title>
 
 
 
@@ -29,15 +29,15 @@
 
 <meta property="og:locale" content="en-US">
 <meta property="og:site_name" content="Amin's Personal Website">
-<meta property="og:title" content="Paper Title Number 2">
+<meta property="og:title" content="Deep Learning Prediction of Heat Propagation on 2-D Domain via Numerical Solution">
 
 
-  <link rel="canonical" href="https://7amin.github.io/publication/2010-10-01-paper-title-number-2">
-  <meta property="og:url" content="https://7amin.github.io/publication/2010-10-01-paper-title-number-2">
+  <link rel="canonical" href="https://7amin.github.io/publication/deep_learning_prediction_heat_propagation.md">
+  <meta property="og:url" content="https://7amin.github.io/publication/deep_learning_prediction_heat_propagation.md">
 
 
 
-  <meta property="og:description" content="This paper is about the number 2. The number 3 is left for future work.">
+  <meta property="og:description" content="Deep learning’s role in tackling complicated engineering problems becomes more and more effective by advances in computer science. One of the classical problems in physics is representing the solution of heat propagation in the arbitrary 2-D domain. Study of two-dimensional heat transfer provides a precious bed for related physical issues. In this work, by using finite volume method, we solved the two-dimensional heat equation on the arbitrary domain with specified limitations (considering three heated rectangular obstacles inside the main domain) for 100000 different cases. These cases were divided into big batches in order to reduce the computational cost. The solution for each case was used as sample data to train our deep neural network. After the training process, deep learning results have been compared to results which were produced by the commercial program (ANSYS). After analyzing deep learning efficiency, obviously, our network successfully was able to predict the solution of heat transfer physics with satisfactory precision.">
 
 
 
@@ -52,7 +52,7 @@
 
 
   <meta property="og:type" content="article">
-  <meta property="article:published_time" content="2010-10-01T00:00:00-04:00">
+  <meta property="article:published_time" content="2020-02-23T00:00:00-05:00">
 
 
 
@@ -264,37 +264,35 @@
 
 
   <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
-    <meta itemprop="headline" content="Paper Title Number 2">
-    <meta itemprop="description" content="This paper is about the number 2. The number 3 is left for future work.">
-    <meta itemprop="datePublished" content="October 01, 2010">
+    <meta itemprop="headline" content="Deep Learning Prediction of Heat Propagation on 2-D Domain via Numerical Solution">
+    <meta itemprop="description" content="Deep learning’s role in tackling complicated engineering problems becomes more and more effective by advances in computer science. One of the classical problems in physics is representing the solution of heat propagation in the arbitrary 2-D domain. Study of two-dimensional heat transfer provides a precious bed for related physical issues. In this work, by using finite volume method, we solved the two-dimensional heat equation on the arbitrary domain with specified limitations (considering three heated rectangular obstacles inside the main domain) for 100000 different cases. These cases were divided into big batches in order to reduce the computational cost. The solution for each case was used as sample data to train our deep neural network. After the training process, deep learning results have been compared to results which were produced by the commercial program (ANSYS). After analyzing deep learning efficiency, obviously, our network successfully was able to predict the solution of heat transfer physics with satisfactory precision.">
+    <meta itemprop="datePublished" content="February 23, 2020">
     
 
     <div class="page__inner-wrap">
       
         <header>
-          <h1 class="page__title" itemprop="headline">Paper Title Number 2
+          <h1 class="page__title" itemprop="headline">Deep Learning Prediction of Heat Propagation on 2-D Domain via Numerical Solution
 </h1>
           
         
         
         
-          <p>Published in <i>Journal 1</i>, 2010 </p>
+          <p>Published in <i>The 7th International Conference on Contemporary Issues in Data Science</i>, 2020 </p>
         
         
              
         
-          <p>Recommended citation: Your Name, You. (2010). &quot;Paper Title Number 2.&quot; <i>Journal 1</i>. 1(2). <a href="http://academicpages.github.io/files/paper2.pdf"><u>http://academicpages.github.io/files/paper2.pdf</u></a></p>
+          <p>Recommended citation: Zakeri, Behzad, Amin Karimi Monsefi, and Babak Darafarin. "Deep learning prediction of heat propagation on 2-d domain via numerical solution." Data Science: From Research to Application. Springer International Publishing, 2020. <a href="https://link.springer.com/chapter/10.1007/978-3-030-37309-2_13"><u>https://link.springer.com/chapter/10.1007/978-3-030-37309-2_13</u></a></p>
         
     
         </header>
       
 
       <section class="page__content" itemprop="text">
-        <p>This paper is about the number 2. The number 3 is left for future work.</p>
+        <p>Deep learning’s role in tackling complicated engineering problems becomes more and more effective by advances in computer science. One of the classical problems in physics is representing the solution of heat propagation in the arbitrary 2-D domain. Study of two-dimensional heat transfer provides a precious bed for related physical issues. In this work, by using finite volume method, we solved the two-dimensional heat equation on the arbitrary domain with specified limitations (considering three heated rectangular obstacles inside the main domain) for 100000 different cases. These cases were divided into big batches in order to reduce the computational cost. The solution for each case was used as sample data to train our deep neural network. After the training process, deep learning results have been compared to results which were produced by the commercial program (ANSYS). After analyzing deep learning efficiency, obviously, our network successfully was able to predict the solution of heat transfer physics with satisfactory precision.</p>
 
-<p><a href="http://academicpages.github.io/files/paper2.pdf">Download paper here</a></p>
-
-<p>Recommended citation: Your Name, You. (2010). “Paper Title Number 2.” <i>Journal 1</i>. 1(2).</p>
+<p><a href="https://link.springer.com/chapter/10.1007/978-3-030-37309-2_13">Download paper here</a></p>
 
         
       </section>
@@ -315,11 +313,11 @@
     <h4 class="page__share-title">Share on</h4>
   
 
-  <a href="https://twitter.com/intent/tweet?text=https://7amin.github.io/publication/2010-10-01-paper-title-number-2" class="btn btn--twitter" title="Share on Twitter"><i class="fab fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+  <a href="https://twitter.com/intent/tweet?text=https://7amin.github.io/publication/deep_learning_prediction_heat_propagation.md" class="btn btn--twitter" title="Share on Twitter"><i class="fab fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
 
-  <a href="https://www.facebook.com/sharer/sharer.php?u=https://7amin.github.io/publication/2010-10-01-paper-title-number-2" class="btn btn--facebook" title="Share on Facebook"><i class="fab fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https://7amin.github.io/publication/deep_learning_prediction_heat_propagation.md" class="btn btn--facebook" title="Share on Facebook"><i class="fab fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
 
-  <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://7amin.github.io/publication/2010-10-01-paper-title-number-2" class="btn btn--linkedin" title="Share on LinkedIn"><i class="fab fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://7amin.github.io/publication/deep_learning_prediction_heat_propagation.md" class="btn btn--linkedin" title="Share on LinkedIn"><i class="fab fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
 </section>
 
       
@@ -327,12 +325,11 @@
 
   <nav class="pagination">
     
-      <a href="https://7amin.github.io/publication/2009-10-01-paper-title-number-1" class="pagination--pager" title="Paper Title Number 1
+      <a href="https://7amin.github.io/publication/weakly_supervised_learning.md" class="pagination--pager" title="Weakly Supervised Learning Technique for Solving Partial Differential Equations; Case Study of 1-D Reaction-Diffusion Equation
 ">Previous</a>
     
     
-      <a href="https://7amin.github.io/publication/2015-10-01-paper-title-number-3" class="pagination--pager" title="Paper Title Number 3
-">Next</a>
+      <a href="#" class="pagination--pager disabled">Next</a>
     
   </nav>
 

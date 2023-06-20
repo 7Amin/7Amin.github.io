@@ -19,7 +19,7 @@
 
 
 
-<title>Paper Title Number 1 - Amin’s Personal Website</title>
+<title>Weakly Supervised Learning Technique for Solving Partial Differential Equations; Case Study of 1-D Reaction-Diffusion Equation - Amin’s Personal Website</title>
 
 
 
@@ -29,15 +29,15 @@
 
 <meta property="og:locale" content="en-US">
 <meta property="og:site_name" content="Amin's Personal Website">
-<meta property="og:title" content="Paper Title Number 1">
+<meta property="og:title" content="Weakly Supervised Learning Technique for Solving Partial Differential Equations; Case Study of 1-D Reaction-Diffusion Equation">
 
 
-  <link rel="canonical" href="https://7amin.github.io/publication/2009-10-01-paper-title-number-1">
-  <meta property="og:url" content="https://7amin.github.io/publication/2009-10-01-paper-title-number-1">
+  <link rel="canonical" href="https://7amin.github.io/publication/weakly_supervised_learning.md">
+  <meta property="og:url" content="https://7amin.github.io/publication/weakly_supervised_learning.md">
 
 
 
-  <meta property="og:description" content="This paper is about the number 1. The number 2 is left for future work.">
+  <meta property="og:description" content="Deep learning as a valuable intelligence tool to deal with complicated problems plays a crucial role in the 21st century. The utility of deep learning in solving partial differential equations (PDEs) is an interesting application of AI, which has been considered in recent years. However, supervision of learning procedure needs to have considerable labeled data to train the network, and this method could not be a beneficial technique to deal with unknown PDEs which we do not have any labeled data. To tackle this issue, in this paper a new method will be presented to solve PDEs only by using boundary and initial condition. Weakly supervision as an efficient method can provide an ideal bed to tackle boundary and initial value problems. To have better judgment about this method we chose Reaction-Diffusion equation as a versatile equation in engineering and science to be solved as a case study. By using the weakly supervised method and the finite difference method reaction-diffusion equation have solved, and the results of these methods have been compared. It has been shown that the results of deep learning have high consistency with finite difference results, and weakly supervised learning can be introduced as an efficient method to solve different types of differential equations.">
 
 
 
@@ -52,7 +52,7 @@
 
 
   <meta property="og:type" content="article">
-  <meta property="article:published_time" content="2009-10-01T00:00:00-04:00">
+  <meta property="article:published_time" content="2019-02-23T00:00:00-05:00">
 
 
 
@@ -264,37 +264,35 @@
 
 
   <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
-    <meta itemprop="headline" content="Paper Title Number 1">
-    <meta itemprop="description" content="This paper is about the number 1. The number 2 is left for future work.">
-    <meta itemprop="datePublished" content="October 01, 2009">
+    <meta itemprop="headline" content="Weakly Supervised Learning Technique for Solving Partial Differential Equations; Case Study of 1-D Reaction-Diffusion Equation">
+    <meta itemprop="description" content="Deep learning as a valuable intelligence tool to deal with complicated problems plays a crucial role in the 21st century. The utility of deep learning in solving partial differential equations (PDEs) is an interesting application of AI, which has been considered in recent years. However, supervision of learning procedure needs to have considerable labeled data to train the network, and this method could not be a beneficial technique to deal with unknown PDEs which we do not have any labeled data. To tackle this issue, in this paper a new method will be presented to solve PDEs only by using boundary and initial condition. Weakly supervision as an efficient method can provide an ideal bed to tackle boundary and initial value problems. To have better judgment about this method we chose Reaction-Diffusion equation as a versatile equation in engineering and science to be solved as a case study. By using the weakly supervised method and the finite difference method reaction-diffusion equation have solved, and the results of these methods have been compared. It has been shown that the results of deep learning have high consistency with finite difference results, and weakly supervised learning can be introduced as an efficient method to solve different types of differential equations.">
+    <meta itemprop="datePublished" content="February 23, 2019">
     
 
     <div class="page__inner-wrap">
       
         <header>
-          <h1 class="page__title" itemprop="headline">Paper Title Number 1
+          <h1 class="page__title" itemprop="headline">Weakly Supervised Learning Technique for Solving Partial Differential Equations; Case Study of 1-D Reaction-Diffusion Equation
 </h1>
           
         
         
         
-          <p>Published in <i>Journal 1</i>, 2009 </p>
+          <p>Published in <i>High-Performance Computing and Big Data Analysis: Second International Congress, TopHPC 2019</i>, 2019 </p>
         
         
              
         
-          <p>Recommended citation: Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1). <a href="http://academicpages.github.io/files/paper1.pdf"><u>http://academicpages.github.io/files/paper1.pdf</u></a></p>
+          <p>Recommended citation: Zakeri, Behzad, et al. "Weakly supervised learning technique for solving partial differential equations; case study of 1-d reaction-diffusion equation." High-Performance Computing and Big Data Analysis: Second International Congress, TopHPC 2019, Tehran, Iran, April 23–25, 2019, Revised Selected Papers 2. Springer International Publishing, 2019. <a href="https://link.springer.com/chapter/10.1007/978-3-030-33495-6_28"><u>https://link.springer.com/chapter/10.1007/978-3-030-33495-6_28</u></a></p>
         
     
         </header>
       
 
       <section class="page__content" itemprop="text">
-        <p>This paper is about the number 1. The number 2 is left for future work.</p>
+        <p>Deep learning as a valuable intelligence tool to deal with complicated problems plays a crucial role in the 21st century. The utility of deep learning in solving partial differential equations (PDEs) is an interesting application of AI, which has been considered in recent years. However, supervision of learning procedure needs to have considerable labeled data to train the network, and this method could not be a beneficial technique to deal with unknown PDEs which we do not have any labeled data. To tackle this issue, in this paper a new method will be presented to solve PDEs only by using boundary and initial condition. Weakly supervision as an efficient method can provide an ideal bed to tackle boundary and initial value problems. To have better judgment about this method we chose Reaction-Diffusion equation as a versatile equation in engineering and science to be solved as a case study. By using the weakly supervised method and the finite difference method reaction-diffusion equation have solved, and the results of these methods have been compared. It has been shown that the results of deep learning have high consistency with finite difference results, and weakly supervised learning can be introduced as an efficient method to solve different types of differential equations.</p>
 
-<p><a href="http://academicpages.github.io/files/paper1.pdf">Download paper here</a></p>
-
-<p>Recommended citation: Your Name, You. (2009). “Paper Title Number 1.” <i>Journal 1</i>. 1(1).</p>
+<p><a href="https://link.springer.com/chapter/10.1007/978-3-030-33495-6_28">Download paper here</a></p>
 
         
       </section>
@@ -315,11 +313,11 @@
     <h4 class="page__share-title">Share on</h4>
   
 
-  <a href="https://twitter.com/intent/tweet?text=https://7amin.github.io/publication/2009-10-01-paper-title-number-1" class="btn btn--twitter" title="Share on Twitter"><i class="fab fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+  <a href="https://twitter.com/intent/tweet?text=https://7amin.github.io/publication/weakly_supervised_learning.md" class="btn btn--twitter" title="Share on Twitter"><i class="fab fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
 
-  <a href="https://www.facebook.com/sharer/sharer.php?u=https://7amin.github.io/publication/2009-10-01-paper-title-number-1" class="btn btn--facebook" title="Share on Facebook"><i class="fab fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https://7amin.github.io/publication/weakly_supervised_learning.md" class="btn btn--facebook" title="Share on Facebook"><i class="fab fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
 
-  <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://7amin.github.io/publication/2009-10-01-paper-title-number-1" class="btn btn--linkedin" title="Share on LinkedIn"><i class="fab fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://7amin.github.io/publication/weakly_supervised_learning.md" class="btn btn--linkedin" title="Share on LinkedIn"><i class="fab fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
 </section>
 
       
@@ -327,10 +325,11 @@
 
   <nav class="pagination">
     
-      <a href="#" class="pagination--pager disabled">Previous</a>
-    
-    
       <a href="https://7amin.github.io/publication/software_test_oracle.md" class="pagination--pager" title="Performing Software Test Oracle Based on Deep Neural Network With Fuzzy Inference System
+">Previous</a>
+    
+    
+      <a href="https://7amin.github.io/publication/deep_learning_prediction_heat_propagation.md" class="pagination--pager" title="Deep Learning Prediction of Heat Propagation on 2-D Domain via Numerical Solution
 ">Next</a>
     
   </nav>

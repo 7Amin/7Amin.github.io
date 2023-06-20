@@ -19,7 +19,7 @@
 
 
 
-<title>Paper Title Number 3 - Amin’s Personal Website</title>
+<title>Performing Software Test Oracle Based on Deep Neural Network With Fuzzy Inference System - Amin’s Personal Website</title>
 
 
 
@@ -29,15 +29,15 @@
 
 <meta property="og:locale" content="en-US">
 <meta property="og:site_name" content="Amin's Personal Website">
-<meta property="og:title" content="Paper Title Number 3">
+<meta property="og:title" content="Performing Software Test Oracle Based on Deep Neural Network With Fuzzy Inference System">
 
 
-  <link rel="canonical" href="https://7amin.github.io/publication/2015-10-01-paper-title-number-3">
-  <meta property="og:url" content="https://7amin.github.io/publication/2015-10-01-paper-title-number-3">
+  <link rel="canonical" href="https://7amin.github.io/publication/software_test_oracle.md">
+  <meta property="og:url" content="https://7amin.github.io/publication/software_test_oracle.md">
 
 
 
-  <meta property="og:description" content="This paper is about the number 3. The number 4 is left for future work.">
+  <meta property="og:description" content="One of the challenging issues in software designing is testing the product in different condition. Various software Oracles had suggested in the literature, and the aim of all of them is minimizing the time and cost of the testing process. Software test Oracles have designed to do this job automatically with as less as possible human contribution. In this work, a novel Oracle based on deep learning and fuzzy inference system introduced. For this purpose, by the utility of Takagi-SugenoKang fuzzy inference, the output of software mapped to the fuzzy space, and the deep neural network has trained by this data. Finally, data has remapped to the primary form and used as the competitor stage input. To validate the performance of the Oracle, four different models have chosen to assess the Oracle enforcement, and after training the Oracle by the correct output of applications, source codes have changed manually, and the efficiency of the Oracle monitored. Several measures have been applied to evaluate the accuracy of the test Oracle, and it is observed that in most cases Oracle correctly could detect the correct and false results. Finally, designing Oracles requires several preliminaries and in this work we only focus on the architecture of the system.">
 
 
 
@@ -52,7 +52,7 @@
 
 
   <meta property="og:type" content="article">
-  <meta property="article:published_time" content="2015-10-01T00:00:00-04:00">
+  <meta property="article:published_time" content="2019-02-23T00:00:00-05:00">
 
 
 
@@ -264,37 +264,35 @@
 
 
   <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
-    <meta itemprop="headline" content="Paper Title Number 3">
-    <meta itemprop="description" content="This paper is about the number 3. The number 4 is left for future work.">
-    <meta itemprop="datePublished" content="October 01, 2015">
+    <meta itemprop="headline" content="Performing Software Test Oracle Based on Deep Neural Network With Fuzzy Inference System">
+    <meta itemprop="description" content="One of the challenging issues in software designing is testing the product in different condition. Various software Oracles had suggested in the literature, and the aim of all of them is minimizing the time and cost of the testing process. Software test Oracles have designed to do this job automatically with as less as possible human contribution. In this work, a novel Oracle based on deep learning and fuzzy inference system introduced. For this purpose, by the utility of Takagi-SugenoKang fuzzy inference, the output of software mapped to the fuzzy space, and the deep neural network has trained by this data. Finally, data has remapped to the primary form and used as the competitor stage input. To validate the performance of the Oracle, four different models have chosen to assess the Oracle enforcement, and after training the Oracle by the correct output of applications, source codes have changed manually, and the efficiency of the Oracle monitored. Several measures have been applied to evaluate the accuracy of the test Oracle, and it is observed that in most cases Oracle correctly could detect the correct and false results. Finally, designing Oracles requires several preliminaries and in this work we only focus on the architecture of the system.">
+    <meta itemprop="datePublished" content="February 23, 2019">
     
 
     <div class="page__inner-wrap">
       
         <header>
-          <h1 class="page__title" itemprop="headline">Paper Title Number 3
+          <h1 class="page__title" itemprop="headline">Performing Software Test Oracle Based on Deep Neural Network With Fuzzy Inference System
 </h1>
           
         
         
         
-          <p>Published in <i>Journal 1</i>, 2015 </p>
+          <p>Published in <i>High-Performance Computing and Big Data Analysis: Second International Congress, TopHPC 2019</i>, 2019 </p>
         
         
              
         
-          <p>Recommended citation: Your Name, You. (2015). &quot;Paper Title Number 3.&quot; <i>Journal 1</i>. 1(3). <a href="http://academicpages.github.io/files/paper3.pdf"><u>http://academicpages.github.io/files/paper3.pdf</u></a></p>
+          <p>Recommended citation: Monsefi, Amin Karimi, et al. "Performing software test oracle based on deep neural network with fuzzy inference system." High-Performance Computing and Big Data Analysis: Second International Congress, TopHPC 2019, Tehran, Iran, April 23–25, 2019, Revised Selected Papers 2. Springer International Publishing, 2019. <a href="https://link.springer.com/chapter/10.1007/978-3-030-33495-6_31"><u>https://link.springer.com/chapter/10.1007/978-3-030-33495-6_31</u></a></p>
         
     
         </header>
       
 
       <section class="page__content" itemprop="text">
-        <p>This paper is about the number 3. The number 4 is left for future work.</p>
+        <p>One of the challenging issues in software designing is testing the product in different condition. Various software Oracles had suggested in the literature, and the aim of all of them is minimizing the time and cost of the testing process. Software test Oracles have designed to do this job automatically with as less as possible human contribution. In this work, a novel Oracle based on deep learning and fuzzy inference system introduced. For this purpose, by the utility of Takagi-SugenoKang fuzzy inference, the output of software mapped to the fuzzy space, and the deep neural network has trained by this data. Finally, data has remapped to the primary form and used as the competitor stage input. To validate the performance of the Oracle, four different models have chosen to assess the Oracle enforcement, and after training the Oracle by the correct output of applications, source codes have changed manually, and the efficiency of the Oracle monitored. Several measures have been applied to evaluate the accuracy of the test Oracle, and it is observed that in most cases Oracle correctly could detect the correct and false results. Finally, designing Oracles requires several preliminaries and in this work we only focus on the architecture of the system.</p>
 
-<p><a href="http://academicpages.github.io/files/paper3.pdf">Download paper here</a></p>
-
-<p>Recommended citation: Your Name, You. (2015). “Paper Title Number 3.” <i>Journal 1</i>. 1(3).</p>
+<p><a href="https://link.springer.com/chapter/10.1007/978-3-030-33495-6_31">Download paper here</a></p>
 
         
       </section>
@@ -315,11 +313,11 @@
     <h4 class="page__share-title">Share on</h4>
   
 
-  <a href="https://twitter.com/intent/tweet?text=https://7amin.github.io/publication/2015-10-01-paper-title-number-3" class="btn btn--twitter" title="Share on Twitter"><i class="fab fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+  <a href="https://twitter.com/intent/tweet?text=https://7amin.github.io/publication/software_test_oracle.md" class="btn btn--twitter" title="Share on Twitter"><i class="fab fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
 
-  <a href="https://www.facebook.com/sharer/sharer.php?u=https://7amin.github.io/publication/2015-10-01-paper-title-number-3" class="btn btn--facebook" title="Share on Facebook"><i class="fab fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https://7amin.github.io/publication/software_test_oracle.md" class="btn btn--facebook" title="Share on Facebook"><i class="fab fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
 
-  <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://7amin.github.io/publication/2015-10-01-paper-title-number-3" class="btn btn--linkedin" title="Share on LinkedIn"><i class="fab fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://7amin.github.io/publication/software_test_oracle.md" class="btn btn--linkedin" title="Share on LinkedIn"><i class="fab fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
 </section>
 
       
@@ -327,11 +325,11 @@
 
   <nav class="pagination">
     
-      <a href="https://7amin.github.io/publication/2010-10-01-paper-title-number-2" class="pagination--pager" title="Paper Title Number 2
+      <a href="https://7amin.github.io/publication/2009-10-01-paper-title-number-1" class="pagination--pager" title="Paper Title Number 1
 ">Previous</a>
     
     
-      <a href="https://7amin.github.io/publication/software_test_oracle.md" class="pagination--pager" title="Performing Software Test Oracle Based on Deep Neural Network With Fuzzy Inference System
+      <a href="https://7amin.github.io/publication/weakly_supervised_learning.md" class="pagination--pager" title="Weakly Supervised Learning Technique for Solving Partial Differential Equations; Case Study of 1-D Reaction-Diffusion Equation
 ">Next</a>
     
   </nav>
