@@ -62,13 +62,13 @@ Skills
 
 Honors & Awards
 ======
-* June 2015 Ranked 1st, National M.Sc Entrance Exam of Computer Engineering, Among More Than 10.000 StudentsIran
-* June 2011 Ranked Top 1%, National B.Sc Entrance Exam of Mathematics, Among More Than 256,000 StudentsIran
+* June 2015 Ranked 1st, National M.Sc Entrance Exam of Computer Engineering, Among More Than 10.000 Students - Iran
+* June 2011 Ranked Top 1%, National B.Sc Entrance Exam of Mathematics, Among More Than 256,000 Students - Iran
 * Mar 2009 Bronze Medal, Mathematics Olympiad of Waterloo University
 
-* ACM-ICPC:
+* __ACM-ICPC__:
   * Coach And Team Lead:
-    * Apr 2018, 42nd Annual World Finals Beijing, China 
+    * __Apr 2018, 42nd Annual World Finals__ Beijing, China 
     * Dec 2017, 7th and 17th teams, Regional Contest Tehran, Iran 
     * Nov 2017, 10th and 16th teams, Internet Programming Contest Tehran, Iran 
     * Oct 2017, The 1st team, Regional ContestKabul, Afghanistan 
