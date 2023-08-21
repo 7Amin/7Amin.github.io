@@ -8,4 +8,4 @@ date: 2023-01-01
 location: "Columbus, Ohio"
 ---
 
-I was TA of this course __two times__, fall 2022 and spring 2023 
+I was TA of this course __three times__, fall 2022 / 2023 and spring 2023 

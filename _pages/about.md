@@ -34,7 +34,7 @@ For my Master's thesis, I delved into the realm of __software testing__. Specifi
 More
 --------
 
-As a dedicated academic researcher, I have been honored to receive recognition for my scholarly contributions by publishing six papers in renowned conferences and esteemed journals.
+As a dedicated academic researcher, I have been honored to receive recognition for my scholarly contributions by publishing nine papers in renowned conferences and esteemed journals.
 
 With a rich and diverse background, I have accumulated eight years of experience and honed my skills as a seasoned data scientist, proficient back-end developer, and accomplished researcher. This extensive journey has allowed me to cultivate a wealth of expertise in these domains. However, my capabilities extend beyond academic pursuits. I have also showcased my proficiency in teaching and coaching by serving as a Teaching Assistant for various courses on 14 separate occasions during my time at Ohio State University and Shahid Beheshti University. This experience has enhanced my ability to communicate complex concepts effectively and support the learning journey of students from diverse backgrounds.
 
