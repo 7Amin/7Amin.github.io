@@ -3,7 +3,7 @@ title: "CrashFormer: A Multimodal Architecture to Predict the Risk of Crash"
 collection: publications
 permalink: /publication/crashformer
 excerpt: '
- we propose CrashFormer, a multi-modal architecture that utilizes comprehensive (but relatively easy to obtain) inputs such as the history of accidents, weather information, map images, and demographic information. The model predicts the future risk of accidents on a reasonably acceptable cadence (i.e., every six hours) for a geographical location of 5.161 square kilometers.'
+ We propose CrashFormer, a multi-modal architecture that utilizes comprehensive (but relatively easy to obtain) inputs such as the history of accidents, weather information, map images, and demographic information. The model predicts the future risk of accidents on a reasonably acceptable cadence (i.e., every six hours) for a geographical location of 5.161 square kilometers.'
 date: 2023-11-01
 venue: 'ACM SIGSPATIAL'
 paperurl: 'https://dl.acm.org/doi/pdf/10.1145/3615900.3628769'
