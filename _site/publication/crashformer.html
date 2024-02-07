@@ -19,7 +19,7 @@
 
 
 
-<title>Novel Physics-Based Machine-Learning Models for Indoor Air Quality Approximations - Amin’s Personal Website</title>
+<title>CrashFormer: A Multimodal Architecture to Predict the Risk of Crash - Amin’s Personal Website</title>
 
 
 
@@ -29,15 +29,15 @@
 
 <meta property="og:locale" content="en-US">
 <meta property="og:site_name" content="Amin's Personal Website">
-<meta property="og:title" content="Novel Physics-Based Machine-Learning Models for Indoor Air Quality Approximations">
+<meta property="og:title" content="CrashFormer: A Multimodal Architecture to Predict the Risk of Crash">
 
 
-  <link rel="canonical" href="https://7amin.github.io/publication/deep_learning_prediction_heat_propagation">
-  <meta property="og:url" content="https://7amin.github.io/publication/deep_learning_prediction_heat_propagation">
+  <link rel="canonical" href="https://7amin.github.io/publication/crashformer">
+  <meta property="og:url" content="https://7amin.github.io/publication/crashformer">
 
 
 
-  <meta property="og:description" content="The study introduces six novel physics-based machine learning models designed to accurately estimate indoor pollutant concentrations using cost-effective sensors, leveraging domain knowledge through a combination of physics concepts, Gated Recurrent Units, and Decomposition techniques, showcasing their superiority in terms of computational efficiency and accuracy over transformer-based models using real-world office data.">
+  <meta property="og:description" content="we propose CrashFormer, a multi-modal architecture that utilizes comprehensive (but relatively easy to obtain) inputs such as the history of accidents, weather information, map images, and demographic information. The model predicts the future risk of accidents on a reasonably acceptable cadence (i.e., every six hours) for a geographical location of 5.161 square kilometers.">
 
 
 
@@ -52,7 +52,7 @@
 
 
   <meta property="og:type" content="article">
-  <meta property="article:published_time" content="2023-08-02T00:00:00-04:00">
+  <meta property="article:published_time" content="2023-11-01T00:00:00-04:00">
 
 
 
@@ -255,35 +255,36 @@
 
 
   <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
-    <meta itemprop="headline" content="Novel Physics-Based Machine-Learning Models for Indoor Air Quality Approximations">
-    <meta itemprop="description" content="The study introduces six novel physics-based machine learning models designed to accurately estimate indoor pollutant concentrations using cost-effective sensors, leveraging domain knowledge through a combination of physics concepts, Gated Recurrent Units, and Decomposition techniques, showcasing their superiority in terms of computational efficiency and accuracy over transformer-based models using real-world office data.">
-    <meta itemprop="datePublished" content="August 02, 2023">
+    <meta itemprop="headline" content="CrashFormer: A Multimodal Architecture to Predict the Risk of Crash">
+    <meta itemprop="description" content="we propose CrashFormer, a multi-modal architecture that utilizes comprehensive (but relatively easy to obtain) inputs such as the history of accidents, weather information, map images, and demographic information. The model predicts the future risk of accidents on a reasonably acceptable cadence (i.e., every six hours) for a geographical location of 5.161 square kilometers.">
+    <meta itemprop="datePublished" content="November 01, 2023">
     
 
     <div class="page__inner-wrap">
       
         <header>
-          <h1 class="page__title" itemprop="headline">Novel Physics-Based Machine-Learning Models for Indoor Air Quality Approximations
+          <h1 class="page__title" itemprop="headline">CrashFormer: A Multimodal Architecture to Predict the Risk of Crash
 </h1>
           
         
         
         
-          <p>Published in <i>29TH ACM SIGKDD Conference On Knowledge Discovery And Data Mining</i>, 2023 </p>
+          <p>Published in <i>ACM SIGSPATIAL</i>, 2023 </p>
         
         
              
         
-          <p>Recommended citation: Mohammadshirazi A, Nadafian A, Monsefi AK, Rafiei MH, Ramnath R. Novel Physics-Based Machine-Learning Models for Indoor Air Quality Approximations. arXiv preprint arXiv:2308.01438. 2023 Aug 2. <a href="https://arxiv.org/pdf/2308.01438.pdf"><u>https://arxiv.org/pdf/2308.01438.pdf</u></a></p>
+          <p>Recommended citation: Karimi Monsefi, Amin, et al. "CrashFormer: A Multimodal Architecture to Predict the Risk of Crash." Proceedings of the 1st ACM SIGSPATIAL International Workshop on Advances in Urban-AI. 2023. <a href="https://dl.acm.org/doi/pdf/10.1145/3615900.3628769"><u>https://dl.acm.org/doi/pdf/10.1145/3615900.3628769</u></a></p>
         
     
         </header>
       
 
       <section class="page__content" itemprop="text">
-        <p>Cost-effective sensors are capable of real-time capturing a variety of air quality-related modalities from different pollutant concentrations to indoor/outdoor humidity and temperature. Machine learning (ML) models are capable of performing air-quality “ahead of-time” approximations. Undoubtedly, accurate indoor air quality approximation significantly helps provide a healthy indoor environment, optimize associated energy consumption, and offer human comfort. However, it is crucial to design an ML architecture to capture the domain knowledge, so-called problem physics. In this study, we propose six novel physics-based ML models for accurate indoor pollutant concentration approximations. The proposed models include an adroit combination of state-space concepts in physics, Gated Recurrent Units, and Decomposition techniques. The proposed models were illustrated using data collected from five offices in a commercial building in California. The proposed models are shown to be less complex, computationally more efficient, and more accurate than similar state-of-the-art transformer-based models. The superiority of the proposed models is due to their relatively light architecture (computational efficiency) and, more importantly, their ability to capture the underlying highly nonlinear patterns embedded in the often contaminated sensor-collected indoor air quality temporal data.</p>
+        <p>Reducing traffic accidents is a crucial global public safety concern. Accident prediction is key to improving traffic safety, enabling proactive measures to be taken before a crash occurs, and informing safety policies, regulations, and targeted interventions. Despite numerous studies on accident prediction over the past decades, many have limitations in terms of generalizability, reproducibility, or feasibility for practical use due to input data or problem formulation.
+To address existing shortcomings, we propose CrashFormer, a multi-modal architecture that utilizes comprehensive (but relatively easy to obtain) inputs such as the history of accidents, weather information, map images, and demographic information. The model predicts the future risk of accidents on a reasonably acceptable cadence (i.e., every six hours) for a geographical location of 5.161 square kilometers. CrashFormer is composed of five components: a sequential encoder to utilize historical accidents and weather data, an image encoder to use map imagery data, a raw data encoder to utilize demographic information, a feature fusion module for aggregating the encoded features, and a classifier that accepts the aggregated data and makes predictions accordingly. Results from extensive real-world experiments in 10 major US cities show that CrashFormer outperforms state-of-the-art sequential and non-sequential models by 1.8\% in F1-score on average when using sparse input data.</p>
 
-<p><a href="../files/Novel_Physics-Based_Machine-Learning.pdf">Download paper here</a></p>
+<p><a href="../files/crashformer.pdf">Download paper here</a></p>
 
         
       </section>
@@ -304,11 +305,11 @@
     <h4 class="page__share-title">Share on</h4>
   
 
-  <a href="https://twitter.com/intent/tweet?text=https://7amin.github.io/publication/deep_learning_prediction_heat_propagation" class="btn btn--twitter" title="Share on Twitter"><i class="fab fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+  <a href="https://twitter.com/intent/tweet?text=https://7amin.github.io/publication/crashformer" class="btn btn--twitter" title="Share on Twitter"><i class="fab fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
 
-  <a href="https://www.facebook.com/sharer/sharer.php?u=https://7amin.github.io/publication/deep_learning_prediction_heat_propagation" class="btn btn--facebook" title="Share on Facebook"><i class="fab fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https://7amin.github.io/publication/crashformer" class="btn btn--facebook" title="Share on Facebook"><i class="fab fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
 
-  <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://7amin.github.io/publication/deep_learning_prediction_heat_propagation" class="btn btn--linkedin" title="Share on LinkedIn"><i class="fab fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://7amin.github.io/publication/crashformer" class="btn btn--linkedin" title="Share on LinkedIn"><i class="fab fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
 </section>
 
       
@@ -316,11 +317,11 @@
 
   <nav class="pagination">
     
-      <a href="https://7amin.github.io/publication/smart_collaborative_industrial_iot_federated_learning" class="pagination--pager" title="Smart And Collaborative Industrial IoT: A Federated Learning And Data Space Approach
+      <a href="https://7amin.github.io/publication/deep_learning_prediction_heat_propagation" class="pagination--pager" title="Novel Physics-Based Machine-Learning Models for Indoor Air Quality Approximations
 ">Previous</a>
     
     
-      <a href="https://7amin.github.io/publication/crashformer" class="pagination--pager" title="CrashFormer: A Multimodal Architecture to Predict the Risk of Crash
+      <a href="https://7amin.github.io/publication/logonet" class="pagination--pager" title="Masked LoGoNet: Fast and Accurate 3D Image Analysis for Medical Domain
 ">Next</a>
     
   </nav>
