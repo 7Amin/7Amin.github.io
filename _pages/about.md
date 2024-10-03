@@ -41,30 +41,35 @@ I am a dedicated __Ph.D. student in Computer Science__ at __The Ohio State Unive
 * <span style="color: blue;">Reviewer of </span>__ICLR 2025__
 
 * Publishing __[KnobGen: Controlling the Sophistication of Artwork in Sketch-Based Diffusion Models](https://arxiv.org/pdf/2410.01595)__
+  
   Description: Proposes a framework that adapts to varying levels of sketch complexity for sketch-based image generation.
 
 
-* Publishing __Frequency-Guided Masking for Enhanced Vision Self-Supervised Learning__
+* Publishing __[Frequency-Guided Masking for Enhanced Vision Self-Supervised Learning](https://arxiv.org/pdf/2409.10362)__
+
 Description: Introduces a novel frequency-based self-supervised learning approach to enhance pre-training for vision tasks.
-[Download FOLK paper here](https://arxiv.org/pdf/2409.10362)
+
 
 * <span style="color: blue;">Reviewer of</span> __WACV 2025__
 
-* Publishing __DetailCLIP: Detail-Oriented CLIP for Fine-Grained Tasks__
+* Publishing __[DetailCLIP: Detail-Oriented CLIP for Fine-Grained Tasks](https://arxiv.org/pdf/2409.06809)__
+
 Description: Enhances CLIP models for fine-grained vision tasks through self-supervised learning.
-[Download DetailCLIP paper here](https://arxiv.org/pdf/2409.06809)
+
 
 * <span style="color: blue;">Reviewer of</span> __SIGKDD 2025__
 
-* <span style="color: red;">Accepted for SIGKDD 2024</span>: __Masked LoGoNet: Fast and Accurate 3D Image Analysis for Medical Domain__
+* <span style="color: red;">Accepted for SIGKDD 2024</span>: __[Masked LoGoNet: Fast and Accurate 3D Image Analysis for Medical Domain](https://arxiv.org/pdf/2402.06190)__
+
 Description: Introduces LoGoNet, a neural network architecture with a tailored self-supervised learning method for efficient medical image segmentation.
-[Download Masked LoGoNet paper here](https://arxiv.org/pdf/2402.06190)
+
 
 * <span style="color: blue;">Reviewer of</span> __SIGKDD 2024__
 
-* <span style="color: red;">Accepted for Biomedical Optics Express Journal</span>: __Reducing Manual Labeling Requirements and Improved Retinal Ganglion Cell Identification in 3D AO-OCT Volumes Using Semi-Supervised Learning__
+* <span style="color: red;">Accepted for Biomedical Optics Express Journal</span>: __[Reducing Manual Labeling Requirements and Improved Retinal Ganglion Cell Identification in 3D AO-OCT Volumes Using Semi-Supervised Learning](https://opg.optica.org/boe/fulltext.cfm?uri=boe-15-8-4540&id=553141)__
+
 Description: Introduces semi-supervised training schemes to reduce manual labeling in medical imaging.
-[Download paper here](https://opg.optica.org/boe/fulltext.cfm?uri=boe-15-8-4540&id=553141)
+
 
 
 ## Bachelor and Master (Past)
