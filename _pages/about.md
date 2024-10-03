@@ -8,13 +8,33 @@ redirect_from:
   - /about.html
 ---
 
-I am currently on an exciting academic journey, pursuing a __Ph.D. in Computer Science__ at __Ohio State University__. Prior to this, I completed my Bachelor's and Master's degrees in computer engineering at the __Shahid Beheshti University of Tehran__. During my Bachelor's, I specialized in hardware, while my Master's focused on software.
+<!-- I am currently on an exciting academic journey, pursuing a __Ph.D. in Computer Science__ at __Ohio State University__. Prior to this, I completed my Bachelor's and Master's degrees in computer engineering at the __Shahid Beheshti University of Tehran__. During my Bachelor's, I specialized in hardware, while my Master's focused on software. -->
+
+I am a dedicated __Ph.D. student in Computer Science__ at __The Ohio State University__, focusing on __Computer Vision, Vision-Language Models, and Self-Supervised Learning__ under the supervision of [Professor Rajiv Ramnath](https://cse.osu.edu/people/ramnath.6). My research encompasses image and video generation, as well as self-supervised learning techniques to advance the field of computer vision.
+
+# Research Interests:
+
+### Image and Video Generation:
+
+* Developing innovative methods for generating high-quality images and videos.
+* Projects include Multi-Guided Image Inpainting and Multi-Modal Conditional Video Generation.
+* Exploring how the creativity of Large Language Models (LLMs) can be utilized in video generation with diffusion models.
+
+### Self-Supervised Learning for Vision:
+
+* Designing self-supervised approaches to learn meaningful representations from unlabeled data.
+* Projects include Frequency-Guided Masking for Enhanced Vision Self-Supervised Learning and a self-supervised approach for general images using multimodal architectures like CLIP.
+* Applying self-supervised learning to medical image analysis to overcome the challenge of limited labeled data.
+
+### Medical Image Analysis:
+
+* Utilizing self-supervised learning to train models on unlabeled medical images.
+* It aims to extract valuable features for better analysis and interpretation in the medical domain.
+* Developed Masked LoGoNet, a neural network architecture with tailored self-supervised learning for efficient medical image segmentation.
 
 
 Ph.D.
 ---------
-
-Under the guidance of [Professor Rajiv Ramnath](https://cse.osu.edu/people/ramnath.6) , I am currently engaged in three distinct research domains.
 
 The first domain, __Smart Mobility__, revolves around the utilization of deep learning techniques for time series analysis. Specifically, I am developing models to predict and analyze the __risk of accidents__ and __road construction__ within specific zones. To achieve this, I leverage various data sources, including historical data, weather information, satellite and map images, as well as demographic information.
 
