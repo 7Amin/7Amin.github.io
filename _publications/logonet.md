@@ -5,7 +5,7 @@ permalink: /publication/logonet
 excerpt: '
 In this paper, we introduce a new neural network architecture, termed LoGoNet, with a tailored self-supervised learning (SSL) method to mitigate such challenges. LoGoNet integrates a novel feature extractor within a U-shaped architecture, leveraging Large Kernel Attention (LKA) and a dual encoding strategy to capture both long-range and short-range feature dependencies adeptly. This combination of strategies is especially beneficial in medical image segmentation, given the difficulty of learning intricate and often irregular body organ shapes. Complementarily, we propose an SSL method tailored for 3D images to compensate for the lack of large labeled datasets.'
 date: 2024-02-09
-venue: 'arXiv preprint'
+venue: 'Accepted in SIGKDD 2024'
 paperurl: 'https://arxiv.org/abs/2402.06190'
 citation: 'Amin Karimi Monsefi. Masked LoGoNet: Fast and Accurate 3D Image Analysis for Medical Domain. arXiv preprint arXiv:1912.00455. 2024 Feb 1.'
 ---
