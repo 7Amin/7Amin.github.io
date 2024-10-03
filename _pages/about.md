@@ -40,35 +40,35 @@ __<span style="color: red;">I am actively looking for a research internship!</sp
 
 * <span style="color: blue;">Reviewer of __ICLR 2025__</span>
 
-* Publishing __[KnobGen: Controlling the Sophistication of Artwork in Sketch-Based Diffusion Models](https://arxiv.org/pdf/2410.01595)__
+* __Publishing__ __[KnobGen: Controlling the Sophistication of Artwork in Sketch-Based Diffusion Models](https://arxiv.org/pdf/2410.01595)__
   
-  Description: Proposes a framework that adapts to varying levels of sketch complexity for sketch-based image generation.
+  __Description__: Proposes a framework that adapts to varying levels of sketch complexity for sketch-based image generation.
 
 
-* Publishing __[Frequency-Guided Masking for Enhanced Vision Self-Supervised Learning](https://arxiv.org/pdf/2409.10362)__
+* __Publishing__ __[Frequency-Guided Masking for Enhanced Vision Self-Supervised Learning](https://arxiv.org/pdf/2409.10362)__
 
-  Description: Introduces a novel frequency-based self-supervised learning approach to enhance pre-training for vision tasks.
+  __Description__: Introduces a novel frequency-based self-supervised learning approach to enhance pre-training for vision tasks.
 
 
 * <span style="color: blue;">Reviewer of __WACV 2025__</span>
 
-* Publishing __[DetailCLIP: Detail-Oriented CLIP for Fine-Grained Tasks](https://arxiv.org/pdf/2409.06809)__
+* __Publishing__ __[DetailCLIP: Detail-Oriented CLIP for Fine-Grained Tasks](https://arxiv.org/pdf/2409.06809)__
 
-  Description: Enhances CLIP models for fine-grained vision tasks through self-supervised learning.
+  __Description__: Enhances CLIP models for fine-grained vision tasks through self-supervised learning.
 
 
 * <span style="color: blue;">Reviewer of __SIGKDD 2025__</span>
 
-* <span style="color: red;">Accepted for SIGKDD 2024</span>: __[Masked LoGoNet: Fast and Accurate 3D Image Analysis for Medical Domain](https://arxiv.org/pdf/2402.06190)__
+* __<span style="color: red;">Accepted for SIGKDD 2024</span>__: __[Masked LoGoNet: Fast and Accurate 3D Image Analysis for Medical Domain](https://arxiv.org/pdf/2402.06190)__
 
-  Description: Introduces LoGoNet, a neural network architecture with a tailored self-supervised learning method for efficient medical image segmentation.
+  __Description__: Introduces LoGoNet, a neural network architecture with a tailored self-supervised learning method for efficient medical image segmentation.
 
 
 * <span style="color: blue;">Reviewer of __SIGKDD 2024__</span>
 
-* <span style="color: red;">Accepted for Biomedical Optics Express Journal</span>: __[Reducing Manual Labeling Requirements and Improved Retinal Ganglion Cell Identification in 3D AO-OCT Volumes Using Semi-Supervised Learning](https://opg.optica.org/boe/fulltext.cfm?uri=boe-15-8-4540&id=553141)__
+* __<span style="color: red;">Accepted for Biomedical Optics Express Journal</span>__: __[Reducing Manual Labeling Requirements and Improved Retinal Ganglion Cell Identification in 3D AO-OCT Volumes Using Semi-Supervised Learning](https://opg.optica.org/boe/fulltext.cfm?uri=boe-15-8-4540&id=553141)__
 
-  Description: Introduces semi-supervised training schemes to reduce manual labeling in medical imaging.
+  __Description__: Introduces semi-supervised training schemes to reduce manual labeling in medical imaging.
 
 
 
