@@ -53,13 +53,13 @@ Description: Enhances CLIP models for fine-grained vision tasks through self-sup
 
 * Reviewer of __SIGKDD 2025__
 
-* Accepted for SIGKDD 2024: __Masked LoGoNet: Fast and Accurate 3D Image Analysis for Medical Domain__
+* <span style="color: red;">Accepted for SIGKDD 2024</span>: __Masked LoGoNet: Fast and Accurate 3D Image Analysis for Medical Domain__
 Description: Introduces LoGoNet, a neural network architecture with a tailored self-supervised learning method for efficient medical image segmentation.
 [Download Masked LoGoNet paper here](https://arxiv.org/pdf/2402.06190)
 
 * Reviewer of __SIGKDD 2024__
 
-* Accepted for Biomedical Optics Express Journal: __Reducing Manual Labeling Requirements and Improved Retinal Ganglion Cell Identification in 3D AO-OCT Volumes Using Semi-Supervised Learning__
+* <span style="color: red;">Accepted for Biomedical Optics Express Journal</span>: __Reducing Manual Labeling Requirements and Improved Retinal Ganglion Cell Identification in 3D AO-OCT Volumes Using Semi-Supervised Learning__
 Description: Introduces semi-supervised training schemes to reduce manual labeling in medical imaging.
 [Download paper here](https://opg.optica.org/boe/fulltext.cfm?uri=boe-15-8-4540&id=553141)
 
