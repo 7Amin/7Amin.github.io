@@ -59,14 +59,14 @@ __<span style="color: red;">I am actively looking for a research internship!</sp
 
 * <span style="color: blue;">Reviewer of __SIGKDD 2025__</span>
 
-* __<span style="color: red;">Accepted for SIGKDD 2024</span>__: __[Masked LoGoNet: Fast and Accurate 3D Image Analysis for Medical Domain](https://arxiv.org/pdf/2402.06190)__
+* __<span style="color: red;">Accepted in SIGKDD 2024</span>__: __[Masked LoGoNet: Fast and Accurate 3D Image Analysis for Medical Domain](https://arxiv.org/pdf/2402.06190)__
 
   __Description__: Introduces LoGoNet, a neural network architecture with a tailored self-supervised learning method for efficient medical image segmentation.
 
 
 * <span style="color: blue;">Reviewer of __SIGKDD 2024__</span>
 
-* __<span style="color: red;">Accepted for Biomedical Optics Express Journal</span>__: __[Reducing Manual Labeling Requirements and Improved Retinal Ganglion Cell Identification in 3D AO-OCT Volumes Using Semi-Supervised Learning](https://opg.optica.org/boe/fulltext.cfm?uri=boe-15-8-4540&id=553141)__
+* __<span style="color: red;">Accepted in Biomedical Optics Express Journal</span>__: __[Reducing Manual Labeling Requirements and Improved Retinal Ganglion Cell Identification in 3D AO-OCT Volumes Using Semi-Supervised Learning](https://opg.optica.org/boe/fulltext.cfm?uri=boe-15-8-4540&id=553141)__
 
   __Description__: Introduces semi-supervised training schemes to reduce manual labeling in medical imaging.
 
