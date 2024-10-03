@@ -36,10 +36,11 @@ __<span style="color: red;">I am actively looking for a research internship for 
 * Developed Masked LoGoNet, a neural network architecture with tailored self-supervised learning for efficient medical image segmentation.
 
 
+
 # Recent News and Updates:
 
 
-## Reviewer Appointments:
+### Reviewer Appointments:
 
 * <span style="color: blue;">Selected to serve as a reviewer for __ICLR 2025__</span>
 
