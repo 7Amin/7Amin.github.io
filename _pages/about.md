@@ -12,7 +12,7 @@ redirect_from:
 
 I am a dedicated __Ph.D. student in Computer Science__ at __The Ohio State University__, focusing on __Computer Vision, Vision-Language Models, and Self-Supervised Learning__ under the supervision of [Professor Rajiv Ramnath](https://cse.osu.edu/people/ramnath.6). My research encompasses image and video generation, as well as self-supervised learning techniques to advance the field of computer vision.
 
-<span style="color: red;">I am actively looking for a research internship!</span>
+__<span style="color: red;">I am actively looking for a research internship!</span>__
 
 
 # Research Interests:
