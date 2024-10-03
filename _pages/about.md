@@ -40,9 +40,9 @@ I am a dedicated __Ph.D. student in Computer Science__ at __The Ohio State Unive
 
 * <span style="color: blue;">Reviewer of </span>__ICLR 2025__
 
-* Publishing __KnobGen: Controlling the Sophistication of Artwork in Sketch-Based Diffusion Models__
+* Publishing __[KnobGen: Controlling the Sophistication of Artwork in Sketch-Based Diffusion Models](https://arxiv.org/pdf/2410.01595)__
   Description: Proposes a framework that adapts to varying levels of sketch complexity for sketch-based image generation.
-  [Download KnobGen paper here](https://arxiv.org/pdf/2410.01595)
+
 
 * Publishing __Frequency-Guided Masking for Enhanced Vision Self-Supervised Learning__
 Description: Introduces a novel frequency-based self-supervised learning approach to enhance pre-training for vision tasks.
