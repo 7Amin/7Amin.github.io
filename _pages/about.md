@@ -40,19 +40,19 @@ __<span style="color: red;">I am actively looking for a research internship!</sp
 
 * <span style="color: blue;">Selected to serve as a reviewer for __ICLR 2025__</span>
 
-* __Publishing__ __[KnobGen: Controlling the Sophistication of Artwork in Sketch-Based Diffusion Models](https://arxiv.org/pdf/2410.01595)__
+* __Submitted for Publication:__ __[KnobGen: Controlling the Sophistication of Artwork in Sketch-Based Diffusion Models](https://arxiv.org/pdf/2410.01595)__
   
   <!-- KnobGen, a dual-pathway framework that democratizes sketch-based image generation by seamlessly adapting to varying levels of sketch complexity and user skill. KnobGen uses a Coarse-Grained Controller (CGC) module for high-level semantics and a Fine-Grained Controller (FGC) module for detailed refinement. The relative strength of these two modules can be adjusted through our knob inference mechanism to align with the user's specific needs. These mechanisms ensure that KnobGen can flexibly generate images from both novice sketches and those drawn by seasoned artists. This maintains control over the final output while preserving the natural appearance of the image -->
 
 
-* __Publishing__ __[Frequency-Guided Masking for Enhanced Vision Self-Supervised Learning](https://arxiv.org/pdf/2409.10362)__
+* __Submitted for Publication:__ __[Frequency-Guided Masking for Enhanced Vision Self-Supervised Learning](https://arxiv.org/pdf/2409.10362)__
 
   <!-- We present a novel frequency-based Self-Supervised Learning (SSL) approach that significantly enhances its efficacy for pre-training. Prior work in this direction masks out pre-defined frequencies in the input image and employs a reconstruction loss to pre-train the model. While achieving promising results, such an implementation has two fundamental limitations as identified in our paper. First, using pre-defined frequencies overlooks the variability of image frequency responses. Second, pre-trained with frequency-filtered images, the resulting model needs relatively more data to adapt to naturally looking images during fine-tuning. To address these drawbacks, we propose FOurier transform compression with seLf-Knowledge distillation (FOLK), integrating two dedicated ideas. First, inspired by image compression, we adaptively select the masked-out frequencies based on image frequency responses, creating more suitable SSL tasks for pre-training. Second, we employ a two-branch framework empowered by knowledge distillation, enabling the model to take both the filtered and original images as input, largely reducing the burden of downstream tasks. -->
 
 
 * <span style="color: blue;">Selected to serve as a reviewer for __WACV 2025__</span>
 
-* __Publishing__ __[DetailCLIP: Detail-Oriented CLIP for Fine-Grained Tasks](https://arxiv.org/pdf/2409.06809)__
+* __Submitted for Publication:__ __[DetailCLIP: Detail-Oriented CLIP for Fine-Grained Tasks](https://arxiv.org/pdf/2409.06809)__
 
   <!-- DetailCLIP: A Detail-Oriented CLIP to address the limitations of contrastive learning-based vision-language models, particularly CLIP, in handling detail-oriented and fine-grained tasks like segmentation. While CLIP and its variants excel in the global alignment of image and text representations, they often struggle to capture the fine-grained details necessary for precise segmentation. To overcome these challenges, we propose a novel framework that employs patch-level comparison of self-distillation and pixel-level reconstruction losses, enhanced with an attention-based token removal mechanism. This approach selectively retains semantically relevant tokens, enabling the model to focus on the image's critical regions aligned with the specific functions of our model, including textual information processing, patch comparison, and image reconstruction, ensuring that the model learns high-level semantics and detailed visual features. Our experiments demonstrate that DetailCLIP surpasses existing CLIP-based and traditional self-supervised learning (SSL) models in segmentation accuracy and exhibits superior generalization across diverse datasets. -->
 
