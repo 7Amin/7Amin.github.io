@@ -12,7 +12,7 @@ redirect_from:
 
 I am a dedicated __Ph.D. student in Computer Science__ at __The Ohio State University__, focusing on __Computer Vision, Vision-Language Models, and Self-Supervised Learning__ under the supervision of [Professor Rajiv Ramnath](https://cse.osu.edu/people/ramnath.6). My research encompasses image and video generation, as well as self-supervised learning techniques to advance the field of computer vision.
 
-__<span style="color: red;">I am actively looking for a research internship!</span>__
+__<span style="color: red;">I am actively looking for a research internship for summer  2025!</span>__
 
 
 # Research Interests:
@@ -72,7 +72,7 @@ __<span style="color: red;">I am actively looking for a research internship!</sp
 
 
 
-## Bachelor and Master (Past)
+## Bachelor and Master
 
 
 My Bachelor's thesis focused on __applying reinforcement learning in a multi-object environment__. In this unique setting, each object had the ability to train individually. Additionally, I incorporated federated learning techniques to enable the objects to generalize their models to each other. This research explored the potential of combining these approaches to enhance learning and decision-making in complex environments.
