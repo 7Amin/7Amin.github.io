@@ -12,6 +12,9 @@ redirect_from:
 
 I am a dedicated __Ph.D. student in Computer Science__ at __The Ohio State University__, focusing on __Computer Vision, Vision-Language Models, and Self-Supervised Learning__ under the supervision of [Professor Rajiv Ramnath](https://cse.osu.edu/people/ramnath.6). My research encompasses image and video generation, as well as self-supervised learning techniques to advance the field of computer vision.
 
+<span style="color: red;">I am actively looking for a research internship!</span>
+
+
 # Research Interests:
 
 ### Image and Video Generation:
@@ -35,7 +38,7 @@ I am a dedicated __Ph.D. student in Computer Science__ at __The Ohio State Unive
 
 # Recent News and Updates:
 
-* Reviewer of __ICLR 2025__
+* <span style="color: blue;">Reviewer of </span>__ICLR 2025__
 
 * Publishing __KnobGen: Controlling the Sophistication of Artwork in Sketch-Based Diffusion Models__
   Description: Proposes a framework that adapts to varying levels of sketch complexity for sketch-based image generation.
@@ -45,19 +48,19 @@ I am a dedicated __Ph.D. student in Computer Science__ at __The Ohio State Unive
 Description: Introduces a novel frequency-based self-supervised learning approach to enhance pre-training for vision tasks.
 [Download FOLK paper here](https://arxiv.org/pdf/2409.10362)
 
-* Reviewer of __WACV 2025__
+* <span style="color: blue;">Reviewer of</span> __WACV 2025__
 
 * Publishing __DetailCLIP: Detail-Oriented CLIP for Fine-Grained Tasks__
 Description: Enhances CLIP models for fine-grained vision tasks through self-supervised learning.
 [Download DetailCLIP paper here](https://arxiv.org/pdf/2409.06809)
 
-* Reviewer of __SIGKDD 2025__
+* <span style="color: blue;">Reviewer of</span> __SIGKDD 2025__
 
 * <span style="color: red;">Accepted for SIGKDD 2024</span>: __Masked LoGoNet: Fast and Accurate 3D Image Analysis for Medical Domain__
 Description: Introduces LoGoNet, a neural network architecture with a tailored self-supervised learning method for efficient medical image segmentation.
 [Download Masked LoGoNet paper here](https://arxiv.org/pdf/2402.06190)
 
-* Reviewer of __SIGKDD 2024__
+* <span style="color: blue;">Reviewer of</span> __SIGKDD 2024__
 
 * <span style="color: red;">Accepted for Biomedical Optics Express Journal</span>: __Reducing Manual Labeling Requirements and Improved Retinal Ganglion Cell Identification in 3D AO-OCT Volumes Using Semi-Supervised Learning__
 Description: Introduces semi-supervised training schemes to reduce manual labeling in medical imaging.
