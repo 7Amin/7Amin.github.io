@@ -66,16 +66,16 @@ __<span style="color: red;">I am actively looking for a research internship for 
 
 * <span style="color: blue;">Selected to serve as a reviewer for __SIGKDD 2024__</span>
 
-* __<span style="color: red;">Accepted in Biomedical Optics Express Journal</span>__: __[Reducing Manual Labeling Requirements and Improved Retinal Ganglion Cell Identification in 3D AO-OCT Volumes Using Semi-Supervised Learning](https://opg.optica.org/boe/fulltext.cfm?uri=boe-15-8-4540&id=553141)__
+* __<span style="color: red;">Accepted in Biomedical Optics Express Journal - 2024</span>__: __[Reducing Manual Labeling Requirements and Improved Retinal Ganglion Cell Identification in 3D AO-OCT Volumes Using Semi-Supervised Learning](https://opg.optica.org/boe/fulltext.cfm?uri=boe-15-8-4540&id=553141)__
 
   <!-- Two semi-supervised training schemes are introduced, (i) cross-consistency training and (ii) cross pseudo supervision that utilize unlabeled AO-OCT volumes together with a minimal set of labels, vastly reducing the labeling demands. Moreover, these methods outperformed their fully supervised counterpart and achieved accuracy comparable to that of human experts. -->
 
-* __<span style="color: red;">Accepted in ACM SIGSPATIAL International Workshop on Advances in Urban-AI</span>__: __[CrashFormer: A Multimodal Architecture to Predict the Risk of Crash](https://dl.acm.org/doi/pdf/10.1145/3615900.3628769)__
+* __<span style="color: red;">Accepted in ACM SIGSPATIAL International Workshop on Advances in Urban-AI - 2023</span>__: __[CrashFormer: A Multimodal Architecture to Predict the Risk of Crash](https://dl.acm.org/doi/pdf/10.1145/3615900.3628769)__
 
 
 * __<span style="color: red;">Accepted in SIGKDD 2023</span>__: __[Novel Physics-Based Machine-Learning Models for Indoor Air Quality Approximations](https://arxiv.org/pdf/2308.01438)__
 
-* __<span style="color: red;">Accepted in Digital Communications and Networks Journal</span>__: __[Smart and collaborative industrial IoT: A federated learning and data space approach](https://www.sciencedirect.com/science/article/pii/S2352864823000354)__
+* __<span style="color: red;">Accepted in Digital Communications and Networks Journal - 2023</span>__: __[Smart and collaborative industrial IoT: A federated learning and data space approach](https://www.sciencedirect.com/science/article/pii/S2352864823000354)__
 
 * __<span style="color: red;">Accepted in ACM SIGSPATIAL 2022</span>__: __[Will there be a construction? Predicting road constructions based on heterogeneous spatiotemporal data](https://arxiv.org/pdf/2209.06813)__
 
