@@ -81,4 +81,4 @@ My Bachelor's thesis focused on __applying reinforcement learning in a multi-obj
 For my Master's thesis, I delved into the realm of __software testing__. Specifically, I proposed an innovative approach to __generating datasets__ using machine learning techniques. This approach aimed to cover the main paths within the software, enabling effective fault detection. By leveraging machine learning, I sought to enhance the efficiency and accuracy of software testing processes, ultimately improving software systems' overall quality and reliability.
 
 
-<script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=300&t=tt&d=Itoj5gX6LtmhsR5PEC5uQkeN08ZyMnSJSe7hPwC0OYg'></script>
+<script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=wPR6wWrAAiIPGwQUhyRNB0WvWcNTYj6NwDShYBeL9nA&cl=ffffff&w=a"></script>
