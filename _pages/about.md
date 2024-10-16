@@ -79,3 +79,6 @@ __<span style="color: red;">I am actively looking for a research internship for 
 My Bachelor's thesis focused on __applying reinforcement learning in a multi-object environment__. In this unique setting, each object had the ability to train individually. Additionally, I incorporated federated learning techniques to enable the objects to generalize their models to each other. This research explored the potential of combining these approaches to enhance learning and decision-making in complex environments.
 
 For my Master's thesis, I delved into the realm of __software testing__. Specifically, I proposed an innovative approach to __generating datasets__ using machine learning techniques. This approach aimed to cover the main paths within the software, enabling effective fault detection. By leveraging machine learning, I sought to enhance the efficiency and accuracy of software testing processes, ultimately improving software systems' overall quality and reliability.
+
+
+<script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=300&t=tt&d=Itoj5gX6LtmhsR5PEC5uQkeN08ZyMnSJSe7hPwC0OYg'></script>
