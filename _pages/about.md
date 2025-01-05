@@ -42,6 +42,8 @@ __<span style="color: red;">I am actively looking for a research internship for 
 
 ### Reviewer Appointments:
 
+* <span style="color: blue;">Selected to serve as a reviewer for __CVPR 2025__</span>
+
 * <span style="color: blue;">Selected to serve as a reviewer for __ICLR 2025__</span>
 
 * <span style="color: blue;">Selected to serve as a reviewer for __WACV 2025__</span>
@@ -53,6 +55,9 @@ __<span style="color: red;">I am actively looking for a research internship for 
 
 
 ### Publications:
+
+* __2024/10/10 - Submitted for Publication: TaxaDiffusion: Progressively Trained Diffusion Model for Fine-Grained Generation and
+Trait Discovery (paper will publish soon!)
 
 * __2024/01/10 - Submitted for Publication:__ __[KnobGen: Controlling the Sophistication of Artwork in Sketch-Based Diffusion Models](https://arxiv.org/pdf/2410.01595)__
 
