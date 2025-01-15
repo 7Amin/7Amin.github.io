@@ -58,14 +58,15 @@ __<span style="color: red;">I am actively looking for a research internship for 
 
 ### Publications:
 
-* __2024/10/10 - Submitted for Publication__: __TaxaDiffusion: Progressively Trained Diffusion Model for Fine-Grained Generation and
+* __2024/21/11 - Submitted for Publication__: __TaxaDiffusion: Progressively Trained Diffusion Model for Fine-Grained Generation and
 Trait Discovery__ (paper will publish soon!)
 
-* __2024/01/10 - Submitted for Publication:__ __[KnobGen: Controlling the Sophistication of Artwork in Sketch-Based Diffusion Models](https://arxiv.org/pdf/2410.01595)__
+* __2024/21/11 - Submitted for Publication:__ __[KnobGen: Controlling the Sophistication of Artwork in Sketch-Based Diffusion Models](https://arxiv.org/pdf/2410.01595)__
+
+* __2024/21/11 - Submitted for Publication:__ __[DetailCLIP: Detail-Oriented CLIP for Fine-Grained Tasks](https://arxiv.org/pdf/2409.06809)__
 
 * __2024/01/10 - Submitted for Publication:__ __[Frequency-Guided Masking for Enhanced Vision Self-Supervised Learning](https://arxiv.org/pdf/2409.10362)__
 
-* __2024/01/09 - Submitted for Publication:__ __[DetailCLIP: Detail-Oriented CLIP for Fine-Grained Tasks](https://arxiv.org/pdf/2409.06809)__
 
 * __<span style="color: red;">2024/31/05 - Accepted in SIGKDD 2024</span>__: __[Masked LoGoNet: Fast and Accurate 3D Image Analysis for Medical Domain](https://arxiv.org/pdf/2402.06190)__
 
