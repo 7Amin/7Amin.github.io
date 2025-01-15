@@ -48,7 +48,7 @@ __<span style="color: red;">I am actively looking for a research internship for 
 
 * <span style="color: blue;">Selected to serve as a reviewer for __WACV 2025__</span>
 
-* <span style="color: blue;">Selected to serve as a reviewer for __SIGKDD 2025__</span>
+* <span style="color: blue;">Selected to serve as a reviewer for __SIGKDD 2025__ (selected as an Excellent Reviewer) </span>
 
 * <span style="color: blue;">Selected to serve as a reviewer for __SIGKDD 2024__</span>
 
