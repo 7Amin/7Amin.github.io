@@ -65,8 +65,7 @@ Trait Discovery__ (paper will publish soon!)
 
 * __2024/21/11 - Submitted for Publication:__ __[DetailCLIP: Detail-Oriented CLIP for Fine-Grained Tasks](https://arxiv.org/pdf/2409.06809)__
 
-* __2024/01/10 - Submitted for Publication:__ __[Frequency-Guided Masking for Enhanced Vision Self-Supervised Learning](https://arxiv.org/pdf/2409.10362)__
-
+* __<span style="color: red;">2025/22/01 - Accepted in ICLR 2025</span>:__ __[Frequency-Guided Masking for Enhanced Vision Self-Supervised Learning](https://arxiv.org/pdf/2409.10362)__
 
 * __<span style="color: red;">2024/31/05 - Accepted in SIGKDD 2024</span>__: __[Masked LoGoNet: Fast and Accurate 3D Image Analysis for Medical Domain](https://arxiv.org/pdf/2402.06190)__
 
