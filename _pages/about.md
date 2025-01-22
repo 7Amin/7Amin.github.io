@@ -73,7 +73,7 @@ Trait Discovery__ (paper will publish soon!)
 
 * __<span style="color: red;">Accepted in ACM SIGSPATIAL International Workshop on Advances in Urban-AI - 2023</span>__: __[CrashFormer: A Multimodal Architecture to Predict the Risk of Crash](https://dl.acm.org/doi/pdf/10.1145/3615900.3628769)__
 
-* __<span style="color: red;">Accepted in SIGKDD 2023</span>__: __[Novel Physics-Based Machine-Learning Models for Indoor Air Quality Approximations](https://arxiv.org/pdf/2308.01438)__
+* __<span style="color: red;">2023/31/05 - Accepted in SIGKDD 2023</span>__: __[Novel Physics-Based Machine-Learning Models for Indoor Air Quality Approximations](https://arxiv.org/pdf/2308.01438)__
 
 * __<span style="color: red;">Accepted in Digital Communications and Networks Journal - 2023</span>__: __[Smart and collaborative industrial IoT: A federated learning and data space approach](https://www.sciencedirect.com/science/article/pii/S2352864823000354)__
 
