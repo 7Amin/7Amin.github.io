@@ -61,7 +61,7 @@ __<span style="color: red;">I am actively looking for a research internship for 
 ### <span style="text-decoration: underline;">Reviewer Appointments:</span>
 
 
-<div style="max-height: 250px; overflow-y: auto; border: 1px solid #ccc; padding: 10px; border-radius: 5px;">
+<div style="max-height: 250px; overflow-y: auto; border: 0px solid #ccc; padding: 10px; border-radius: 5px;">
   <ul>
     <li>
       <span style="color: blue;">Selected to serve as a reviewer for <strong>SIGKDD 2025 Second Round</strong></span>
