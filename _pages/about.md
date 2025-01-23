@@ -71,7 +71,7 @@ Trait Discovery__ (paper will publish soon!)
 ### <span style="text-decoration: underline;">Publications:</span>
 
 
-<div style="max-height: 350px; overflow-y: auto; border: 1px solid #ccc; padding: 10px; border-radius: 5px;">
+<div style="max-height: 358px; overflow-y: auto; border: 1px solid #ccc; padding: 10px; border-radius: 5px;">
   <ul>
     <li>
       <strong style="color: red;">01/2025 - Accepted in ICLR 2025:</strong> 
