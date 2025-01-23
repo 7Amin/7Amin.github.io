@@ -37,8 +37,8 @@ __<span style="color: red;">I am actively looking for a research internship for 
 
 
 
-# Recent News and Updates:
-
+<!-- # Recent News and Updates: -->
+# <span style="text-decoration: underline;">Recent News and Updates:</span>
 
 
 <!-- ### Publications:
