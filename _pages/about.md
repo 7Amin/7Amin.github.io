@@ -40,50 +40,6 @@ __<span style="color: red;">I am actively looking for a research internship for 
 # Recent News and Updates:
 
 
-<!-- ### Reviewer Appointments:
-
-* <span style="color: blue;">Selected to serve as a reviewer for __SIGKDD 2025 Second Round__ </span>
-
-* <span style="color: blue;">Selected to serve as a reviewer for __CVPR 2025__</span>
-
-* <span style="color: blue;">Selected to serve as a reviewer for __ICLR 2025__</span>
-
-* <span style="color: blue;">Selected to serve as a reviewer for __WACV 2025__</span>
-
-* <span style="color: blue;">Selected to serve as a reviewer for __SIGKDD 2025 First Round__ (selected as an Excellent Reviewer) </span>
-
-* <span style="color: blue;">Selected to serve as a reviewer for __SIGKDD 2024__</span>
- -->
-
-
- <!-- ### Reviewer Appointments: -->
-
-### <span style="text-decoration: underline;">Reviewer Appointments:</span>
-
-
-<div style="max-height: 250px; overflow-y: auto; border: 0px solid #ccc; padding: 10px; border-radius: 5px;">
-  <ul>
-    <li>
-      <span style="color: blue;">Selected to serve as a reviewer for <strong>SIGKDD 2025 Second Round</strong></span>
-    </li>
-    <li>
-      <span style="color: blue;">Selected to serve as a reviewer for <strong>CVPR 2025</strong></span>
-    </li>
-    <li>
-      <span style="color: blue;">Selected to serve as a reviewer for <strong>ICLR 2025</strong></span>
-    </li>
-    <li>
-      <span style="color: blue;">Selected to serve as a reviewer for <strong>WACV 2025</strong></span>
-    </li>
-    <li>
-      <span style="color: blue;">Selected to serve as a reviewer for <strong>SIGKDD 2025 First Round</strong> (selected as an Excellent Reviewer)</span>
-    </li>
-    <li>
-      <span style="color: blue;">Selected to serve as a reviewer for <strong>SIGKDD 2024</strong></span>
-    </li>
-  </ul>
-</div>
-
 
 <!-- ### Publications:
 
@@ -160,6 +116,53 @@ Trait Discovery__ (paper will publish soon!)
   </ul>
 </div>
 
+
+
+
+
+<!-- ### Reviewer Appointments:
+
+* <span style="color: blue;">Selected to serve as a reviewer for __SIGKDD 2025 Second Round__ </span>
+
+* <span style="color: blue;">Selected to serve as a reviewer for __CVPR 2025__</span>
+
+* <span style="color: blue;">Selected to serve as a reviewer for __ICLR 2025__</span>
+
+* <span style="color: blue;">Selected to serve as a reviewer for __WACV 2025__</span>
+
+* <span style="color: blue;">Selected to serve as a reviewer for __SIGKDD 2025 First Round__ (selected as an Excellent Reviewer) </span>
+
+* <span style="color: blue;">Selected to serve as a reviewer for __SIGKDD 2024__</span>
+ -->
+
+
+ <!-- ### Reviewer Appointments: -->
+
+### <span style="text-decoration: underline;">Reviewer Appointments:</span>
+
+
+<div style="max-height: 250px; overflow-y: auto; border: 0px solid #ccc; padding: 10px; border-radius: 5px;">
+  <ul>
+    <li>
+      <span style="color: blue;">Selected to serve as a reviewer for <strong>SIGKDD 2025 Second Round</strong></span>
+    </li>
+    <li>
+      <span style="color: blue;">Selected to serve as a reviewer for <strong>CVPR 2025</strong></span>
+    </li>
+    <li>
+      <span style="color: blue;">Selected to serve as a reviewer for <strong>ICLR 2025</strong></span>
+    </li>
+    <li>
+      <span style="color: blue;">Selected to serve as a reviewer for <strong>WACV 2025</strong></span>
+    </li>
+    <li>
+      <span style="color: blue;">Selected to serve as a reviewer for <strong>SIGKDD 2025 First Round</strong> (selected as an Excellent Reviewer)</span>
+    </li>
+    <li>
+      <span style="color: blue;">Selected to serve as a reviewer for <strong>SIGKDD 2024</strong></span>
+    </li>
+  </ul>
+</div>
 
 
 
