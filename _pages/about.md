@@ -56,7 +56,7 @@ __<span style="color: red;">I am actively looking for a research internship for 
 
 
 
-### Publications:
+<!-- ### Publications:
 
 * __2024/21/11 - Submitted for Publication__: __TaxaDiffusion: Progressively Trained Diffusion Model for Fine-Grained Generation and
 Trait Discovery__ (paper will publish soon!)
@@ -77,7 +77,59 @@ Trait Discovery__ (paper will publish soon!)
 
 * __<span style="color: red;">Accepted in Digital Communications and Networks Journal - 2023</span>__: __[Smart and collaborative industrial IoT: A federated learning and data space approach](https://www.sciencedirect.com/science/article/pii/S2352864823000354)__
 
-* __<span style="color: red;">Accepted in ACM SIGSPATIAL 2022</span>__: __[Will there be a construction? Predicting road constructions based on heterogeneous spatiotemporal data](https://arxiv.org/pdf/2209.06813)__
+* __<span style="color: red;">Accepted in ACM SIGSPATIAL 2022</span>__: __[Will there be a construction? Predicting road constructions based on heterogeneous spatiotemporal data](https://arxiv.org/pdf/2209.06813)__ -->
+
+
+
+### Publications:
+
+<div style="max-height: 300px; overflow-y: auto; border: 1px solid #ccc; padding: 10px; border-radius: 5px;">
+  <ul>
+    <li>
+      <strong style="color: red;">01/2025 - Accepted in ICLR 2025:</strong> 
+      <a href="https://arxiv.org/pdf/2409.10362">Frequency-Guided Masking for Enhanced Vision Self-Supervised Learning</a>
+    </li>
+    <li>
+      <strong>11/2024 - Submitted for Publication:</strong> 
+      TaxaDiffusion: Progressively Trained Diffusion Model for Fine-Grained Generation and Trait Discovery (paper will publish soon!)
+    </li>
+    <li>
+      <strong>11/2024 - Submitted for Publication:</strong> 
+      <a href="https://arxiv.org/pdf/2410.01595">KnobGen: Controlling the Sophistication of Artwork in Sketch-Based Diffusion Models</a>
+    </li>
+    <li>
+      <strong>11/2024 - Submitted for Publication:</strong> 
+      <a href="https://arxiv.org/pdf/2409.06809">DetailCLIP: Detail-Oriented CLIP for Fine-Grained Tasks</a>
+    </li>
+    <li>
+      <strong style="color: red;">05/2024 - Accepted in SIGKDD 2024:</strong> 
+      <a href="https://arxiv.org/pdf/2402.06190">Masked LoGoNet: Fast and Accurate 3D Image Analysis for Medical Domain</a>
+    </li>
+    <li>
+      <strong style="color: red;">03/2024 - Accepted in Biomedical Optics Express Journal:</strong> 
+      <a href="https://opg.optica.org/boe/fulltext.cfm?uri=boe-15-8-4540&id=553141">Reducing Manual Labeling Requirements and Improved Retinal Ganglion Cell Identification in 3D AO-OCT Volumes Using Semi-Supervised Learning</a>
+    </li>
+    <li>
+      <strong style="color: red;">06/2023 - Accepted in ACM SIGSPATIAL International Workshop on Advances in Urban-AI:</strong> 
+      <a href="https://dl.acm.org/doi/pdf/10.1145/3615900.3628769">CrashFormer: A Multimodal Architecture to Predict the Risk of Crash</a>
+    </li>
+    <li>
+      <strong style="color: red;">05/2023 - Accepted in SIGKDD 2023:</strong> 
+      <a href="https://arxiv.org/pdf/2308.01438">Novel Physics-Based Machine-Learning Models for Indoor Air Quality Approximations</a>
+    </li>
+    <li>
+      <strong style="color: red;">02/2023 - Accepted in Digital Communications and Networks Journal - 2023:</strong> 
+      <a href="https://www.sciencedirect.com/science/article/pii/S2352864823000354">Smart and collaborative industrial IoT: A federated learning and data space approach</a>
+    </li>
+    <li>
+      <strong style="color: red;">08/2022 - Accepted in ACM SIGSPATIAL 2022:</strong> 
+      <a href="https://arxiv.org/pdf/2209.06813">Will there be a construction? Predicting road constructions based on heterogeneous spatiotemporal data</a>
+    </li>
+  </ul>
+</div>
+
+
+
 
 
 ## Bachelor and Master
