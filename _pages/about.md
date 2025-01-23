@@ -61,7 +61,7 @@ __<span style="color: red;">I am actively looking for a research internship for 
 ### <span style="text-decoration: underline;">Reviewer Appointments:</span>
 
 
-<div style="max-height: 200px; overflow-y: auto; border: 1px solid #ccc; padding: 10px; border-radius: 5px;">
+<div style="max-height: 250px; overflow-y: auto; border: 1px solid #ccc; padding: 10px; border-radius: 5px;">
   <ul>
     <li>
       <span style="color: blue;">Selected to serve as a reviewer for <strong>SIGKDD 2025 Second Round</strong></span>
@@ -115,7 +115,7 @@ Trait Discovery__ (paper will publish soon!)
 ### <span style="text-decoration: underline;">Publications:</span>
 
 
-<div style="max-height: 300px; overflow-y: auto; border: 1px solid #ccc; padding: 10px; border-radius: 5px;">
+<div style="max-height: 350px; overflow-y: auto; border: 1px solid #ccc; padding: 10px; border-radius: 5px;">
   <ul>
     <li>
       <strong style="color: red;">01/2025 - Accepted in ICLR 2025:</strong> 
