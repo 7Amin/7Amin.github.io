@@ -20,7 +20,8 @@ __<span style="color: red;">I am actively looking for a research internship for 
 ### Image and Video Generation:
 
 * Developing innovative methods for generating high-quality images and videos.
-* Projects include Multi-Guided Image Inpainting and Multi-Modal Conditional Video Generation.
+* Extending image-based generative strategies into multi-frame sequences, focusing on preserving consistent identity, style, and motion dynamics.
+* Employing hierarchical knowledge structures to capture subtle morphological or stylistic variations, allowing for highly distinctive yet consistent image synthesis.
 * Exploring how the creativity of Large Language Models (LLMs) can be utilized in video generation with diffusion models.
 
 ### Self-Supervised Learning for Vision:
@@ -86,7 +87,7 @@ Trait Discovery__ (paper will publish soon!)
       <a href="https://arxiv.org/pdf/2410.01595">KnobGen: Controlling the Sophistication of Artwork in Sketch-Based Diffusion Models</a>
     </li>
     <li>
-      <strong>11/2024 - Submitted for Publication:</strong> 
+      <strong style="color: red;">02/2025 - Accepted in SSI-FM Workshop of ICLR 2025: </strong> 
       <a href="https://arxiv.org/pdf/2409.06809">DetailCLIP: Detail-Oriented CLIP for Fine-Grained Tasks</a>
     </li>
     <li>
