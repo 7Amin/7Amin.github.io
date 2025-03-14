@@ -73,11 +73,7 @@ Trait Discovery__ (paper will publish soon!)
 
 
 <div style="max-height: 358px; overflow-y: auto; border: 1px solid #ccc; padding: 10px; border-radius: 5px;">
-  <ul>
-    <li>
-      <strong style="color: red;">01/2025 - Accepted in ICLR 2025:</strong> 
-      <a href="https://arxiv.org/pdf/2409.10362">Frequency-Guided Masking for Enhanced Vision Self-Supervised Learning</a>
-    </li>
+  <ul>    
     <li>
       <strong>11/2024 - Submitted for Publication:</strong> 
       TaxaDiffusion: Progressively Trained Diffusion Model for Fine-Grained Generation and Trait Discovery (paper will publish soon!)
@@ -85,6 +81,10 @@ Trait Discovery__ (paper will publish soon!)
     <li>
       <strong>11/2024 - Submitted for Publication:</strong> 
       <a href="https://arxiv.org/pdf/2410.01595">KnobGen: Controlling the Sophistication of Artwork in Sketch-Based Diffusion Models</a>
+    </li>
+    <li>
+      <strong style="color: red;">01/2025 - Accepted in ICLR 2025:</strong> 
+      <a href="https://arxiv.org/pdf/2409.10362">Frequency-Guided Masking for Enhanced Vision Self-Supervised Learning</a>
     </li>
     <li>
       <strong style="color: red;">02/2025 - Accepted in SSI-FM Workshop of ICLR 2025: </strong> 
