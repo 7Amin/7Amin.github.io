@@ -79,7 +79,7 @@ Trait Discovery__ (paper will publish soon!)
       TaxaDiffusion: Progressively Trained Diffusion Model for Fine-Grained Generation and Trait Discovery (paper will publish soon!)
     </li>
     <li>
-      <strong>11/2024 - Submitted for Publication:</strong> 
+      <strong style="color: red;">03/2025 - Accepted in CVEU Workshop of CVPR 2025:</strong> 
       <a href="https://arxiv.org/pdf/2410.01595">KnobGen: Controlling the Sophistication of Artwork in Sketch-Based Diffusion Models</a>
     </li>
     <li>
