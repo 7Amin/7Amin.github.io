@@ -12,7 +12,7 @@ redirect_from:
 
 I am a dedicated __Ph.D. student in Computer Science__ at __The Ohio State University__, focusing on __Computer Vision, Vision-Language Models, and Self-Supervised Learning__ under the supervision of [Professor Rajiv Ramnath](https://cse.osu.edu/people/ramnath.6). My research encompasses image and video generation, as well as self-supervised learning techniques to advance the field of computer vision.
 
-__<span style="color: red;">I am actively looking for a research internship for summer  2025!</span>__
+<!-- __<span style="color: red;">I am actively looking for a research internship for summer  2025!</span>__ -->
 
 
 # Research Interests:
@@ -71,13 +71,13 @@ Trait Discovery__ (paper will publish soon!)
   <ul>
     <!-- Example Entry (uncomment and edit as needed) -->
     <li>
-      <strong>Incoming ML Research Intern – Apple MIND Team</strong> <br>
+      <strong style="color: red;">Incoming ML Research Intern – Apple MIND Team</strong> <br>
       <em>Summer 2025 | Seattle, WA</em><br>
       Working on multimodal vision-language models and efficient training for generative applications.
     </li>
     <br>
     <li>
-      <strong>Machine Learning Intern – Higharc</strong> <br>
+      <strong style="color: red;">Machine Learning Intern – Higharc</strong> <br>
       <em>May 2024 – Aug 2024 · 4 months | Remote, Columbus, OH</em><br>
       • Conducting research on semantic and panoptic segmentation tasks. <br>
       • Utilizing unlabeled data to pre-train a DETR-based model and addressing challenges of limited labeled data with self-supervised learning. <br>
