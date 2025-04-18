@@ -71,7 +71,7 @@ Trait Discovery__ (paper will publish soon!)
   <ul style="list-style: none; padding-left: 0;">
     <li style="margin-bottom: 20px;">
       <div style="display: flex; align-items: center; gap: 10px;">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg" alt="Apple Logo" style="height: 20px;">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg" alt="Apple Logo" style="height: 30px;">
         <strong style="color: red;">Incoming ML Research Intern – Apple MIND Team</strong>
       </div>
       <em>Summer 2025 | Seattle, WA</em><br>
@@ -79,7 +79,7 @@ Trait Discovery__ (paper will publish soon!)
     </li>
     <li>
       <div style="display: flex; align-items: center; gap: 10px;">
-        <img src="https://media.licdn.com/dms/image/v2/C560BAQHFx-m_sXG6UQ/company-logo_100_100/company-logo_100_100/0/1674578318261/higharc_logo?e=1750291200&v=beta&t=RJc47htSUotIUCMePSTXm_xJZZnFRA4bTZoUcDFywMQ" alt="Higharc Logo" style="height: 20px;">
+        <img src="https://media.licdn.com/dms/image/v2/C560BAQHFx-m_sXG6UQ/company-logo_100_100/company-logo_100_100/0/1674578318261/higharc_logo?e=1750291200&v=beta&t=RJc47htSUotIUCMePSTXm_xJZZnFRA4bTZoUcDFywMQ" alt="Higharc Logo" style="height: 30px;">
         <strong style="color: red;">Machine Learning Intern – Higharc</strong>
       </div>
       <em>May 2024 – Aug 2024 · 4 months | Remote, Columbus, OH</em><br>
@@ -88,7 +88,7 @@ Trait Discovery__ (paper will publish soon!)
     </li>
     <li style="margin-bottom: 20px;">
       <div style="display: flex; align-items: center; gap: 10px;">
-        <img src="https://media.licdn.com/dms/image/v2/D4E0BAQFjugWsr2JlAw/company-logo_200_200/company-logo_200_200/0/1708657986082/jibbai_logo?e=1750291200&v=beta&t=9egIOpRR0ydf8XSitDH08lzHqyTq-m53bTmaEu4wQZY" alt="JIBB Logo" style="height: 20px;">
+        <img src="https://media.licdn.com/dms/image/v2/D4E0BAQFjugWsr2JlAw/company-logo_200_200/company-logo_200_200/0/1708657986082/jibbai_logo?e=1750291200&v=beta&t=9egIOpRR0ydf8XSitDH08lzHqyTq-m53bTmaEu4wQZY" alt="JIBB Logo" style="height: 30px;">
         <strong style="color: red;">Senior Data Scientist – JIBB</strong>
       </div>
       <em>Dec 2020 – Dec 2021 · 1 year 1 month | San Francisco Bay Area</em><br>
