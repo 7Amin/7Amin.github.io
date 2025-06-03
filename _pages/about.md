@@ -111,7 +111,7 @@ Trait Discovery__ (paper will publish soon!)
 <div style="max-height: 358px; overflow-y: auto; border: 1px solid #ccc; padding: 10px; border-radius: 5px;">
   <ul>    
     <li>
-      <strong>11/2024 - Submitted for Publication:</strong> 
+      <strong>06/2025 - Submitted for Publication:</strong> 
        <a href="https://arxiv.org/pdf/2506.01923">TaxaDiffusion: Progressively Trained Diffusion Model for Fine-Grained Generation and Trait Discovery</a>
     </li>
     <li>
