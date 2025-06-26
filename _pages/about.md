@@ -115,7 +115,7 @@ Trait Discovery__ (paper will publish soon!)
        <a href="https://arxiv.org/pdf/2506.01923">TaxaDiffusion: Progressively Trained Diffusion Model for Fine-Grained Generation and Trait Discovery</a>
     </li>
     <li>
-      <strong style="color: red;">03/2025 - Accepted in CVEU Workshop of CVPR 2025:</strong> 
+      <strong>03/2025 - Accepted in CVEU Workshop of CVPR 2025:</strong> 
       <a href="https://arxiv.org/pdf/2410.01595">KnobGen: Controlling the Sophistication of Artwork in Sketch-Based Diffusion Models</a>
     </li>
     <li>
@@ -123,7 +123,7 @@ Trait Discovery__ (paper will publish soon!)
       <a href="https://arxiv.org/pdf/2409.10362">Frequency-Guided Masking for Enhanced Vision Self-Supervised Learning</a>
     </li>
     <li>
-      <strong style="color: red;">02/2025 - Accepted in SSI-FM Workshop of ICLR 2025: </strong> 
+      <strong>02/2025 - Accepted in SSI-FM Workshop of ICLR 2025: </strong> 
       <a href="https://arxiv.org/pdf/2409.06809">DetailCLIP: Detail-Oriented CLIP for Fine-Grained Tasks</a>
     </li>
     <li>
@@ -135,7 +135,7 @@ Trait Discovery__ (paper will publish soon!)
       <a href="https://opg.optica.org/boe/fulltext.cfm?uri=boe-15-8-4540&id=553141">Reducing Manual Labeling Requirements and Improved Retinal Ganglion Cell Identification in 3D AO-OCT Volumes Using Semi-Supervised Learning</a>
     </li>
     <li>
-      <strong style="color: red;">06/2023 - Accepted in ACM SIGSPATIAL International Workshop on Advances in Urban-AI:</strong> 
+      <strong>06/2023 - Accepted in ACM SIGSPATIAL International Workshop on Advances in Urban-AI:</strong> 
       <a href="https://dl.acm.org/doi/pdf/10.1145/3615900.3628769">CrashFormer: A Multimodal Architecture to Predict the Risk of Crash</a>
     </li>
     <li>
