@@ -12,6 +12,84 @@ redirect_from:
 
 Education
 ======
+* Ph.D. in Computer Science, The Ohio State University, 2022 - Present  
+* M.Sc. in Computer Engineering (Software), Shahid Beheshti University, Tehran, 2015 - 2017  
+* B.Sc. in Computer Engineering (Hardware), Shahid Beheshti University, Tehran, 2011 - 2015  
+
+Work Experience
+======
+* __ML Research Intern__ at __Apple__, Seattle, WA — May 2025 - Present  
+  * Working on multimodal vision-language models and efficient training for generative applications.
+
+* __Machine Learning Intern__ at __Higharc__, North Carolina — May 2024 - Aug 2024  
+  * Research on semantic and panoptic segmentation.  
+  * Self-supervised learning with DETR-based model using unlabeled data.  
+  * Developed domain adaptation strategies for cross-dataset generalization.
+
+* __Senior ML Engineer__ at __Jibb__, San Francisco — Dec 2020 - Dec 2021  
+  * Removed unwanted visual content from media using object detection and enhancement techniques.  
+  * Designed U-Net variants for fast and accurate image/video processing.
+
+* __CTO__ at __BlueBitSoft__, Tehran — Dec 2018 - Dec 2021  
+  * Designed high-level scalable software architecture.  
+  * Guided engineering team using CI/CD pipelines and best practices.
+
+* __Senior Data Scientist & Back-End Developer__ at __TAPSI (Online Taxi)__, Tehran — Mar 2018 - Dec 2020  
+  * Designed micro-services for pricing, GPS fraud detection, and ETA prediction.  
+  * Introduced demand forecasting and smart maps.  
+  * Published work on ETA algorithms.
+
+Teaching Experience
+======
+* TA, Computer Vision for HCI (Spring 2025), Ohio State University  
+* TA for 5 semesters of “Modeling and Problem Solving with Spreadsheets and Databases” (2022–2025)  
+* TA at Shahid Beheshti University for AI, Algorithms, and Discrete Mathematics (2012–2018)
+
+Selected Publications
+======
+* __TaxaDiffusion__: Fine-Grained Species Generation with Diffusion — *ICCV 2025*  
+* __KnobGen__: Artistic Detail Control in Sketch Diffusion — *CVPR 2025 Workshop*  
+* __Frequency-Guided Masking__: SSL for Vision — *ICLR 2025*  
+* __Masked LoGoNet__: 3D Medical Image Segmentation — *KDD 2024*  
+* __CrashFormer__: Crash Risk Prediction — *SIGSPATIAL 2023*  
+* __Smart and Collaborative Industrial IoT__: FL Systems — *Elsevier DCN, 2023*
+
+Honors & Awards
+======
+* __SIGKDD 2025__: Outstanding Reviewer (Top 10%), Excellent Reviewer (Top 20%)  
+* __ACM-ICPC Coach__: World Finals (2018), Regionals & Online (2012–2017)  
+* __ACM-ICPC Contestant__: Top 10 rankings in national and Asia regionals (2012–2014)  
+* 1st Rank in National M.Sc Entrance Exam of Computer Engineering (2015)  
+* Top 1% in National B.Sc Entrance Exam of Mathematics (2011)  
+* Bronze Medal, Waterloo Mathematics Olympiad (2009)
+
+Skills
+======
+* **Programming**: Python, C++, C#, MATLAB, R, Java, NodeJS  
+* **Deep Learning**: PyTorch, TensorFlow, Keras  
+* **Databases**: PostgreSQL, SQL Server, MySQL, MongoDB, Redis, Elasticsearch  
+* **DevOps**: CI/CD, Docker, RabbitMQ, Spark, Kafka
+
+
+
+
+
+
+
+<!-- ---
+layout: archive
+title: ""
+permalink: /cv/
+author_profile: true
+redirect_from:
+  - /resume
+---
+
+{% include base_path %}
+[Download CV Here](../files/Amin_Karimi_Monsefi_CV.pdf)
+
+Education
+======
 * B.Sc. in Computer Engineering with focus on Hardware, Shahid Beheshti University of Tehran, 2011 - 2015
 * M.Sc. in Computer Engineering with focus on Software, Shahid Beheshti University of Tehran, 2015 - 2017
 * PhD. in Computer Science, The Ohio State University, 2022 - Present
@@ -89,4 +167,4 @@ Honors & Awards
     * Nov 2012 16th Place, The 3rd ACM National Collegiate Programming Contest, Amir Kabir University of TechnologyTehran, Iran
     * Oct 2012 2nd Place, Qualification Contest, Shahid Beheshti UniversityTehran, Iran
 
-  
+   -->
