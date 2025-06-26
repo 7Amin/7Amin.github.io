@@ -79,7 +79,7 @@ Trait Discovery__ (paper will publish soon!)
     </li>
     <li>
       <div style="display: flex; align-items: center; gap: 10px;">
-        <img src="https://image.pitchbook.com/xqDJyAxIbRcIWfclN1EgBTHUftd1680081009638_200x200" alt="Higharc Logo" style="height: 30px;">
+        <img src="https://image.pitchbook.com/xqDJyAxIbRcIWfclN1EgBTHUftd1680081009638_200x200" alt="Higharc Logo" style="height: 50px;">
         <strong style="color: red;">Machine Learning Intern – Higharc</strong>
       </div>
       <em>May 2024 – Aug 2024 · 4 months | Remote, Durham, NC</em><br>
@@ -88,7 +88,7 @@ Trait Discovery__ (paper will publish soon!)
     </li>
     <li style="margin-bottom: 20px;">
       <div style="display: flex; align-items: center; gap: 10px;">
-        <img src="https://yt3.googleusercontent.com/ytc/AIdro_ldZTDc5vbqq8mn3sZfjbAZggz04Z9hZQEDrVN-98K34A=s160-c-k-c0x00ffffff-no-rj" alt="JIBB Logo" style="height: 30px;">
+        <img src="https://yt3.googleusercontent.com/ytc/AIdro_ldZTDc5vbqq8mn3sZfjbAZggz04Z9hZQEDrVN-98K34A=s160-c-k-c0x00ffffff-no-rj" alt="JIBB Logo" style="height: 40px;">
         <strong style="color: red;">Senior Data Scientist – JIBB</strong>
       </div>
       <em>Dec 2020 – Dec 2021 · 1 year 1 month | Remote, San Francisco, CA</em><br>
