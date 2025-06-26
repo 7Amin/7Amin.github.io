@@ -111,7 +111,7 @@ Trait Discovery__ (paper will publish soon!)
 <div style="max-height: 358px; overflow-y: auto; border: 1px solid #ccc; padding: 10px; border-radius: 5px;">
   <ul>    
     <li>
-      <strong>06/2025 - Submitted for Publication:</strong> 
+      <strong style="color: red;">06/2025 - Accepted in ICCV 2025:</strong> 
        <a href="https://arxiv.org/pdf/2506.01923">TaxaDiffusion: Progressively Trained Diffusion Model for Fine-Grained Generation and Trait Discovery</a>
     </li>
     <li>
@@ -181,7 +181,7 @@ Trait Discovery__ (paper will publish soon!)
 <div style="max-height: 250px; overflow-y: auto; border: 1px solid #ccc; padding: 10px; border-radius: 5px;">
   <ul>
     <li>
-      <span style="color: blue;">Selected to serve as a reviewer for <strong>SIGKDD 2025 Second Round</strong></span>
+      <span style="color: blue;">Selected to serve as a reviewer for <strong>SIGKDD 2025 Second Round</strong> (selected as an <span style="color: red;">Outstanding Reviewer</span> - 10% of top reviewers.)</span>
     </li>
     <li>
       <span style="color: blue;">Selected to serve as a reviewer for <strong>CVPR 2025</strong></span>
@@ -193,7 +193,7 @@ Trait Discovery__ (paper will publish soon!)
       <span style="color: blue;">Selected to serve as a reviewer for <strong>WACV 2025</strong></span>
     </li>
     <li>
-      <span style="color: blue;">Selected to serve as a reviewer for <strong>SIGKDD 2025 First Round</strong> (selected as an Excellent Reviewer)</span>
+      <span style="color: blue;">Selected to serve as a reviewer for <strong>SIGKDD 2025 First Round</strong> <span style="color: red;">Excellent Reviewer</span> - 20% of top reviewers.)</span>
     </li>
     <li>
       <span style="color: blue;">Selected to serve as a reviewer for <strong>SIGKDD 2024</strong></span>
