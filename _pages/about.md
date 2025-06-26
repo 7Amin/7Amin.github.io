@@ -79,7 +79,7 @@ Trait Discovery__ (paper will publish soon!)
     </li>
     <li>
       <div style="display: flex; align-items: center; gap: 10px;">
-        <img src="https://image.pitchbook.com/xqDJyAxIbRcIWfclN1EgBTHUftd1680081009638_200x200" alt="Higharc Logo" style="height: 50px;">
+        <img src="https://media.licdn.com/dms/image/v2/C560BAQHFx-m_sXG6UQ/company-logo_200_200/company-logo_200_200/0/1674578318261/higharc_logo?e=1756339200&v=beta&t=acmR92BYIkcP8JuRIOL_5Bo1sPGP8UhcU7zQkzvQ3lo" alt="Higharc Logo" style="height: 40px;">
         <strong style="color: red;">Machine Learning Intern – Higharc</strong>
       </div>
       <em>May 2024 – Aug 2024 · 4 months | Remote, Durham, NC</em><br>
