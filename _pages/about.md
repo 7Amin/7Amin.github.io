@@ -67,7 +67,7 @@ Trait Discovery__ (paper will publish soon!)
 
 ### <span style="text-decoration: underline;">Professional Experience:</span>
 
-<div style="max-height: 280px; overflow-y: auto; border: 1px solid #ccc; padding: 10px; border-radius: 5px;">
+<div style="max-height: 380px; overflow-y: auto; border: 1px solid #ccc; padding: 10px; border-radius: 5px;">
   <ul style="list-style: none; padding-left: 0;">
     <li style="margin-bottom: 20px;">
       <div style="display: flex; align-items: center; gap: 10px;">
@@ -108,7 +108,7 @@ Trait Discovery__ (paper will publish soon!)
 ### <span style="text-decoration: underline;">Publications:</span>
 
 
-<div style="max-height: 358px; overflow-y: auto; border: 1px solid #ccc; padding: 10px; border-radius: 5px;">
+<div style="max-height: 458px; overflow-y: auto; border: 1px solid #ccc; padding: 10px; border-radius: 5px;">
   <ul>    
     <li>
       <strong style="color: red;">06/2025 - Accepted in ICCV 2025:</strong> 
