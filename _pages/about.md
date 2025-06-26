@@ -97,6 +97,21 @@ Trait Discovery__ (paper will publish soon!)
       • Developed custom CNN architectures to accurately detect content color and remove shadows and reflections. <br>
       • Built automated tools for enhancing visual clarity in real-time handwriting sessions.
     </li>
+    <li style="margin-bottom: 20px;">
+      <div style="display: flex; align-items: center; gap: 10px;">
+        <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcS3Zlbgs7YV9J-X61w8eVSVd1wd-DVqP8YRiIdMFRYtdWPXqVx6fejlN0wxbexxeSLgAEd_DwQZo0PaDBha3Fn8MysADkaxFKhRaUPKfxkQ" alt="TAPSI Logo" style="height: 40px;">
+        <strong style="color: red;">Senior Data Scientist & Back-End Developer – TAPSI</strong>
+      </div>
+      <em>Mar 2018 – Dec 2020 · 2 years 10 months | Tehran, Iran</em><br>
+      TAPSI is a leading online ride-hailing platform in Iran, providing intelligent mobility solutions through advanced technology and AI. <br>
+      • Developed AI-powered pricing microservices in Python, communicating via RabbitMQ for real-time fare adjustments. <br>
+      • Designed a GPS anomaly detection system to prevent fraud and ensure user safety. <br>
+      • Built data-driven recommendation features (origin, destination, favorite places) using unsupervised learning. <br>
+      • Created a microservice to estimate ETA based on live driver GPS; published a paper on the proposed method. <br>
+      • Engineered a spatiotemporal forecasting tool to predict high-demand ride areas in urban regions. <br>
+      • Utilized Spark and Kafka for scalable data pipelines; used PostgreSQL, MongoDB, and Redis for storage. <br>
+      • Stack: Python, Node.js, Spark, Kafka, RabbitMQ, PostgreSQL, MongoDB, Redis.
+    </li>
   </ul>
 </div>
 
