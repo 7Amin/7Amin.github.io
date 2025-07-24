@@ -122,7 +122,11 @@ Trait Discovery__ (paper will publish soon!)
 
 
 <div style="max-height: 458px; overflow-y: auto; border: 1px solid #ccc; padding: 10px; border-radius: 5px;">
-  <ul>    
+  <ul>   
+    <li>
+      <strong style="color: red;">07/2025 - Accepted in Biomedical Optics Express Journal:</strong> 
+       <a href="https://arxiv.org/pdf/2506.01923">ISOSNet: a unified framework for cone photoreceptor detection and inner segment and outer segment length measurement from AO-OCT B-scans</a>
+    </li> 
     <li>
       <strong style="color: red;">06/2025 - Accepted in ICCV 2025:</strong> 
        <a href="https://arxiv.org/pdf/2506.01923">TaxaDiffusion: Progressively Trained Diffusion Model for Fine-Grained Generation and Trait Discovery</a>
