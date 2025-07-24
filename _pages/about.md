@@ -125,7 +125,7 @@ Trait Discovery__ (paper will publish soon!)
   <ul>   
     <li>
       <strong style="color: green;">07/2025 - Accepted in Biomedical Optics Express Journal:</strong> 
-       <a href="https://arxiv.org/pdf/2506.01923">ISOSNet: a unified framework for cone photoreceptor detection and inner segment and outer segment length measurement from AO-OCT B-scans</a>
+       <a href="https://opg.optica.org/viewmedia.cfm?html=true&seq=0&uri=boe-16-8-3237">ISOSNet: a unified framework for cone photoreceptor detection and inner segment and outer segment length measurement from AO-OCT B-scans</a>
     </li> 
     <li>
       <strong style="color: red;">06/2025 - Accepted in ICCV 2025:</strong> 
