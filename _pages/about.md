@@ -79,7 +79,7 @@ Trait Discovery__ (paper will publish soon!)
     </li>
     <li>
       <div style="display: flex; align-items: center; gap: 10px;">
-        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAAAAABXZoBIAAAAkElEQVR4AdXSsQ2DMBCF4TcAVdJccY2pmYCGFTICHTVDscZN4YrCkrdwR6woAftMoIVfslx83bNRH3RRNEUbGnrGHvH8LjIrQrzL8oIN3aJyCc4a5x0M4R+Gqe+6fgp7aBsQM6GxJVpw/YlhC2yjfbXVKMmOEIVjxWvVmKFbhlfSkI0gXiVQw6eROX2ye/2+N/RE1nORZ6fIAAAAAElFTkSuQmCC" alt="Higharc Logo" style="height: 40px;">
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAAAAABXZoBIAAAAkElEQVR4AdXSsQ2DMBCF4TcAVdJccY2pmYCGFTICHTVDscZN4YrCkrdwR6woAftMoIVfslx83bNRH3RRNEUbGnrGHvH8LjIrQrzL8oIN3aJyCc4a5x0M4R+Gqe+6fgp7aBsQM6GxJVpw/YlhC2yjfbXVKMmOEIVjxWvVmKFbhlfSkI0gXiVQw6eROX2ye/2+N/RE1nORZ6fIAAAAAElFTkSuQmCC" alt="Higharc Logo" style="height: 30px;">
         <strong style="color: red;">Machine Learning Intern – Higharc</strong>
       </div>
       <em>May 2024 – Aug 2024 · 4 months | Remote, Durham, NC</em><br>
