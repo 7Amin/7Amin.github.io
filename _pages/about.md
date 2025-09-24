@@ -78,7 +78,7 @@ Trait Discovery__ (paper will publish soon!)
       • Researched and developed advanced generative models for efficient, few-step discrete diffusion, enabling faster and scalable text generation. <br>
       • Collaborated with a cross-functional ML team to design novel algorithms and architectures for large-scale language modeling. <br>
       • Conducted experiments and delivered insights that advanced Apple's research in discrete generative modeling and shaped future projects. <br>
-      • Submiting FS-DFM paper for ICLR 2026. 
+      • Submitting FS-DFM paper for ICLR 2026. 
     </li>
     <li>
       <div style="display: flex; align-items: center; gap: 10px;">
