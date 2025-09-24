@@ -75,7 +75,10 @@ Trait Discovery__ (paper will publish soon!)
         <strong style="color: red;">ML Research Intern – Apple MIND Team</strong>
       </div>
       <em>Summer 2025 | Seattle, WA</em><br>
-      Working on discrete diffusion models for efficient generative applications.
+      • Researched and developed advanced generative models for efficient, few-step discrete diffusion, enabling faster and scalable text generation. <br>
+      • Collaborated with a cross-functional ML team to design novel algorithms and architectures for large-scale language modeling. <br>
+      • Conducted experiments and delivered insights that advanced Apple's research in discrete generative modeling and shaped future projects. <br>
+      • Submiting FS-DFM paper for ICLR 2026. 
     </li>
     <li>
       <div style="display: flex; align-items: center; gap: 10px;">
@@ -122,7 +125,11 @@ Trait Discovery__ (paper will publish soon!)
 
 
 <div style="max-height: 458px; overflow-y: auto; border: 1px solid #ccc; padding: 10px; border-radius: 5px;">
-  <ul>   
+  <ul>
+    <li>
+      <strong style="color: red;">06/2025 - Submitted for ICLR 2026:</strong> 
+       <a href="">FS-DFM: Fast and Accurate Long Text Generation with Few-Step Diffusion Language Models (link will add soon)</a>
+    </li>   
     <li>
       <strong style="color: green;">07/2025 - Accepted in Biomedical Optics Express Journal:</strong> 
        <a href="https://opg.optica.org/viewmedia.cfm?html=true&seq=0&uri=boe-16-8-3237">ISOSNet: a unified framework for cone photoreceptor detection and inner segment and outer segment length measurement from AO-OCT B-scans</a>
@@ -197,6 +204,9 @@ Trait Discovery__ (paper will publish soon!)
 
 <div style="max-height: 250px; overflow-y: auto; border: 1px solid #ccc; padding: 10px; border-radius: 5px;">
   <ul>
+    <li>
+      <span style="color: blue;">Selected to serve as a reviewer for <strong>SIGKDD 2026</strong></span>
+    </li>
     <li>
       <span style="color: blue;">Selected to serve as a reviewer for <strong>SIGKDD 2025 Second Round</strong> (selected as an <span style="color: red;">Outstanding Reviewer</span> - 10% of top reviewers.)</span>
     </li>
