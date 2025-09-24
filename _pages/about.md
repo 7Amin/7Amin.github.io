@@ -127,7 +127,7 @@ Trait Discovery__ (paper will publish soon!)
 <div style="max-height: 458px; overflow-y: auto; border: 1px solid #ccc; padding: 10px; border-radius: 5px;">
   <ul>
     <li>
-      <strong style="color: red;">06/2025 - Submitted for ICLR 2026:</strong> 
+      <strong">06/2025 - Submitted for ICLR 2026:</strong> 
        <a href="">FS-DFM: Fast and Accurate Long Text Generation with Few-Step Diffusion Language Models (link will add soon)</a>
     </li>   
     <li>
