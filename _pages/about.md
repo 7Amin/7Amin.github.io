@@ -30,11 +30,11 @@ My research sits at the intersection of **generative modeling** and **representa
 # Research Interests:
 
 
-### Generative AI (Diffusion / Flow Models)
+### Generative AI (Diffusion Models)
 I develop diffusion- and flow-matching–based generative models that are **efficient at inference** (few-step / budgeted generation) and **controllable** (structured conditioning and user guidance).
 Representative work: [FS-DFM](https://arxiv.org/abs/2509.20624), [TaxaDiffusion](https://arxiv.org/abs/2506.01923), [KnobGen](https://arxiv.org/abs/2410.01595)
 
-### Foundation Models (Self-Supervised + Vision-Language Learning)
+### Foundation Models
 I design self-supervised and vision-language learning methods that improve **data efficiency**, **transfer**, and **detail sensitivity** for downstream vision tasks (e.g., fine-grained recognition and segmentation).
 Representative work: [Frequency-Guided Masking / FOLK](https://arxiv.org/abs/2409.10362), [DetailCLIP](https://arxiv.org/abs/2409.06809)
 
