@@ -29,7 +29,20 @@ My research sits at the intersection of **generative modeling** and **representa
 
 # Research Interests:
 
-### Image and Video Generation:
+
+### Generative AI (Diffusion / Flow Models)
+I develop diffusion- and flow-matching–based generative models that are **efficient at inference** (few-step / budgeted generation) and **controllable** (structured conditioning and user guidance).
+Representative work: [FS-DFM](https://arxiv.org/abs/2509.20624), [TaxaDiffusion](https://arxiv.org/abs/2506.01923), [KnobGen](https://arxiv.org/abs/2410.01595)
+
+### Foundation Models (Self-Supervised + Vision-Language Learning)
+I design self-supervised and vision-language learning methods that improve **data efficiency**, **transfer**, and **detail sensitivity** for downstream vision tasks (e.g., fine-grained recognition and segmentation).
+Representative work: [Frequency-Guided Masking / FOLK](https://arxiv.org/abs/2409.10362), [DetailCLIP](https://arxiv.org/abs/2409.06809)
+
+### Applied ML (Health, Sensing, and Spatiotemporal Prediction)
+I apply ML to high-impact domains where robustness and practicality matter—especially **3D medical imaging** and **multimodal spatiotemporal prediction** for safety/infrastructure and sensor-driven systems.
+Representative work: [Masked LoGoNet](https://arxiv.org/abs/2402.06190), [ISOSNet](https://opg.optica.org/boe/fulltext.cfm?id=574353&uri=boe-16-8-3237), [CrashFormer](https://arxiv.org/abs/2402.05151), [Road Construction Forecasting](https://arxiv.org/abs/2209.06813), [Indoor Air Quality Models](https://arxiv.org/abs/2308.01438)
+
+<!-- ### Image and Video Generation:
 
 * Developing innovative methods for generating high-quality images and videos.
 * Extending image-based generative strategies into multi-frame sequences, focusing on preserving consistent identity, style, and motion dynamics.
@@ -46,7 +59,7 @@ My research sits at the intersection of **generative modeling** and **representa
 
 * Utilizing self-supervised learning to train models on unlabeled medical images.
 * It aims to extract valuable features for better analysis and interpretation in the medical domain.
-* Developed Masked LoGoNet, a neural network architecture with tailored self-supervised learning for efficient medical image segmentation.
+* Developed Masked LoGoNet, a neural network architecture with tailored self-supervised learning for efficient medical image segmentation. -->
 
 
 
