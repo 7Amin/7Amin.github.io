@@ -78,7 +78,7 @@ Trait Discovery__ (paper will publish soon!)
       • Researched and developed advanced generative models for efficient, few-step discrete diffusion, enabling faster and scalable text generation. <br>
       • Collaborated with a cross-functional ML team to design novel algorithms and architectures for large-scale language modeling. <br>
       • Conducted experiments and delivered insights that advanced Apple's research in discrete generative modeling and shaped future projects. <br>
-      • Publisiung FS-DFM paper, Fast and Accurate Long Text Generation with Few-Step Diffusion Language Models.  
+      • Publishiung FS-DFM paper, Fast and Accurate Long Text Generation with Few-Step Diffusion Language Models.  
     </li>
     <li>
       <div style="display: flex; align-items: center; gap: 10px;">
@@ -201,8 +201,22 @@ Trait Discovery__ (paper will publish soon!)
 
 ### <span style="text-decoration: underline;">Reviewer Appointments:</span>
 
+<ul>
+  <li><strong>CVPR</strong>: Reviewer (2025, 2026)</li>
+  <li><strong>ICLR</strong>: Reviewer (2025, 2026)</li>
+  <li>
+    <strong>SIGKDD</strong>: Reviewer (2024, 2025, 2026)
+    <ul>
+      <li>2025 First Round: <em>Excellent Reviewer</em> (top 20%)</li>
+      <li>2025 Second Round: <em>Outstanding Reviewer</em> (top 10%)</li>
+    </ul>
+  </li>
+  <li><strong>WACV</strong>: Reviewer (2025)</li>
+</ul>
 
-<div style="max-height: 250px; overflow-y: auto; border: 1px solid #ccc; padding: 10px; border-radius: 5px;">
+
+
+<!-- <div style="max-height: 250px; overflow-y: auto; border: 1px solid #ccc; padding: 10px; border-radius: 5px;">
   <ul>
     <li>
       <span style="color: blue;">Selected to serve as a reviewer for <strong>CVPR 2026</strong></span>
@@ -232,7 +246,7 @@ Trait Discovery__ (paper will publish soon!)
       <span style="color: blue;">Selected to serve as a reviewer for <strong>SIGKDD 2024</strong></span>
     </li>
   </ul>
-</div>
+</div> -->
 
 
 
