@@ -10,7 +10,19 @@ redirect_from:
 
 <!-- I am currently on an exciting academic journey, pursuing a __Ph.D. in Computer Science__ at __Ohio State University__. Prior to this, I completed my Bachelor's and Master's degrees in computer engineering at the __Shahid Beheshti University of Tehran__. During my Bachelor's, I specialized in hardware, while my Master's focused on software. -->
 
-I am a dedicated __Ph.D. student in Computer Science__ at __The Ohio State University__, focusing on __Computer Vision, Vision-Language Models, and Self-Supervised Learning__ under the supervision of [Professor Rajiv Ramnath](https://cse.osu.edu/people/ramnath.6). My research encompasses image and video generation, as well as self-supervised learning techniques to advance the field of computer vision.
+<!-- I am a dedicated __Ph.D. student in Computer Science__ at __The Ohio State University__, focusing on __Computer Vision, Vision-Language Models, and Self-Supervised Learning__ under the supervision of [Professor Rajiv Ramnath](https://cse.osu.edu/people/ramnath.6). My research encompasses image and video generation, as well as self-supervised learning techniques to advance the field of computer vision. -->
+
+
+I am a Ph.D. student in Computer Science at **The Ohio State University**, advised by
+[Professor Rajiv Ramnath](https://cse.osu.edu/people/ramnath.6).
+My research spans **generative modeling** and **representation learning**, with an emphasis on making modern models **efficient, controllable, and useful in real-world settings**—from diffusion/flow-based generation to self-supervised and vision-language learning.
+
+
+<!-- I am a Ph.D. student in Computer Science at **The Ohio State University**, advised by
+[Professor Rajiv Ramnath](https://cse.osu.edu/people/ramnath.6).
+My research sits at the intersection of **generative modeling** and **representation learning**, with an emphasis on **diffusion models** across **language and vision**. Recently, I have focused on making diffusion models *practical*—improving controllability and fine-grained fidelity, while reducing inference cost for long-form generation (e.g., **FS-DFM** :contentReference[oaicite:0]{index=0}).
+
+ -->
 
 <!-- __<span style="color: red;">I am actively looking for a research internship for summer  2025!</span>__ -->
 
