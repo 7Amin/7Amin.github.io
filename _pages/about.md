@@ -230,6 +230,7 @@ Trait Discovery__ (paper will publish soon!)
   <li><strong>CVPR</strong>: Reviewer (2025, 2026)</li>
   <li><strong>ICLR</strong>: Reviewer (2025, 2026)</li>
   <li><strong>ICML</strong>: Reviewer (2026)</li>
+  <li><strong>ECCV</strong>: Reviewer (2026)</li>
   <li>
     <strong>SIGKDD</strong>: Reviewer (2024, 2025, 2026)
     <ul>
