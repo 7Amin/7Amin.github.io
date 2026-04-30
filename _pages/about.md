@@ -148,10 +148,10 @@ Trait Discovery__ (paper will publish soon!)
 
 <ul>
   <li>
-    <strong style="color: red;">2026 — Graduate Research Award</strong>, 
+    <strong style="color: red;">2025–26 — Graduate Research Award</strong>, 
     Department of Computer Science and Engineering, The Ohio State University.
     <br>
-    <em>Awarded annually to a small number of CSE graduate students for outstanding research contributions.</em>
+    <em>Selected by the OSU CSE Department for distinguished research contributions in generative modeling.</em>
   </li>
 </ul>
 
