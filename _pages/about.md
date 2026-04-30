@@ -144,6 +144,17 @@ Trait Discovery__ (paper will publish soon!)
 
 
 
+### <span style="text-decoration: underline;">Awards & Honors:</span>
+
+<ul>
+  <li>
+    <strong style="color: red;">2026 — Graduate Research Award</strong>, 
+    Department of Computer Science and Engineering, The Ohio State University.
+    <br>
+    <em>Awarded annually to a small number of CSE graduate students for outstanding research contributions.</em>
+  </li>
+</ul>
+
 <!-- ### Publications: -->
 
 ### <span style="text-decoration: underline;">Publications:</span>
@@ -236,6 +247,7 @@ Trait Discovery__ (paper will publish soon!)
     <ul>
       <li>2025 First Round: <em>Excellent Reviewer</em> (top 20%)</li>
       <li>2025 Second Round: <em>Outstanding Reviewer</em> (top 10%)</li>
+      <li>2026: <em>Excellent Reviewer</em> (second-highest grade; previous cycle received highest grade)</li>
     </ul>
   </li>
   <li><strong>WACV</strong>: Reviewer (2025)</li>
