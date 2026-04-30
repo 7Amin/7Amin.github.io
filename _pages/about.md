@@ -225,7 +225,7 @@ Representative work: [Masked LoGoNet](https://arxiv.org/abs/2402.06190), [ISOSNe
     <ul>
       <li>2025 First Round: <em>Excellent Reviewer</em> (top 20%)</li>
       <li>2025 Second Round: <em>Outstanding Reviewer</em> (top 10%)</li>
-      <li>2026: <em>Excellent Reviewer</em> (second-highest grade; previous cycle received highest grade)</li>
+      <li>2026: <em>Excellent Reviewer</em> (second-highest grade)</li>
     </ul>
   </li>
   <li><strong>WACV</strong>: Reviewer (2025)</li>
