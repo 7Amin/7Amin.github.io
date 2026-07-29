@@ -1184,12 +1184,16 @@ hr {
    text, so the list stays scannable. */
 .ak-pubs--figures > li { padding-right: 10rem; }
 
+/* A row carrying a thumbnail reserves at least the thumbnail's height, so the
+   figure can never spill past the divider and read as the next paper's. */
+.ak-pubs--figures > li.has-fig { min-height: 6.9rem; }
+
 .ak-pubs__fig {
   position: absolute;
   right: 0;
-  top: 1.05em;
+  top: 0.9em;
   width: 8.6rem;
-  height: 5rem;
+  height: 4.6rem;
   padding: 0.3rem;
   border: 1px solid var(--ak-rule);
   border-radius: var(--ak-radius-sm);
@@ -1199,5 +1203,6 @@ hr {
 
 @media (max-width: 52em) {
   .ak-pubs--figures > li { padding-right: 0; }
+  .ak-pubs--figures > li.has-fig { min-height: 0; }
   .ak-pubs__fig { display: none; }
 }

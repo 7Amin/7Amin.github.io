@@ -117,7 +117,7 @@ few-step discrete diffusion and flow matching for large-scale text generation.
 <h2 class="ak-section" id="publications">Selected Publications</h2>
 
 <ul class="ak-pubs ak-pubs--figures">
-  <li>
+  <li class="has-fig">
     <span class="ak-badge">ICLR 2026</span>
     <img class="ak-pubs__fig" src="/images/papers/fs-dfm.jpg" alt="" loading="lazy" decoding="async">
     <a class="ak-pubs__title" href="https://arxiv.org/pdf/2509.20624">FS-DFM: Fast and Accurate Long Text Generation with Few-Step Diffusion Language Models</a>
@@ -128,19 +128,19 @@ few-step discrete diffusion and flow matching for large-scale text generation.
     <a class="ak-pubs__title" href="https://opg.optica.org/viewmedia.cfm?html=true&amp;seq=0&amp;uri=boe-16-8-3237">ISOSNet: A Unified Framework for Cone Photoreceptor Detection and Inner/Outer Segment Length Measurement from AO-OCT B-Scans</a>
     <span class="ak-pubs__meta">Biomedical Optics Express, 2025</span>
   </li>
-  <li>
+  <li class="has-fig">
     <span class="ak-badge">ICCV 2025</span>
     <img class="ak-pubs__fig" src="/images/papers/taxadiffusion.jpg" alt="" loading="lazy" decoding="async">
     <a class="ak-pubs__title" href="https://arxiv.org/pdf/2506.01923">TaxaDiffusion: Progressively Trained Diffusion Model for Fine-Grained Species Generation</a>
     <span class="ak-pubs__meta">International Conference on Computer Vision, 2025</span>
   </li>
-  <li>
+  <li class="has-fig">
     <span class="ak-badge">ICLR 2025</span>
     <img class="ak-pubs__fig" src="/images/papers/folk.jpg" alt="" loading="lazy" decoding="async">
     <a class="ak-pubs__title" href="https://arxiv.org/pdf/2409.10362">Frequency-Guided Masking for Enhanced Vision Self-Supervised Learning</a>
     <span class="ak-pubs__meta">International Conference on Learning Representations, 2025</span>
   </li>
-  <li>
+  <li class="has-fig">
     <span class="ak-badge">KDD 2024</span>
     <img class="ak-pubs__fig" src="/images/papers/logonet.jpg" alt="" loading="lazy" decoding="async">
     <a class="ak-pubs__title" href="https://arxiv.org/pdf/2402.06190">Masked LoGoNet: Fast and Accurate 3D Image Analysis for Medical Domain</a>
@@ -156,13 +156,13 @@ few-step discrete diffusion and flow matching for large-scale text generation.
 <details class="ak-more">
   <summary>Show more publications</summary>
   <ul class="ak-pubs ak-pubs--figures">
-    <li>
+    <li class="has-fig">
       <span class="ak-badge ak-badge--workshop">CVPR-W 2025</span>
       <img class="ak-pubs__fig" src="/images/papers/knobgen.jpg" alt="" loading="lazy" decoding="async">
       <a class="ak-pubs__title" href="https://arxiv.org/pdf/2410.01595">KnobGen: Controlling the Sophistication of Artwork in Sketch-Based Diffusion Models</a>
       <span class="ak-pubs__meta">CVEU Workshop, CVPR 2025</span>
     </li>
-    <li>
+    <li class="has-fig">
       <span class="ak-badge ak-badge--workshop">ICLR-W 2025</span>
       <img class="ak-pubs__fig" src="/images/papers/detailclip.jpg" alt="" loading="lazy" decoding="async">
       <a class="ak-pubs__title" href="https://arxiv.org/pdf/2409.06809">DetailCLIP: Detail-Oriented CLIP for Fine-Grained Tasks</a>
