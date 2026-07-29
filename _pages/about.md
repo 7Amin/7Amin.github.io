@@ -1,279 +1,360 @@
 ---
 permalink: /
 title: "Amin Karimi Monsefi"
-excerpt: "About me"
+excerpt: "Ph.D. student in Computer Science at The Ohio State University working on generative modeling and representation learning."
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-<!-- I am currently on an exciting academic journey, pursuing a __Ph.D. in Computer Science__ at __Ohio State University__. Prior to this, I completed my Bachelor's and Master's degrees in computer engineering at the __Shahid Beheshti University of Tehran__. During my Bachelor's, I specialized in hardware, while my Master's focused on software. -->
+<p class="ak-lead">
+I am a Ph.D. candidate in Computer Science at <strong>The Ohio State University</strong>, advised by
+<a href="https://cse.osu.edu/people/ramnath.6">Professor Rajiv Ramnath</a>.
+My research advances <strong>efficient and controllable generative models</strong> and the representations that power
+them — few-step diffusion and flow matching across <strong>both continuous (vision) and discrete (language)</strong>
+spaces, self-supervised and vision–language pretraining, and the translation of both into high-impact scientific
+domains. I am also a machine-learning research intern with the <strong>Apple MIND team</strong>, working on
+few-step discrete diffusion and flow matching for large-scale text generation.
+</p>
 
-<!-- I am a dedicated __Ph.D. student in Computer Science__ at __The Ohio State University__, focusing on __Computer Vision, Vision-Language Models, and Self-Supervised Learning__ under the supervision of [Professor Rajiv Ramnath](https://cse.osu.edu/people/ramnath.6). My research encompasses image and video generation, as well as self-supervised learning techniques to advance the field of computer vision. -->
+<ul class="ak-links">
+  <li><a href="https://scholar.google.com/citations?user=TLDQxC8AAAAJ&hl=en">Google Scholar</a></li>
+  <li><a href="https://github.com/7Amin">GitHub</a></li>
+  <li><a href="https://www.linkedin.com/in/amin-karimi-monsefi-5672b4153">LinkedIn</a></li>
+  <li><a href="https://orcid.org/0000-0002-6101-2828">ORCID</a></li>
+  <li><a href="/files/Amin_Karimi_Monsefi_CV.pdf">Curriculum Vitae</a></li>
+  <li><a href="mailto:amin.karimi1992@gmail.com">Email</a></li>
+</ul>
 
+<h2 class="ak-section" id="news">News</h2>
 
-I am a Ph.D. student in Computer Science at **The Ohio State University**, advised by
-[Professor Rajiv Ramnath](https://cse.osu.edu/people/ramnath.6).
-My research spans **generative modeling** and **representation learning**, with an emphasis on making modern models **efficient, controllable, and useful in real-world settings**—from diffusion/flow-based generation to self-supervised and vision-language learning.
-
-
-<!-- I am a Ph.D. student in Computer Science at **The Ohio State University**, advised by
-[Professor Rajiv Ramnath](https://cse.osu.edu/people/ramnath.6).
-My research sits at the intersection of **generative modeling** and **representation learning**, with an emphasis on **diffusion models** across **language and vision**. Recently, I have focused on making diffusion models *practical*—improving controllability and fine-grained fidelity, while reducing inference cost for long-form generation (e.g., **FS-DFM** :contentReference[oaicite:0]{index=0}).
-
- -->
-
-<!-- __<span style="color: red;">I am actively looking for a research internship for summer  2025!</span>__ -->
-
-
-# Research Interests:
-
-
-### Generative AI (Diffusion Models)
-I develop diffusion- and flow-matching–based generative models that are **efficient at inference** (few-step / budgeted generation) and **controllable** (structured conditioning and user guidance).
-Representative work: [FS-DFM](https://arxiv.org/abs/2509.20624), [TaxaDiffusion](https://arxiv.org/abs/2506.01923), [KnobGen](https://arxiv.org/abs/2410.01595)
-
-### Foundation Models
-I design self-supervised and vision-language learning methods that improve **data efficiency**, **transfer**, and **detail sensitivity** for downstream vision tasks (e.g., fine-grained recognition and segmentation).
-Representative work: [Frequency-Guided Masking / FOLK](https://arxiv.org/abs/2409.10362), [DetailCLIP](https://arxiv.org/abs/2409.06809)
-
-### Applied ML (Health, Sensing, and Spatiotemporal Prediction)
-I apply ML to high-impact domains where robustness and practicality matter—especially **3D medical imaging** and **multimodal spatiotemporal prediction** for safety/infrastructure and sensor-driven systems.
-Representative work: [Masked LoGoNet](https://arxiv.org/abs/2402.06190), [ISOSNet](https://opg.optica.org/boe/fulltext.cfm?id=574353&uri=boe-16-8-3237), [CrashFormer](https://arxiv.org/abs/2402.05151), [Road Construction Forecasting](https://arxiv.org/abs/2209.06813), [Indoor Air Quality Models](https://arxiv.org/abs/2308.01438)
-
-<!-- ### Image and Video Generation:
-
-* Developing innovative methods for generating high-quality images and videos.
-* Extending image-based generative strategies into multi-frame sequences, focusing on preserving consistent identity, style, and motion dynamics.
-* Employing hierarchical knowledge structures to capture subtle morphological or stylistic variations, allowing for highly distinctive yet consistent image synthesis.
-* Exploring how the creativity of Large Language Models (LLMs) can be utilized in video generation with diffusion models.
-
-### Self-Supervised Learning for Vision:
-
-* Designing self-supervised approaches to learn meaningful representations from unlabeled data.
-* Projects include Frequency-Guided Masking for Enhanced Vision Self-Supervised Learning and a self-supervised approach for general images using multimodal architectures like CLIP.
-* Applying self-supervised learning to medical image analysis to overcome the challenge of limited labeled data.
-
-### Medical Image Analysis:
-
-* Utilizing self-supervised learning to train models on unlabeled medical images.
-* It aims to extract valuable features for better analysis and interpretation in the medical domain.
-* Developed Masked LoGoNet, a neural network architecture with tailored self-supervised learning for efficient medical image segmentation. -->
-
-
-
-<!-- # Recent News and Updates: -->
-# <span style="text-decoration: underline;">Recent News and Updates:</span>
-
-
-
-### <span style="text-decoration: underline;">Awards & Honors:</span>
-
-<ul>
+<ul class="ak-news">
   <li>
-    <strong style="color: red;">2025–26 — Graduate Research Award</strong>, 
-    Department of Computer Science and Engineering, The Ohio State University.
-    <br>
-    <em>Selected by the OSU CSE Department for distinguished research contributions in generative modeling.</em>
+    <span class="ak-news__date">2026</span>
+    <span class="ak-badge ak-badge--new">New</span>
+    Serving as a reviewer for <strong>NeurIPS 2026</strong>, <strong>WACV 2026</strong>, and <strong>BMVC 2026</strong>.
+  </li>
+  <li>
+    <span class="ak-news__date">2026</span>
+    Recognized as a <strong>Silver Reviewer</strong> for <strong>ICML 2026</strong>.
+  </li>
+  <li>
+    <span class="ak-news__date">Jan 2026</span>
+    <a href="https://arxiv.org/abs/2509.20624">FS-DFM</a> — fast and accurate long-text generation with few-step
+    diffusion language models — accepted at <strong>ICLR 2026</strong>.
+  </li>
+  <li>
+    <span class="ak-news__date">2025–26</span>
+    Received the <strong>Graduate Research Award</strong> from the OSU Department of Computer Science and Engineering.
+  </li>
+  <li>
+    <span class="ak-news__date">Jul 2025</span>
+    <a href="https://opg.optica.org/viewmedia.cfm?html=true&amp;seq=0&amp;uri=boe-16-8-3237">ISOSNet</a> accepted in
+    <strong>Biomedical Optics Express</strong>.
+  </li>
+  <li>
+    <span class="ak-news__date">Jun 2025</span>
+    <a href="https://arxiv.org/abs/2506.01923">TaxaDiffusion</a> accepted at <strong>ICCV 2025</strong>.
   </li>
 </ul>
 
+<h2 class="ak-section" id="research">Research Interests</h2>
 
-### <span style="text-decoration: underline;">Professional Experience:</span>
+<div class="ak-grid">
+  <div class="ak-card">
+    <h3>Diffusion &amp; Flow Matching in Continuous Space</h3>
+    <p>
+      Controllable and physics-aware generative models for images and video, with <strong>few-step samplers</strong>
+      that approach or surpass thousand-step teachers.
+    </p>
+    <p class="ak-card__links">
+      <a href="https://arxiv.org/abs/2506.01923">TaxaDiffusion</a> ·
+      <a href="https://arxiv.org/abs/2410.01595">KnobGen</a>
+    </p>
+  </div>
 
-<div style="max-height: 380px; overflow-y: auto; border: 1px solid #ccc; padding: 10px; border-radius: 5px;">
-  <ul style="list-style: none; padding-left: 0;">
-    <li style="margin-bottom: 20px;">
-      <div style="display: flex; align-items: center; gap: 10px;">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg" alt="Apple Logo" style="height: 30px;">
-        <strong style="color: red;">ML Research Intern – Apple MIND Team</strong>
-      </div>
-      <em>May 2025 – Sep 2025 · 5 months | Summer 2025 | Seattle, WA</em><br>
-      • Researched and developed advanced generative models for efficient, few-step discrete diffusion, enabling faster and scalable text generation. <br>
-      • Collaborated with a cross-functional ML team to design novel algorithms and architectures for large-scale language modeling. <br>
-      • Conducted experiments and delivered insights that advanced Apple's research in discrete generative modeling and shaped future projects. <br>
-      • Publishiung FS-DFM paper, Fast and Accurate Long Text Generation with Few-Step Diffusion Language Models.  
-    </li>
-    <li>
-      <div style="display: flex; align-items: center; gap: 10px;">
-        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAAAAABXZoBIAAAAkElEQVR4AdXSsQ2DMBCF4TcAVdJccY2pmYCGFTICHTVDscZN4YrCkrdwR6woAftMoIVfslx83bNRH3RRNEUbGnrGHvH8LjIrQrzL8oIN3aJyCc4a5x0M4R+Gqe+6fgp7aBsQM6GxJVpw/YlhC2yjfbXVKMmOEIVjxWvVmKFbhlfSkI0gXiVQw6eROX2ye/2+N/RE1nORZ6fIAAAAAElFTkSuQmCC" alt="Higharc Logo" style="height: 30px;">
-        <strong style="color: red;">Machine Learning Intern – Higharc</strong>
-      </div>
-      <em>May 2024 – Aug 2024 · 4 months | Remote, Durham, NC</em><br>
-      • Conducting research on semantic and panoptic segmentation tasks. <br>
-      • Utilizing unlabeled data to pre-train a DETR-based model and addressing challenges of limited labeled data with self-supervised learning.
-    </li>
-    <li style="margin-bottom: 20px;">
-      <div style="display: flex; align-items: center; gap: 10px;">
-        <img src="https://yt3.googleusercontent.com/ytc/AIdro_ldZTDc5vbqq8mn3sZfjbAZggz04Z9hZQEDrVN-98K34A=s160-c-k-c0x00ffffff-no-rj" alt="JIBB Logo" style="height: 40px;">
-        <strong style="color: red;">Senior Data Scientist – JIBB</strong>
-      </div>
-      <em>Dec 2020 – Dec 2021 · 1 year 1 month | Remote, San Francisco, CA</em><br>
-      JIBB provides a smart platform to capture, save, and share handwriting from whiteboards or paper across devices. <br>
-      • Designed and deployed computer vision pipelines for object detection and dynamic content filtering in both images and videos. <br>
-      • Developed custom CNN architectures to accurately detect content color and remove shadows and reflections. <br>
-      • Built automated tools for enhancing visual clarity in real-time handwriting sessions.
-    </li>
-    <li style="margin-bottom: 20px;">
-      <div style="display: flex; align-items: center; gap: 10px;">
-        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMwAAADACAMAAAB/Pny7AAAAolBMVEX+VyL/////VR/5Wx7/VCb+//38Vyj88eT5VB7mo4f1XCHnc0z52cL//fr8WCPqVynvWifiXzHkiV////Xha0D7//j0VSDrwbTxUirsnoTwVSf0Wif/+//oXibmXy7+9uPoWh3qbD3vcUjleEvnc1fqZkDysI/4z7/33cL72tHkaEbpw6/qyK3w//7/9f3vtqH86evtnnjhp4j/Sy7xaDvpfluYOAtYAAACxklEQVR4nO3ba1PaQBSH8bAJ4aI5RDGRGsRbqbbW3qzf/6t1NxAUx3HcZWLO2Of3JhNUyJ+Fye5xTxQBAAAAAAAAAAAAAAAAAAAAAIBwxphIojiYuCfQIomiNE2Sx/O3Eqv+C0Vh0qoSd22pryZU1wGekvPz2AzLcuirdKRMmwFSwKQXV5eXV1ef90LZRF2HaMjyy/719c3N1/1QeZl2HaIx/HY7nWdFMc9CnVaVmjTL78V8fnf3o+9rFaVfnOZqwgyPbgt7ZXdz7zDrSMUiL+2ntesctfjouNef9nuhsuwgF3vbVZGmDlN8kDDlRwrDyGylURRm15FRFYaR0RqGkdEahpHRGoaR0RrmQ42MLI97PZtl7p2ifgOKabaoRMt6Jlr+HGSDwa9BqLOxnvKMLA5Ho9Hv0Z+Rr09rsahJI9VkNhuPz08nvk7W9GSxYWb3SRzLvTtxddbYPiauhux++MpxU57WkyWK0sTIuEo2YRx5dnyRrLV5cZ6MFY/Hkoivrq/8RTZKEClX1eaur/8pV86/t18b46vrCwcAYEcm2l71ed8LFd40TTODCpyraJrO2Pet3myQRK9NFXfTeohm1r7jh0DLEsA9t1ktr2qPL/3KWktWv7h1VLM4k6pqFrXeq2Fdy2Y7LlX+tyk3eNcpVBU03PaxPN87C64dqSo1GYnT2eF0WvT6vX4RXqrUUAQU+/WMXJhs84qtarU868IkmzDtIwxhCEMYwhCGMP9hmHY3zxFGc5h3nDW3vkczTieH0yJze6iLwL3XWjZpGyP5wUPWbG9vL8Z7bJ+3YU4WD8F9CpoaG0RiE6WTy+AOEk0tJ+IqX+lsEdzb461qr0Jbh0nSWbnm3X2lqU1LXLOh23ex5t0Xp6qBru6cfDx9c6eit03tr8X/bsiqDTR+VhFujaqmUwAAAAAAAAAAAAAAAAAAAAAAtPgHR2KNKeb5gtMAAAAASUVORK5CYII=" alt="TAPSI Logo" style="height: 30px;">
-        <strong style="color: red;">Senior Data Scientist & Back-End Developer – TAPSI</strong>
-      </div>
-      <em>Mar 2018 – Dec 2020 · 2 years 10 months | Tehran, Iran</em><br>
-      TAPSI is a leading online ride-hailing platform in Iran, providing intelligent mobility solutions through advanced technology and AI. <br>
-      • Developed AI-powered pricing microservices in Python, communicating via RabbitMQ for real-time fare adjustments. <br>
-      • Designed a GPS anomaly detection system to prevent fraud and ensure user safety. <br>
-      • Built data-driven recommendation features (origin, destination, favorite places) using unsupervised learning. <br>
-      • Created a microservice to estimate ETA based on live driver GPS; published a paper on the proposed method. <br>
-      • Engineered a spatiotemporal forecasting tool to predict high-demand ride areas in urban regions.
-    </li>
-  </ul>
+  <div class="ak-card">
+    <h3>Discrete Diffusion &amp; Flow Matching for Language</h3>
+    <p>
+      Diffusion language models that close the gap with autoregressive systems while staying parallel and
+      bidirectional — step-aware discrete flow matching, trajectory distillation, and RL with per-step credit
+      assignment.
+    </p>
+    <p class="ak-card__links">
+      <a href="https://arxiv.org/abs/2509.20624">FS-DFM</a>
+    </p>
+  </div>
+
+  <div class="ak-card">
+    <h3>Self-Supervised &amp; Vision–Language Representation Learning</h3>
+    <p>
+      Pretraining objectives that capture <strong>fine-grained structure</strong>, underpinning downstream
+      generation, recognition, and segmentation.
+    </p>
+    <p class="ak-card__links">
+      <a href="https://arxiv.org/abs/2409.10362">FOLK</a> ·
+      <a href="https://arxiv.org/abs/2409.06809">DetailCLIP</a>
+    </p>
+  </div>
+
+  <div class="ak-card">
+    <h3>Applied Generative Learning for Scientific Domains</h3>
+    <p>
+      Translating these methods to biodiversity, <strong>3D medical imaging</strong>, and multimodal
+      <strong>spatiotemporal prediction</strong> for smart mobility.
+    </p>
+    <p class="ak-card__links">
+      <a href="https://arxiv.org/abs/2402.06190">Masked LoGoNet</a> ·
+      <a href="https://opg.optica.org/boe/fulltext.cfm?id=574353&amp;uri=boe-16-8-3237">ISOSNet</a> ·
+      <a href="https://arxiv.org/abs/2402.05151">CrashFormer</a>
+    </p>
+  </div>
 </div>
 
+<h2 class="ak-section" id="publications">Selected Publications</h2>
 
-
-<!-- ### Publications: -->
-
-### <span style="text-decoration: underline;">Publications:</span>
-
-
-<div style="max-height: 458px; overflow-y: auto; border: 1px solid #ccc; padding: 10px; border-radius: 5px;">
-  <ul>
-    <li>
-      <strong style="color: red;">01/2026 - Accepted in ICLR 2026:</strong> 
-       <a href="https://arxiv.org/pdf/2509.20624">FS-DFM: Fast and Accurate Long Text Generation with Few-Step Diffusion Language Models</a>
-    </li>   
-    <li>
-      <strong style="color: green;">07/2025 - Accepted in Biomedical Optics Express Journal:</strong> 
-       <a href="https://opg.optica.org/viewmedia.cfm?html=true&seq=0&uri=boe-16-8-3237">ISOSNet: a unified framework for cone photoreceptor detection and inner segment and outer segment length measurement from AO-OCT B-scans</a>
-    </li> 
-    <li>
-      <strong style="color: red;">06/2025 - Accepted in ICCV 2025:</strong> 
-       <a href="https://arxiv.org/pdf/2506.01923">TaxaDiffusion: Progressively Trained Diffusion Model for Fine-Grained Generation and Trait Discovery</a>
-    </li>
-    <li>
-      <strong>03/2025 - Accepted in CVEU Workshop of CVPR 2025:</strong> 
-      <a href="https://arxiv.org/pdf/2410.01595">KnobGen: Controlling the Sophistication of Artwork in Sketch-Based Diffusion Models</a>
-    </li>
-    <li>
-      <strong style="color: red;">01/2025 - Accepted in ICLR 2025:</strong> 
-      <a href="https://arxiv.org/pdf/2409.10362">Frequency-Guided Masking for Enhanced Vision Self-Supervised Learning</a>
-    </li>
-    <li>
-      <strong>02/2025 - Accepted in SSI-FM Workshop of ICLR 2025: </strong> 
-      <a href="https://arxiv.org/pdf/2409.06809">DetailCLIP: Detail-Oriented CLIP for Fine-Grained Tasks</a>
-    </li>
-    <li>
-      <strong style="color: red;">05/2024 - Accepted in SIGKDD 2024:</strong> 
-      <a href="https://arxiv.org/pdf/2402.06190">Masked LoGoNet: Fast and Accurate 3D Image Analysis for Medical Domain</a>
-    </li>
-    <li>
-      <strong style="color: green;">03/2024 - Accepted in Biomedical Optics Express Journal:</strong> 
-      <a href="https://opg.optica.org/boe/fulltext.cfm?uri=boe-15-8-4540&id=553141">Reducing Manual Labeling Requirements and Improved Retinal Ganglion Cell Identification in 3D AO-OCT Volumes Using Semi-Supervised Learning</a>
-    </li>
-    <li>
-      <strong>06/2023 - Accepted in ACM SIGSPATIAL International Workshop on Advances in Urban-AI:</strong> 
-      <a href="https://dl.acm.org/doi/pdf/10.1145/3615900.3628769">CrashFormer: A Multimodal Architecture to Predict the Risk of Crash</a>
-    </li>
-    <li>
-      <strong style="color: red;">05/2023 - Accepted in SIGKDD 2023:</strong> 
-      <a href="https://arxiv.org/pdf/2308.01438">Novel Physics-Based Machine-Learning Models for Indoor Air Quality Approximations</a>
-    </li>
-    <li>
-      <strong style="color: green;">02/2023 - Accepted in Digital Communications and Networks Journal - 2023:</strong> 
-      <a href="https://www.sciencedirect.com/science/article/pii/S2352864823000354">Smart and collaborative industrial IoT: A federated learning and data space approach</a>
-    </li>
-    <li>
-      <strong style="color: red;">08/2022 - Accepted in ACM SIGSPATIAL 2022:</strong> 
-      <a href="https://arxiv.org/pdf/2209.06813">Will there be a construction? Predicting road constructions based on heterogeneous spatiotemporal data</a>
-    </li>
-  </ul>
-</div>
-
-
-
-
-
-<!-- ### Reviewer Appointments:
-
-* <span style="color: blue;">Selected to serve as a reviewer for __SIGKDD 2025 Second Round__ </span>
-
-* <span style="color: blue;">Selected to serve as a reviewer for __CVPR 2025__</span>
-
-* <span style="color: blue;">Selected to serve as a reviewer for __ICLR 2025__</span>
-
-* <span style="color: blue;">Selected to serve as a reviewer for __WACV 2025__</span>
-
-* <span style="color: blue;">Selected to serve as a reviewer for __SIGKDD 2025 First Round__ (selected as an Excellent Reviewer) </span>
-
-* <span style="color: blue;">Selected to serve as a reviewer for __SIGKDD 2024__</span>
- -->
-
-
- <!-- ### Reviewer Appointments: -->
-
-### <span style="text-decoration: underline;">Reviewer Appointments:</span>
-
-<ul>
-  <li><strong>CVPR</strong>: Reviewer (2025, 2026)</li>
-  <li><strong>ICLR</strong>: Reviewer (2025, 2026)</li>
-  <li><strong>ICML</strong>: Reviewer (2026)</li>
-  <li><strong>ECCV</strong>: Reviewer (2026)</li>
+<ul class="ak-pubs">
   <li>
-    <strong>SIGKDD</strong>: Reviewer (2024, 2025, 2026)
-    <ul>
-      <li>2025 First Round: <em>Excellent Reviewer</em> (top 20%)</li>
-      <li>2025 Second Round: <em>Outstanding Reviewer</em> (top 10%)</li>
-      <li>2026: <em>Excellent Reviewer</em> (second-highest grade)</li>
+    <span class="ak-badge">ICLR 2026</span>
+    <a class="ak-pubs__title" href="https://arxiv.org/pdf/2509.20624">FS-DFM: Fast and Accurate Long Text Generation with Few-Step Diffusion Language Models</a>
+    <span class="ak-pubs__meta">International Conference on Learning Representations, 2026</span>
+  </li>
+  <li>
+    <span class="ak-badge ak-badge--journal">Journal 2025</span>
+    <a class="ak-pubs__title" href="https://opg.optica.org/viewmedia.cfm?html=true&amp;seq=0&amp;uri=boe-16-8-3237">ISOSNet: A Unified Framework for Cone Photoreceptor Detection and Inner/Outer Segment Length Measurement from AO-OCT B-Scans</a>
+    <span class="ak-pubs__meta">Biomedical Optics Express, 2025</span>
+  </li>
+  <li>
+    <span class="ak-badge">ICCV 2025</span>
+    <a class="ak-pubs__title" href="https://arxiv.org/pdf/2506.01923">TaxaDiffusion: Progressively Trained Diffusion Model for Fine-Grained Species Generation</a>
+    <span class="ak-pubs__meta">International Conference on Computer Vision, 2025</span>
+  </li>
+  <li>
+    <span class="ak-badge">ICLR 2025</span>
+    <a class="ak-pubs__title" href="https://arxiv.org/pdf/2409.10362">Frequency-Guided Masking for Enhanced Vision Self-Supervised Learning</a>
+    <span class="ak-pubs__meta">International Conference on Learning Representations, 2025</span>
+  </li>
+  <li>
+    <span class="ak-badge">KDD 2024</span>
+    <a class="ak-pubs__title" href="https://arxiv.org/pdf/2402.06190">Masked LoGoNet: Fast and Accurate 3D Image Analysis for Medical Domain</a>
+    <span class="ak-pubs__meta">ACM SIGKDD Conference on Knowledge Discovery and Data Mining, 2024</span>
+  </li>
+  <li>
+    <span class="ak-badge">KDD 2023</span>
+    <a class="ak-pubs__title" href="https://arxiv.org/pdf/2308.01438">Novel Physics-Based Machine-Learning Models for Indoor Air Quality Approximations</a>
+    <span class="ak-pubs__meta">ACM SIGKDD Conference on Knowledge Discovery and Data Mining, 2023</span>
+  </li>
+</ul>
+
+<details class="ak-more">
+  <summary>Show more publications</summary>
+  <ul class="ak-pubs">
+    <li>
+      <span class="ak-badge ak-badge--workshop">CVPR-W 2025</span>
+      <a class="ak-pubs__title" href="https://arxiv.org/pdf/2410.01595">KnobGen: Controlling the Sophistication of Artwork in Sketch-Based Diffusion Models</a>
+      <span class="ak-pubs__meta">CVEU Workshop, CVPR 2025</span>
+    </li>
+    <li>
+      <span class="ak-badge ak-badge--workshop">ICLR-W 2025</span>
+      <a class="ak-pubs__title" href="https://arxiv.org/pdf/2409.06809">DetailCLIP: Detail-Oriented CLIP for Fine-Grained Tasks</a>
+      <span class="ak-pubs__meta">SSI-FM Workshop, ICLR 2025</span>
+    </li>
+    <li>
+      <span class="ak-badge ak-badge--journal">Journal 2024</span>
+      <a class="ak-pubs__title" href="https://opg.optica.org/boe/fulltext.cfm?uri=boe-15-8-4540&amp;id=553141">Reducing Manual Labeling Requirements and Improved Retinal Ganglion Cell Identification in 3D AO-OCT Volumes Using Semi-Supervised Learning</a>
+      <span class="ak-pubs__meta">Biomedical Optics Express, 2024</span>
+    </li>
+    <li>
+      <span class="ak-badge ak-badge--workshop">SIGSPATIAL-W 2023</span>
+      <a class="ak-pubs__title" href="https://dl.acm.org/doi/pdf/10.1145/3615900.3628769">CrashFormer: A Multimodal Architecture to Predict the Risk of Crash</a>
+      <span class="ak-pubs__meta">ACM SIGSPATIAL International Workshop on Advances in Urban-AI, 2023</span>
+    </li>
+    <li>
+      <span class="ak-badge ak-badge--journal">Journal 2023</span>
+      <a class="ak-pubs__title" href="https://www.sciencedirect.com/science/article/pii/S2352864823000354">Smart and Collaborative Industrial IoT: A Federated Learning and Data Space Approach</a>
+      <span class="ak-pubs__meta">Digital Communications and Networks, 2023</span>
+    </li>
+    <li>
+      <span class="ak-badge">SIGSPATIAL 2022</span>
+      <a class="ak-pubs__title" href="https://arxiv.org/pdf/2209.06813">Will There Be a Construction? Predicting Road Constructions Based on Heterogeneous Spatiotemporal Data</a>
+      <span class="ak-pubs__meta">ACM SIGSPATIAL International Conference on Advances in Geographic Information Systems, 2022</span>
+    </li>
+  </ul>
+</details>
+
+<p class="ak-card__links" style="margin-top:1em;">
+  Full list on the <a href="/publications/">publications page</a> and on
+  <a href="https://scholar.google.com/citations?user=TLDQxC8AAAAJ&hl=en">Google Scholar</a>.
+</p>
+
+<h2 class="ak-section" id="experience">Experience</h2>
+
+<ul class="ak-exp">
+  <li>
+    <div class="ak-exp__head">
+      <img class="ak-exp__logo" src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg" alt="Apple logo">
+      <span class="ak-exp__role">ML Research Intern — Apple, MIND Team</span>
+    </div>
+    <span class="ak-exp__meta">May 2025 – present · Seattle, WA</span>
+    <ul class="ak-exp__body">
+      <li>Developed <a href="https://arxiv.org/abs/2509.20624">FS-DFM</a>, a step-aware discrete flow-matching framework that matches the quality of 1024-step diffusion baselines in 8 steps (128× speedup), outperforming LLaDA-8B and Dream-7B while being 40× smaller. <em>[ICLR 2026]</em></li>
+      <li>Designed reinforcement-learning methods for diffusion language models based on per-step credit assignment and stratified likelihood estimation, improving reasoning on MATH-500, GSM8K, and Sudoku at zero extra inference cost.</li>
+      <li>Developed trajectory-shaping techniques for discrete flow distillation — energy-guided navigation and a contrastive curriculum — enabling a distilled 8-step student to surpass its 1024-step teacher.</li>
     </ul>
   </li>
-  <li><strong>WACV</strong>: Reviewer (2025)</li>
+
+  <li>
+    <div class="ak-exp__head">
+      <span class="ak-exp__role">Machine Learning Intern — Higharc</span>
+    </div>
+    <span class="ak-exp__meta">May 2024 – Aug 2024 · Remote (Durham, NC)</span>
+    <ul class="ak-exp__body">
+      <li>Conducted research on semantic and panoptic segmentation for architectural floor plans.</li>
+      <li>Pre-trained a DETR-based model on unlabeled data, addressing the scarcity of labeled examples with self-supervised learning.</li>
+      <li>Implemented domain-adaptation approaches to generalize models across datasets with distinct distributions, and strategies to transfer a trained model between domains.</li>
+    </ul>
+  </li>
+
+  <li>
+    <div class="ak-exp__head">
+      <span class="ak-exp__role">Senior Machine Learning Engineer — JIBB</span>
+    </div>
+    <span class="ak-exp__meta">Dec 2020 – Dec 2021 · Remote (San Francisco, CA)</span>
+    <ul class="ak-exp__body">
+      <li>Built computer-vision pipelines for object detection and dynamic content filtering across images and video for a handwriting-capture platform.</li>
+      <li>Developed custom CNN architectures to detect content color and remove shadows and reflections.</li>
+      <li>Created automated tooling that improved visual clarity in real-time handwriting sessions.</li>
+    </ul>
+  </li>
+
+  <li>
+    <div class="ak-exp__head">
+      <span class="ak-exp__role">CTO — BlueBitSoft</span>
+    </div>
+    <span class="ak-exp__meta">Dec 2018 – Dec 2021 · Tehran, Iran</span>
+    <ul class="ak-exp__body">
+      <li>Designed the high-level architecture for pharmacy software solutions, targeting scalability, reliability, and efficiency.</li>
+      <li>Aligned technical strategy with business goals across software and domain-expert teams.</li>
+      <li>Introduced agile practices and CI/CD pipelines, and led work on performance, security, and regulatory compliance.</li>
+    </ul>
+  </li>
+
+  <li>
+    <div class="ak-exp__head">
+      <span class="ak-exp__role">Senior Data Scientist &amp; Back-End Developer — TAPSI</span>
+    </div>
+    <span class="ak-exp__meta">Mar 2018 – Dec 2020 · Tehran, Iran</span>
+    <ul class="ak-exp__body">
+      <li>Developed AI-powered pricing microservices in Python, communicating over RabbitMQ for real-time fare adjustment.</li>
+      <li>Designed a GPS anomaly-detection system to prevent fraud and protect rider safety.</li>
+      <li>Built data-driven recommendation features (origin, destination, favorite places) using unsupervised learning.</li>
+      <li>Created an ETA microservice from live driver GPS traces and published the underlying method.</li>
+      <li>Engineered a spatiotemporal forecasting tool to predict high-demand ride areas across urban regions.</li>
+    </ul>
+  </li>
 </ul>
 
+<h2 class="ak-section" id="service">Academic Service</h2>
 
+<table class="ak-service">
+  <thead>
+    <tr>
+      <th scope="col">Venue</th>
+      <th scope="col">Reviewing</th>
+      <th scope="col">Recognition</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">NeurIPS</th>
+      <td>2026</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">ICML</th>
+      <td>2026</td>
+      <td><strong>Silver Reviewer</strong> (2026)</td>
+    </tr>
+    <tr>
+      <th scope="row">ICLR</th>
+      <td>2025, 2026</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">CVPR</th>
+      <td>2025, 2026</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">ECCV</th>
+      <td>2026</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">WACV</th>
+      <td>2025, 2026</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">BMVC</th>
+      <td>2026</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">ACM SIGKDD</th>
+      <td>2024, 2025, 2026</td>
+      <td>
+        <strong>Outstanding Reviewer</strong> (top 10%, 2025 second round)
+        <span class="ak-note"><strong>Excellent Reviewer</strong> (top 20%, 2025 first round; 2026)</span>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
-<!-- <div style="max-height: 250px; overflow-y: auto; border: 1px solid #ccc; padding: 10px; border-radius: 5px;">
-  <ul>
-    <li>
-      <span style="color: blue;">Selected to serve as a reviewer for <strong>CVPR 2026</strong></span>
-    </li>
-    <li>
-      <span style="color: blue;">Selected to serve as a reviewer for <strong>ICLR 2026</strong></span>
-    </li>
-    <li>
-      <span style="color: blue;">Selected to serve as a reviewer for <strong>SIGKDD 2026</strong></span>
-    </li>
-    <li>
-      <span style="color: blue;">Selected to serve as a reviewer for <strong>SIGKDD 2025 Second Round</strong> (selected as an <span style="color: red;">Outstanding Reviewer</span> - 10% of top reviewers.)</span>
-    </li>
-    <li>
-      <span style="color: blue;">Selected to serve as a reviewer for <strong>CVPR 2025</strong></span>
-    </li>
-    <li>
-      <span style="color: blue;">Selected to serve as a reviewer for <strong>ICLR 2025</strong></span>
-    </li>
-    <li>
-      <span style="color: blue;">Selected to serve as a reviewer for <strong>WACV 2025</strong></span>
-    </li>
-    <li>
-      <span style="color: blue;">Selected to serve as a reviewer for <strong>SIGKDD 2025 First Round</strong> <span style="color: red;">Excellent Reviewer</span> - 20% of top reviewers.)</span>
-    </li>
-    <li>
-      <span style="color: blue;">Selected to serve as a reviewer for <strong>SIGKDD 2024</strong></span>
-    </li>
-  </ul>
-</div> -->
+<h2 class="ak-section" id="awards">Awards &amp; Honors</h2>
 
+<ul class="ak-awards">
+  <li>
+    <span class="ak-badge ak-badge--award">2025–26</span>
+    <strong>Graduate Research Award</strong>, Department of Computer Science and Engineering, The Ohio State University.
+    <span class="ak-awards__note">Selected by the OSU CSE Department for distinguished research contributions in generative modeling.</span>
+  </li>
+  <li>
+    <span class="ak-badge ak-badge--award">2026</span>
+    <strong>Silver Reviewer</strong>, ICML 2026.
+  </li>
+  <li>
+    <span class="ak-badge ak-badge--award">2025</span>
+    <strong>Outstanding Reviewer</strong> (top 10%) and <strong>Excellent Reviewer</strong> (top 20%), ACM SIGKDD.
+  </li>
+  <li>
+    <span class="ak-badge ak-badge--award">2022</span>
+    <strong>Student Travel Award</strong>, 30th ACM SIGSPATIAL Conference.
+  </li>
+  <li>
+    <span class="ak-badge ak-badge--award">2009</span>
+    <strong>Bronze Medal</strong>, University of Waterloo Mathematics Olympiad.
+  </li>
+</ul>
 
+<h2 class="ak-section" id="background">Education &amp; Early Research</h2>
 
-
-## Bachelor and Master
-
-
-My Bachelor's thesis focused on __applying reinforcement learning in a multi-object environment__. In this unique setting, each object had the ability to train individually. Additionally, I incorporated federated learning techniques to enable the objects to generalize their models to each other. This research explored the potential of combining these approaches to enhance learning and decision-making in complex environments.
-
-For my Master's thesis, I delved into the realm of __software testing__. Specifically, I proposed an innovative approach to __generating datasets__ using machine learning techniques. This approach aimed to cover the main paths within the software, enabling effective fault detection. By leveraging machine learning, I sought to enhance the efficiency and accuracy of software testing processes, ultimately improving software systems' overall quality and reliability.
-
+<ul class="ak-pubs ak-pubs--plain">
+  <li>
+    <span class="ak-pubs__title">Ph.D. in Computer Science</span> — The Ohio State University, Columbus, Ohio
+    <span class="ak-pubs__meta">Jan 2022 – present · Advisor: <a href="https://cse.osu.edu/people/ramnath.6">Prof. Rajiv Ramnath</a></span>
+  </li>
+  <li>
+    <span class="ak-pubs__title">M.Sc. in Computer Engineering (Software)</span> — Shahid Beheshti University, Tehran
+    <span class="ak-pubs__meta">2015 – 2017 · Advisor: Prof. H. Haghighi<br>
+    Thesis: <em>An Approach for Automatic Software Test Data Generation Using Machine Learning and Program Static Structure</em></span>
+  </li>
+  <li>
+    <span class="ak-pubs__title">B.Sc. in Computer Engineering (Hardware)</span> — Shahid Beheshti University, Tehran
+    <span class="ak-pubs__meta">2011 – 2015 · Advisor: Prof. M. Abdoos<br>
+    Thesis: <em>Applying Reinforcement Learning on Multi-Agent Environments</em></span>
+  </li>
+</ul>
 
 <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=wPR6wWrAAiIPGwQUhyRNB0WvWcNTYj6NwDShYBeL9nA&cl=ffffff&w=a"></script>

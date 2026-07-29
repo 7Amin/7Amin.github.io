@@ -1,10 +1,11 @@
 ---
 title: "Will There Be A Construction? Predicting Road Constructions Based On Heterogeneous Spatiotemporal Data"
+authors: "<strong>Amin Karimi Monsefi</strong>, Sobhan Moosavi, Rajiv Ramnath"
 collection: publications
 permalink: /publication/will_construction_predicting_heterogeneous
 excerpt: 'A computational approach for predicting future road construction projects by integrating and analyzing various types of spatiotemporal data. The approach utilizes a deep-neural-network-based model trained on a large dataset called "US-Constructions," which includes 6.2 million road constructions with diverse attributes and road-network features. Experimental results demonstrate the effectiveness of the approach in accurately predicting future road constructions in several major cities in the United States.'
 date: 2022-08-14
-venue: 'Proceedings of the 30th International Conference on Advances in Geographic Information Systems. 2022'
+venue: 'ACM SIGSPATIAL 2022 — 30th International Conference on Advances in Geographic Information Systems, Seattle, Washington, USA'
 paperurl: 'https://arxiv.org/abs/2209.06813'
 citation: 'Monsefi, Amin Karimi, Sobhan Moosavi, and Rajiv Ramnath. "Will there be a construction? Predicting road constructions based on heterogeneous spatiotemporal data." Proceedings of the 30th International Conference on Advances in Geographic Information Systems. 2022.'
 ---

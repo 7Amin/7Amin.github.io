@@ -1,5 +1,6 @@
 ---
 title: "Deep Learning Prediction of Heat Propagation on 2-D Domain via Numerical Solution"
+authors: "Behzad Zakeri, <strong>Amin Karimi Monsefi</strong>, Babak Darafarin"
 collection: publications
 permalink: /publication/deep_learning_prediction_heat_propagation
 excerpt: 'In This work demonstrates the effectiveness of deep learning in solving the problem of two-dimensional heat transfer in an arbitrary domain. Using the finite volume method, the researchers trained a deep neural network on 100,000 cases to predict the heat transfer solution. The results show that the network achieved satisfactory precision compared to the commercial program ANSYS, indicating the potential of deep learning in accurately predicting physics-based heat transfer phenomena.'

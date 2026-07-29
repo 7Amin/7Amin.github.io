@@ -1,11 +1,12 @@
 ---
 title: "CrashFormer: A Multimodal Architecture to Predict the Risk of Crash"
+authors: "<strong>Amin Karimi Monsefi</strong>, Pouya Shiri, Ahmad Mohammadshirazi, Nastaran Karimi Monsefi, Ron Davies, Sobhan Moosavi, Rajiv Ramnath"
 collection: publications
 permalink: /publication/crashformer
 excerpt: '
  We propose CrashFormer, a multi-modal architecture that utilizes comprehensive (but relatively easy to obtain) inputs such as the history of accidents, weather information, map images, and demographic information. The model predicts the future risk of accidents on a reasonably acceptable cadence (i.e., every six hours) for a geographical location of 5.161 square kilometers.'
 date: 2023-11-01
-venue: 'ACM SIGSPATIAL'
+venue: 'UrbanAI ''23 — 1st ACM SIGSPATIAL International Workshop on Advances in Urban-AI, Hamburg, Germany'
 paperurl: 'https://dl.acm.org/doi/pdf/10.1145/3615900.3628769'
 citation: 'Karimi Monsefi, Amin, et al. "CrashFormer: A Multimodal Architecture to Predict the Risk of Crash." Proceedings of the 1st ACM SIGSPATIAL International Workshop on Advances in Urban-AI. 2023.'
 ---

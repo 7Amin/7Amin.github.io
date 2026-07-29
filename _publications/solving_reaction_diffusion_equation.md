@@ -1,5 +1,6 @@
 ---
 title: "Solving The Reaction-Diffusion Equation Based On Analytical Methods And Deep Learning Algorithm; The Case Study Of Sulfate Attack To Concrete"
+authors: "<strong>Amin Karimi Monsefi</strong>, Rana Bakhtiyarzade"
 collection: publications
 permalink: /publication/solving_reaction_diffusion_equation
 excerpt: 'In this study, a deep neural network was trained to predict the solution of the reaction-diffusion equation with varying coefficients, utilizing numerical and analytical solutions. Dimensional analysis technique was employed to reduce learning time and identify similar equation solutions. The results show that deep learning successfully estimated the solution of the reaction-diffusion equation with a constant coefficient, highlighting its accuracy in solving partial differential equations.'

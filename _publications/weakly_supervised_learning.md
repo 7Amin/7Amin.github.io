@@ -1,6 +1,5 @@
 ---
-title: "
-Weakly Supervised Learning Technique for Solving Partial Differential Equations; Case Study of 1-D Reaction-Diffusion Equation"
+title: "Weakly Supervised Learning Technique for Solving Partial Differential Equations; Case Study of 1-D Reaction-Diffusion Equation"
 collection: publications
 permalink: /publication/weakly_supervised_learning
 excerpt: 'This paper introduces a new method that utilizes weak supervision and deep learning to solve partial differential equations (PDEs) using only boundary and initial conditions, making it suitable for unknown PDEs without labeled data. The approach is evaluated by solving the Reaction-Diffusion equation, demonstrating high consistency with the finite difference method and highlighting the effectiveness of weakly supervised learning in solving various types of differential equations.'

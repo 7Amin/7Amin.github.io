@@ -1,10 +1,11 @@
 ---
 title: "Smart And Collaborative Industrial IoT: A Federated Learning And Data Space Approach"
+authors: "Bahar Farahani, <strong>Amin Karimi Monsefi</strong>"
 collection: publications
 permalink: /publication/smart_collaborative_industrial_iot_federated_learning
 excerpt: 'The challenges faced in adopting Industry 4.0, particularly in the field of smart factories and production, due to issues such as lack of high-quality and diverse data, fragmented data across different silos, and concerns regarding privacy and security. To address these challenges, the article proposes a decentralized architecture utilizing multi-party technologies, privacy-enhancing techniques, and AI approaches to create a collaborative platform and federated data space. Experimental results demonstrate the potential benefits of this approach for multi-party applications and data sharing based on the FAIR principles.'
 date: 2023-01-22
-venue: 'Journal of Digital Communications and Networks'
+venue: 'Digital Communications and Networks (Elsevier)'
 paperurl: 'https://www.sciencedirect.com/science/article/pii/S2352864823000354'
 citation: 'Farahani, Bahar, and Amin Karimi Monsefi. "Smart and collaborative industrial IoT: A federated learning and data space approach." Digital Communications and Networks 9.2 (2023): 436-447.'
 ---

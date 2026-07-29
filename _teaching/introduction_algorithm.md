@@ -8,4 +8,4 @@ date: 2015-08-01
 location: "Tehran, Iran"
 ---
 
-I was TA of this course __two times__, spring 2015 and fall 2015 
+Teaching assistant for two semesters — spring 2015 and fall 2015.

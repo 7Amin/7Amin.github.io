@@ -4,8 +4,8 @@ collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/modeling_databases
 venue: "Ohio State University, Department of Computer Science and Engineering"
-date: 2023-01-01
+date: 2025-08-01
 location: "Columbus, Ohio"
 ---
 
-I was TA of this course __three times__, fall 2022 / 2023 and spring 2023 
+Teaching assistant for five semesters — fall 2022, spring 2023, fall 2023, spring 2024, and fall 2025. 

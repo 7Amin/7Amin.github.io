@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: ""
+title: "Curriculum Vitae"
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -8,163 +8,250 @@ redirect_from:
 ---
 
 {% include base_path %}
-[Download CV Here](../files/Amin_Karimi_Monsefi_CV.pdf)
 
-Education
-======
-* Ph.D. in Computer Science, The Ohio State University, 2022 - Present  
-* M.Sc. in Computer Engineering (Software), Shahid Beheshti University, Tehran, 2015 - 2017  
-* B.Sc. in Computer Engineering (Hardware), Shahid Beheshti University, Tehran, 2011 - 2015  
+<ul class="ak-links">
+  <li><a href="{{ base_path }}/files/Amin_Karimi_Monsefi_CV.pdf">Download CV (PDF)</a></li>
+  <li><a href="https://scholar.google.com/citations?user=TLDQxC8AAAAJ&hl=en">Google Scholar</a></li>
+  <li><a href="https://github.com/7Amin">GitHub</a></li>
+  <li><a href="https://www.linkedin.com/in/amin-karimi-monsefi-5672b4153">LinkedIn</a></li>
+</ul>
 
-Work Experience
-======
-* __ML Research Intern__ at __Apple__, Seattle, WA — May 2025 - Present  
-  * Working on multimodal vision-language models and efficient training for generative applications.
+<h2 class="ak-section" id="education">Education</h2>
 
-* __Machine Learning Intern__ at __Higharc__, North Carolina — May 2024 - Aug 2024  
-  * Research on semantic and panoptic segmentation.  
-  * Self-supervised learning with DETR-based model using unlabeled data.  
-  * Developed domain adaptation strategies for cross-dataset generalization.
+<ul class="ak-pubs ak-pubs--plain">
+  <li>
+    <span class="ak-pubs__title">Ph.D. in Computer Science</span> — The Ohio State University, Columbus, Ohio, USA
+    <span class="ak-pubs__meta">Jan 2022 – present · Advisor: <a href="https://cse.osu.edu/people/ramnath.6">Prof. Rajiv Ramnath</a><br>
+    Focus: efficient and controllable diffusion-based generative modeling across continuous and discrete spaces, and the representations that support it.</span>
+  </li>
+  <li>
+    <span class="ak-pubs__title">M.Sc. in Computer Engineering (Software)</span> — Shahid Beheshti University, Tehran, Iran
+    <span class="ak-pubs__meta">Sep 2015 – Sep 2017 · Advisor: Prof. H. Haghighi<br>
+    Thesis: <em>An Approach for Automatic Software Test Data Generation Using Machine Learning and Program Static Structure</em></span>
+  </li>
+  <li>
+    <span class="ak-pubs__title">B.Sc. in Computer Engineering (Hardware)</span> — Shahid Beheshti University, Tehran, Iran
+    <span class="ak-pubs__meta">Sep 2011 – Sep 2015 · Advisor: Prof. M. Abdoos<br>
+    Thesis: <em>Applying Reinforcement Learning on Multi-Agent Environments</em></span>
+  </li>
+</ul>
 
-* __Senior ML Engineer__ at __Jibb__, San Francisco — Dec 2020 - Dec 2021  
-  * Removed unwanted visual content from media using object detection and enhancement techniques.  
-  * Designed U-Net variants for fast and accurate image/video processing.
+<h2 class="ak-section" id="experience">Professional Experience</h2>
 
-* __CTO__ at __BlueBitSoft__, Tehran — Dec 2018 - Dec 2021  
-  * Designed high-level scalable software architecture.  
-  * Guided engineering team using CI/CD pipelines and best practices.
+<ul class="ak-exp">
+  <li>
+    <div class="ak-exp__head"><span class="ak-exp__role">ML Research Intern — Apple, MIND Team</span></div>
+    <span class="ak-exp__meta">May 2025 – present · Seattle, WA</span>
+    <ul class="ak-exp__body">
+      <li>Apple MIND team — fast and principled generative modeling with discrete diffusion and flow matching.</li>
+      <li><a href="https://arxiv.org/abs/2509.20624">FS-DFM</a>: step-aware discrete flow matching matching 1024-step diffusion quality in 8 steps (128× speedup), outperforming LLaDA-8B and Dream-7B at 40× smaller scale. <em>[ICLR 2026]</em></li>
+      <li>Reinforcement learning for diffusion language models: per-step credit assignment and stratified likelihood estimation, with gains on MATH-500, GSM8K, and Sudoku at zero extra inference cost.</li>
+      <li>Trajectory shaping for discrete flow distillation: energy-guided navigation and a contrastive curriculum let the distilled student surpass its 1024-step teacher.</li>
+    </ul>
+  </li>
+  <li>
+    <div class="ak-exp__head"><span class="ak-exp__role">Machine Learning Intern — Higharc</span></div>
+    <span class="ak-exp__meta">May 2024 – Aug 2024 · Remote (Durham, NC)</span>
+    <ul class="ak-exp__body">
+      <li>Research on semantic and panoptic segmentation; self-supervised pre-training of a DETR-based model on unlabeled data.</li>
+      <li>Domain-adaptation strategies for cross-dataset generalization.</li>
+    </ul>
+  </li>
+  <li>
+    <div class="ak-exp__head"><span class="ak-exp__role">Senior Machine Learning Engineer — JIBB</span></div>
+    <span class="ak-exp__meta">Dec 2020 – Dec 2021 · Remote (San Francisco, CA)</span>
+    <ul class="ak-exp__body">
+      <li>Object detection and content enhancement pipelines for images and video.</li>
+      <li>U-Net variants for fast, accurate real-time image and video processing.</li>
+    </ul>
+  </li>
+  <li>
+    <div class="ak-exp__head"><span class="ak-exp__role">CTO — BlueBitSoft</span></div>
+    <span class="ak-exp__meta">Dec 2018 – Dec 2021 · Tehran, Iran</span>
+    <ul class="ak-exp__body">
+      <li>Designed the high-level architecture for pharmacy software solutions — scalability, reliability, efficiency.</li>
+      <li>Led the engineering team with agile practices and CI/CD pipelines; drove performance, security, and compliance work.</li>
+    </ul>
+  </li>
+  <li>
+    <div class="ak-exp__head"><span class="ak-exp__role">Senior Data Scientist &amp; Back-End Developer — TAPSI</span></div>
+    <span class="ak-exp__meta">Mar 2018 – Dec 2020 · Tehran, Iran</span>
+    <ul class="ak-exp__body">
+      <li>Microservices for dynamic pricing, GPS fraud detection, and ETA prediction.</li>
+      <li>Demand forecasting and smart map generation from driver GPS traces; published the ETA method.</li>
+    </ul>
+  </li>
+  <li>
+    <div class="ak-exp__head"><span class="ak-exp__role">Senior Software Engineer — Haft-Sang Company Group</span></div>
+    <span class="ak-exp__meta">Apr 2016 – Mar 2018 · Tehran, Iran</span>
+    <ul class="ak-exp__body">
+      <li>Built media-streaming APIs on ASP.NET / .NET Core with SQL Server.</li>
+    </ul>
+  </li>
+  <li>
+    <div class="ak-exp__head"><span class="ak-exp__role">Software Engineer — Shahid Beheshti Cyberspace Faculty</span></div>
+    <span class="ak-exp__meta">Sep 2014 – Feb 2016 · Tehran, Iran</span>
+    <ul class="ak-exp__body">
+      <li>Built a crawler and classifier covering 1,000+ websites, using fuzzy models and neural networks for real-time content classification.</li>
+    </ul>
+  </li>
+</ul>
 
-* __Senior Data Scientist & Back-End Developer__ at __TAPSI (Online Taxi)__, Tehran — Mar 2018 - Dec 2020  
-  * Designed micro-services for pricing, GPS fraud detection, and ETA prediction.  
-  * Introduced demand forecasting and smart maps.  
-  * Published work on ETA algorithms.
+<h2 class="ak-section" id="teaching">Teaching</h2>
 
-Teaching Experience
-======
-* TA, Computer Vision for HCI (Spring 2025), Ohio State University  
-* TA for 5 semesters of “Modeling and Problem Solving with Spreadsheets and Databases” (2022–2025)  
-* TA at Shahid Beheshti University for AI, Algorithms, and Discrete Mathematics (2012–2018)
+<ul class="ak-pubs ak-pubs--plain">
+  <li>
+    <span class="ak-pubs__title">AI for Non-Majors</span> — The Ohio State University
+    <span class="ak-pubs__meta">Teaching Assistant, 2 semesters · Spring 2025 (Ali Alilooee), Fall 2026 (Mike Green)</span>
+  </li>
+  <li>
+    <span class="ak-pubs__title">Computer Vision for Human–Computer Interaction</span> — The Ohio State University
+    <span class="ak-pubs__meta">Teaching Assistant, Spring 2025 · Dr. Wei-Lun (Harry) Chao</span>
+  </li>
+  <li>
+    <span class="ak-pubs__title">Modeling and Problem Solving with Spreadsheets and Databases</span> — The Ohio State University
+    <span class="ak-pubs__meta">Teaching Assistant, 5 semesters · Fall 2022 / 2023 / 2025, Spring 2023 / 2024</span>
+  </li>
+  <li>
+    <span class="ak-pubs__title">Discrete Mathematics · Artificial Intelligence · Data Structures · Algorithms · Introduction to Programming</span> — Shahid Beheshti University
+    <span class="ak-pubs__meta">Teaching Assistant, 14 semesters · 2012 – 2018</span>
+  </li>
+</ul>
 
-Selected Publications
-======
-* __TaxaDiffusion__: Fine-Grained Species Generation with Diffusion — *ICCV 2025*  
-* __KnobGen__: Artistic Detail Control in Sketch Diffusion — *CVPR 2025 Workshop*  
-* __Frequency-Guided Masking__: SSL for Vision — *ICLR 2025*  
-* __Masked LoGoNet__: 3D Medical Image Segmentation — *KDD 2024*  
-* __CrashFormer__: Crash Risk Prediction — *SIGSPATIAL 2023*  
-* __Smart and Collaborative Industrial IoT__: FL Systems — *Elsevier DCN, 2023*
+<h2 class="ak-section" id="publications">Selected Publications</h2>
 
-Honors & Awards
-======
-* __SIGKDD 2025__: Outstanding Reviewer (Top 10%), Excellent Reviewer (Top 20%)  
-* __ACM-ICPC Coach__: World Finals (2018), Regionals & Online (2012–2017)  
-* __ACM-ICPC Contestant__: Top 10 rankings in national and Asia regionals (2012–2014)  
-* 1st Rank in National M.Sc Entrance Exam of Computer Engineering (2015)  
-* Top 1% in National B.Sc Entrance Exam of Mathematics (2011)  
-* Bronze Medal, Waterloo Mathematics Olympiad (2009)
+<ul class="ak-pubs">
+  <li>
+    <span class="ak-badge">ICLR 2026</span>
+    <a class="ak-pubs__title" href="https://arxiv.org/abs/2509.20624">FS-DFM: Fast and Accurate Long Text Generation with Few-Step Diffusion Language Models</a>
+  </li>
+  <li>
+    <span class="ak-badge ak-badge--journal">BOE 2025</span>
+    <a class="ak-pubs__title" href="https://opg.optica.org/viewmedia.cfm?html=true&amp;seq=0&amp;uri=boe-16-8-3237">ISOSNet: Cone Photoreceptor Detection and IS/OS Length Measurement from AO-OCT B-Scans</a>
+  </li>
+  <li>
+    <span class="ak-badge">ICCV 2025</span>
+    <a class="ak-pubs__title" href="https://arxiv.org/abs/2506.01923">TaxaDiffusion: Progressively Trained Diffusion Model for Fine-Grained Species Generation</a>
+  </li>
+  <li>
+    <span class="ak-badge">ICLR 2025</span>
+    <a class="ak-pubs__title" href="https://arxiv.org/abs/2409.10362">Frequency-Guided Masking for Enhanced Vision Self-Supervised Learning</a>
+  </li>
+  <li>
+    <span class="ak-badge ak-badge--workshop">CVPR-W 2025</span>
+    <a class="ak-pubs__title" href="https://arxiv.org/abs/2410.01595">KnobGen: Controlling the Sophistication of Artwork in Sketch-Based Diffusion Models</a>
+  </li>
+  <li>
+    <span class="ak-badge">KDD 2024</span>
+    <a class="ak-pubs__title" href="https://arxiv.org/abs/2402.06190">Masked LoGoNet: Fast and Accurate 3D Image Analysis for Medical Domain</a>
+  </li>
+  <li>
+    <span class="ak-badge ak-badge--journal">DCN 2023</span>
+    <a class="ak-pubs__title" href="https://www.sciencedirect.com/science/article/pii/S2352864823000354">Smart and Collaborative Industrial IoT: A Federated Learning and Data Space Approach</a>
+  </li>
+</ul>
 
-Skills
-======
-* **Programming**: Python, C++, C#, MATLAB, R, Java, NodeJS  
-* **Deep Learning**: PyTorch, TensorFlow, Keras  
-* **Databases**: PostgreSQL, SQL Server, MySQL, MongoDB, Redis, Elasticsearch  
-* **DevOps**: CI/CD, Docker, RabbitMQ, Spark, Kafka
+<p class="ak-card__links" style="margin-top:1em;">
+  Complete list on the <a href="{{ base_path }}/publications/">publications page</a>.
+</p>
 
+<h2 class="ak-section" id="service">Academic Service</h2>
 
+<table class="ak-service">
+  <thead>
+    <tr>
+      <th scope="col">Venue</th>
+      <th scope="col">Reviewing</th>
+      <th scope="col">Recognition</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><th scope="row">NeurIPS</th><td>2026</td><td>—</td></tr>
+    <tr><th scope="row">ICML</th><td>2026</td><td><strong>Silver Reviewer</strong> (2026)</td></tr>
+    <tr><th scope="row">ICLR</th><td>2025, 2026</td><td>—</td></tr>
+    <tr><th scope="row">CVPR</th><td>2025, 2026</td><td>—</td></tr>
+    <tr><th scope="row">ECCV</th><td>2026</td><td>—</td></tr>
+    <tr><th scope="row">WACV</th><td>2025, 2026</td><td>—</td></tr>
+    <tr><th scope="row">BMVC</th><td>2026</td><td>—</td></tr>
+    <tr>
+      <th scope="row">ACM SIGKDD</th>
+      <td>2024, 2025, 2026</td>
+      <td>
+        <strong>Outstanding Reviewer</strong> (top 10%, 2025 second round)
+        <span class="ak-note"><strong>Excellent Reviewer</strong> (top 20%, 2025 first round; 2026)</span>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
+<h2 class="ak-section" id="awards">Honors &amp; Awards</h2>
 
+<ul class="ak-awards">
+  <li>
+    <span class="ak-badge ak-badge--award">2025–26</span>
+    <strong>Graduate Research Award</strong>, Department of Computer Science and Engineering, The Ohio State University.
+  </li>
+  <li>
+    <span class="ak-badge ak-badge--award">2026</span>
+    <strong>Silver Reviewer</strong>, ICML 2026.
+  </li>
+  <li>
+    <span class="ak-badge ak-badge--award">2025</span>
+    <strong>Outstanding Reviewer</strong> (top 10%) and <strong>Excellent Reviewer</strong> (top 20%), ACM SIGKDD.
+  </li>
+  <li>
+    <span class="ak-badge ak-badge--award">2022</span>
+    <strong>Student Travel Award</strong>, 30th ACM SIGSPATIAL Conference.
+  </li>
+  <li>
+    <span class="ak-badge ak-badge--award">2011</span>
+    <strong>Top 1%</strong> in the B.Sc. National Entrance Exam in Mathematics, Iran (256,000+ candidates).
+  </li>
+  <li>
+    <span class="ak-badge ak-badge--award">2009</span>
+    <strong>Bronze Medal</strong>, University of Waterloo Mathematics Olympiad.
+  </li>
+</ul>
 
+<h2 class="ak-section" id="icpc">ACM-ICPC</h2>
 
+<ul class="ak-pubs ak-pubs--plain">
+  <li>
+    <span class="ak-pubs__title">Coach &amp; Team Lead</span>
+    <span class="ak-pubs__meta">
+      Apr 2018 — 42nd Annual World Finals, Beijing, China<br>
+      Oct 2017 — 1st-place teams, Regional and Online Programming Contests, Kabul, Afghanistan<br>
+      Dec 2017 — 7th and 17th teams, Regional Contest, Tehran, Iran · Nov 2017 — 10th and 16th teams, Internet Programming Contest, Tehran, Iran<br>
+      2014 – 2015 — Coached teams at Iran Internet Programming Contests, Tehran, Iran
+    </span>
+  </li>
+  <li>
+    <span class="ak-pubs__title">Contestant</span>
+    <span class="ak-pubs__meta">
+      Asia Regional Contest, Tehran: 10th (2014), 3rd (2013), 25th (2012)<br>
+      1st place, Qualification Contest, Shahid Beheshti University (2013) · 2nd place (2012, 2014)<br>
+      5th place, 5th ACM National Collegiate Programming Contest, University of Kashan (2013)
+    </span>
+  </li>
+</ul>
 
-<!-- ---
-layout: archive
-title: ""
-permalink: /cv/
-author_profile: true
-redirect_from:
-  - /resume
----
+<h2 class="ak-section" id="skills">Technical Skills</h2>
 
-{% include base_path %}
-[Download CV Here](../files/Amin_Karimi_Monsefi_CV.pdf)
-
-Education
-======
-* B.Sc. in Computer Engineering with focus on Hardware, Shahid Beheshti University of Tehran, 2011 - 2015
-* M.Sc. in Computer Engineering with focus on Software, Shahid Beheshti University of Tehran, 2015 - 2017
-* PhD. in Computer Science, The Ohio State University, 2022 - Present
-
-Work experience
-======
-* __Computer Vision Engineer__ at __Jibb__: San Francisco, USA Des 2020 - Dec 2021
-  * I specialize in object detection and the removal of unnecessary elements from images and videos.
-  * I have expertise in identifying color discrepancies within visual content and effectively eliminating shadows and reflections.
-
-* __Technical Consultant__ at __BlueBitSoft__: Nijmegen, Netherlands Des 2018 - Dec 2021
-  * As a technical consultant at Bluebitsoft, I had the opportunity to contribute my expertise towards designing a robust software architecture for their products. With careful consideration of the organization's unique requirements and objectives, I crafted a high-level architectural framework that addressed their specific needs. This architecture aimed to enhance scalability, reliability, and performance, enabling seamless operations within the software. By collaborating closely with the team, I ensured that the design incorporated efficient data flow, seamless system integration, and robust security measures. The result was an optimized software architecture that laid the foundation for Bluebitsoft's innovative solutions.
-
-* __Senior Data Scientist & Back-End Developer__ at __TAPSI (Online Taxi)__: Tehran, Iran Mar. 2018 - Des 2020
-  * Pricing Micro-services: I designed and implemented a pricing micro-service utilizing Python and event messaging through RabbitMQ. This enabled efficient communication and seamless integration within the system. 
-  * Fake GPS Detection Algorithm: I developed and implemented an algorithm to detect fake GPS data, creating a micro-service using Python. Event messaging via RabbitMQ facilitated smooth communication between components. 
-  * Smart Backend Features: Leveraging unsupervised algorithms, I implemented intelligent features in the backend based on passengers' data. This included origin suggestion, destination suggestion, favorite location suggestion, and ride suggestion functionalities. 
-  * ETA Micro-service: I implemented an ETA micro-service that estimated the arrival time using drivers' GPS information. Introducing a novel algorithm based on GPS data, our work was recognized and published in a research paper. 
-  * Base Map Generation: Using drivers' GPS information collected during rides, I produced base maps of Tehran and Karaj cities. These maps served as valuable assets for various purposes within the organization. 
-  * SMART Map: I implemented a SMART map that predicted locations with higher ride demand rates in cities. This predictive capability helped optimize service allocation and improve overall efficiency.
-
-* __Senior Software Engineer__ at __Haft-Sang Company Group__: Tehran, Iran Apr. 2016 - Mar. 2018
-  * As part of my responsibilities, I successfully implemented APIs for streaming various forms of media, including videos and music, enabling seamless access to these resources. This involved designing and developing robust interfaces that facilitated smooth and efficient data transfer.
-  * At The Haft-Sang, our technology stack predominantly revolved around ASP.Net and .NetCore for server-side development. These frameworks allowed us to create efficient and scalable software solutions. To ensure effective data storage and management, we utilized SQL Server as our preferred database system.
-
-* __Software Engineer__ at __Shahid Beheshti Cyberspace Faculty__: Tehran, Iran Sep. 2014 - Feb. 2016
-  * As part of my role, I successfully developed a crawler and classifier capable of crawling over 1000 websites. This system was designed to extract content and images from these websites for the purpose of classification and categorization. To achieve this, I utilized fuzzy models and neural networks, enabling real-time processing of content streams.
-  * In addition, I implemented a Restful API server that facilitated communication between the server-side and client-side of the website. This allowed for seamless data transformation and transfer, enhancing the overall user experience.
-
-* __Software Engineer Internship__ at __Zoraq__: Tehran, Iran Jun. 2013 - Oct. 2013
-  * During my professional journey at Zoraq, I gained valuable skills and experience in website development using C# and ASP.NET. I familiarized myself with the process of building robust and dynamic websites, leveraging the capabilities of these technologies.
-  * Additionally, I acquired knowledge in creating and managing databases for websites using SQL Server. This involved designing efficient database schemas and utilizing SQL queries to interact with and manipulate data.
-  * I also learned how to write Rest APIs, enabling seamless communication between the server-side and client-side of web applications. This allowed for the exchange of data and functionalities in a standardized and efficient manner.
-
-
-
-Skills
-======
-* Programming
-  * Python, MATLAB, R, C, C++, C#, Java, NodeJS
-* Deep Learning
-  * Pytorch, TensorFlow, Keras
-* Databases
-  * SQL (SQL Server, MYSQL, PostgreSql)
-  * NOSQL (Cassandra, MongoDB, Redis, SolR, Elasticsearch, Lucene)
-* DevOps
-  * CI/CD, Docker, VM, RabbitMQ
-
-
-Honors & Awards
-======
-* Nov 2022 30th ACM SIGSPATIAL Conference, Student Travel Award
-* June 2015 Ranked 1st, National M.Sc Entrance Exam of Computer Engineering, Among More Than 10.000 Students - Iran
-* June 2011 Ranked Top 1%, National B.Sc Entrance Exam of Mathematics, Among More Than 256,000 Students - Iran
-* Mar 2009 Bronze Medal, Mathematics Olympiad of Waterloo University
-
-* __ACM-ICPC__:
-  * __Coach And Team Lead__:
-    * __Apr 2018, 42nd Annual World Finals__ Beijing, China 
-    * Dec 2017, 7th and 17th teams, Regional Contest Tehran, Iran 
-    * Nov 2017, 10th and 16th teams, Internet Programming Contest Tehran, Iran 
-    * Oct 2017, The 1st team, Regional ContestKabul, Afghanistan 
-    * Oct 2017, The 1st team, Online Programming ContestKabul, Afghanistan 
-    * Oct 2015, The 11th team, Iran-Internet-PC-IU Online Programming ContestTehran, Iran 
-    * Oct 2015, The 23rd team, Iran-Internet-PC-SBU Online Programming ContestTehran, Iran 
-    * Nov 2014, The 12th, 53rd, and 131st teams, Internet Programming ContestTehran, Iran
-  * __Contestant__:
-    * Dec 2014 10th Place, Asia Regional ContestTehran, Iran
-    * Oct 2014 2nd Place, Qualification Contest, Shahid Beheshti UniversityTehran, Iran
-    * Dec 2013 3rd Place, Asia Regional ContestTehran, Iran
-    * Oct 2013 1st Place, Qualification Contest, Shahid Beheshti UniversityTehran, Iran
-    * May 2013 5th Place, The 5th ACM National Collegiate Programming Contest, University of KashanKashan, Iran
-    * Apr 2013 8th Place, The 1st ACM National Collegiate Programming Contest, University of ShahroodShahrood, Iran
-    * Dec 2012 25th Place, Asia Regional ContestTehran, Iran
-    * Nov 2012 16th Place, The 3rd ACM National Collegiate Programming Contest, Amir Kabir University of TechnologyTehran, Iran
-    * Oct 2012 2nd Place, Qualification Contest, Shahid Beheshti UniversityTehran, Iran
-
-   -->
+<div class="ak-grid">
+  <div class="ak-card">
+    <h3>Languages</h3>
+    <p>Python, C++, C#, Java, NodeJS, MATLAB, R</p>
+  </div>
+  <div class="ak-card">
+    <h3>Machine Learning</h3>
+    <p>PyTorch, TensorFlow, Keras, Hugging Face, distributed / multi-GPU training</p>
+  </div>
+  <div class="ak-card">
+    <h3>Data</h3>
+    <p>PostgreSQL, SQL Server, MySQL, MongoDB, Redis, Elasticsearch, Spark, Kafka</p>
+  </div>
+  <div class="ak-card">
+    <h3>Infrastructure</h3>
+    <p>Docker, CI/CD, RabbitMQ, Linux, HPC clusters</p>
+  </div>
+</div>

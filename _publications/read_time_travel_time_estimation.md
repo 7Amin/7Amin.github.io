@@ -1,5 +1,6 @@
 ---
 title: "Real-time Travel Time Estimation Using Matrix Factorization"
+authors: "E. Badrestani, B. Bahrak, A. Elahi, A. Faramarzi, P. Golshanrad, <strong>A. Karimi Monsefi</strong>, H. Mahini, A. Zirak"
 collection: publications
 permalink: /publication/read_time_travel_time_estimation
 excerpt: '

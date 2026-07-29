@@ -1,3 +1,8 @@
+PATH
+  remote: vendor/jekyll-hawkins-compat
+  specs:
+    jekyll-hawkins-compat (0.1.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -308,6 +313,7 @@ DEPENDENCIES
   github-pages
   hawkins
   jekyll-feed
+  jekyll-hawkins-compat!
   jekyll-sitemap
   webrick (~> 1.8)
 

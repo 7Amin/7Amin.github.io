@@ -24,6 +24,9 @@ group :jekyll_plugins do
   gem "jekyll-feed"
   gem 'jekyll-sitemap'
   gem 'hawkins'
+  # Local-only: makes `jekyll liveserve` work with Jekyll 3.10 (see the gem's
+  # comments). GitHub Pages ignores this Gemfile, so it never ships.
+  gem 'jekyll-hawkins-compat', path: 'vendor/jekyll-hawkins-compat'
 end
 
 gem "webrick", "~> 1.8"

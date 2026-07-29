@@ -1,14 +1,21 @@
 ---
 layout: archive
-title: "Portfolio"
+title: "Gallery"
 permalink: /portfolio/
 author_profile: true
+excerpt: "Photos from conferences, travel, and life outside the lab."
+redirect_from:
+  - /gallery/
 ---
 
 {% include base_path %}
 
+<p class="ak-lead">Conferences, travel, and life outside the lab.</p>
 
-{% for post in site.portfolio %}
-  {% include archive-single.html %}
-{% endfor %}
-
+<ul class="ak-gallery">
+  <li><img src="{{ base_path }}/images/5.jpg" alt="KDD 2023, Long Beach, California" loading="lazy"></li>
+  <li><img src="{{ base_path }}/images/2.jpg" alt="Burj Khalifa, Dubai" loading="lazy"></li>
+  <li><img src="{{ base_path }}/images/1.jpg" alt="Photo" loading="lazy"></li>
+  <li><img src="{{ base_path }}/images/3.jpg" alt="Photo" loading="lazy"></li>
+  <li><img src="{{ base_path }}/images/4.jpg" alt="Photo" loading="lazy"></li>
+</ul>
