@@ -126,16 +126,7 @@
 <meta name="theme-color" content="#ffffff">
 <link rel="stylesheet" href="/assets/css/academicons.css"/>
 
-<script type="text/x-mathjax-config"> MathJax.Hub.Config({ TeX: { equationNumbers: { autoNumber: "all" } } }); </script>
-<script type="text/x-mathjax-config">
-  MathJax.Hub.Config({
-    tex2jax: {
-      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
-      processEscapes: true
-    }
-  });
-</script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/latest.js?config=TeX-MML-AM_CHTML' async></script>
+
 
 <!-- end custom head snippets -->
 
@@ -146,13 +137,16 @@
     <!--[if lt IE 9]>
 <div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
 <![endif]-->
+
+    <a class="ak-skip" href="#main">Skip to content</a>
+
     
 
 <div class="masthead">
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
-      <nav id="site-nav" class="greedy-nav">
-        <button><div class="navicon"></div></button>
+      <nav id="site-nav" class="greedy-nav" aria-label="Main navigation">
+        <button type="button" aria-label="Toggle menu"><div class="navicon"></div></button>
         <ul class="visible-links">
           <li class="masthead__menu-item masthead__menu-item--lg"><a href="/">Amin Karimi Monsefi</a></li>
           
@@ -164,9 +158,6 @@
           
             
             <li class="masthead__menu-item"><a href="/cv/">CV</a></li>
-          
-            
-            <li class="masthead__menu-item"><a href="/portfolio/">Gallery</a></li>
           
         </ul>
         <ul class="hidden-links hidden"></ul>
@@ -200,7 +191,7 @@
 
   <div class="author__content">
     <h3 class="author__name">Amin Karimi Monsefi</h3>
-    <p class="author__bio">Ph.D. student in Computer Science at The Ohio State University. Generative modeling, representation learning, and applied ML.</p>
+    <p class="author__bio">Ph.D. candidate at The Ohio State University. Efficient and controllable generative models — diffusion and flow matching across vision and language.</p>
   </div>
 
   <div class="author__urls-wrapper">
@@ -289,8 +280,6 @@
       <section class="page__content" itemprop="text">
         <p>Masked image modeling has become a standard recipe for vision self-supervised learning, but random masking treats every region of an image as equally informative. This paper introduces a frequency-guided masking strategy: the frequency characteristics of an image determine which regions are hidden, so the pretext task concentrates on the components that carry the most structural information. The result is a self-supervised objective with markedly better data and compute efficiency — competitive downstream performance from a fraction of the pre-training budget usually required — and stronger transfer to fine-grained downstream vision tasks.</p>
 
-<p><a href="https://arxiv.org/abs/2409.10362">Read the paper here</a></p>
-
         
       </section>
 
@@ -344,7 +333,14 @@
     <div class="page__footer">
       <footer>
         <!-- start custom footer snippets -->
-<a href="/sitemap/">Sitemap</a>
+
+<nav class="page__footer-nav" aria-label="Secondary">
+  <a href="/publications/">Publications</a>
+  <a href="/teaching/">Teaching</a>
+  <a href="/cv/">CV</a>
+  <a href="/portfolio/">Gallery</a>
+  <a href="/sitemap/">Sitemap</a>
+</nav>
 <!-- end custom footer snippets -->
 
         

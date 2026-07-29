@@ -126,16 +126,7 @@
 <meta name="theme-color" content="#ffffff">
 <link rel="stylesheet" href="/assets/css/academicons.css"/>
 
-<script type="text/x-mathjax-config"> MathJax.Hub.Config({ TeX: { equationNumbers: { autoNumber: "all" } } }); </script>
-<script type="text/x-mathjax-config">
-  MathJax.Hub.Config({
-    tex2jax: {
-      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
-      processEscapes: true
-    }
-  });
-</script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/latest.js?config=TeX-MML-AM_CHTML' async></script>
+
 
 <!-- end custom head snippets -->
 
@@ -146,13 +137,16 @@
     <!--[if lt IE 9]>
 <div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
 <![endif]-->
+
+    <a class="ak-skip" href="#main">Skip to content</a>
+
     
 
 <div class="masthead">
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
-      <nav id="site-nav" class="greedy-nav">
-        <button><div class="navicon"></div></button>
+      <nav id="site-nav" class="greedy-nav" aria-label="Main navigation">
+        <button type="button" aria-label="Toggle menu"><div class="navicon"></div></button>
         <ul class="visible-links">
           <li class="masthead__menu-item masthead__menu-item--lg"><a href="/">Amin Karimi Monsefi</a></li>
           
@@ -164,9 +158,6 @@
           
             
             <li class="masthead__menu-item"><a href="/cv/">CV</a></li>
-          
-            
-            <li class="masthead__menu-item"><a href="/portfolio/">Gallery</a></li>
           
         </ul>
         <ul class="hidden-links hidden"></ul>
@@ -200,7 +191,7 @@
 
   <div class="author__content">
     <h3 class="author__name">Amin Karimi Monsefi</h3>
-    <p class="author__bio">Ph.D. student in Computer Science at The Ohio State University. Generative modeling, representation learning, and applied ML.</p>
+    <p class="author__bio">Ph.D. candidate at The Ohio State University. Efficient and controllable generative models — diffusion and flow matching across vision and language.</p>
   </div>
 
   <div class="author__urls-wrapper">
@@ -292,8 +283,6 @@
         <p>Reducing traffic accidents is a crucial global public safety concern. Accident prediction is key to improving traffic safety, enabling proactive measures to be taken before a crash occurs, and informing safety policies, regulations, and targeted interventions. Despite numerous studies on accident prediction over the past decades, many have limitations in terms of generalizability, reproducibility, or feasibility for practical use due to input data or problem formulation.
 To address existing shortcomings, we propose CrashFormer, a multi-modal architecture that utilizes comprehensive (but relatively easy to obtain) inputs such as the history of accidents, weather information, map images, and demographic information. The model predicts the future risk of accidents on a reasonably acceptable cadence (i.e., every six hours) for a geographical location of 5.161 square kilometers. CrashFormer is composed of five components: a sequential encoder to utilize historical accidents and weather data, an image encoder to use map imagery data, a raw data encoder to utilize demographic information, a feature fusion module for aggregating the encoded features, and a classifier that accepts the aggregated data and makes predictions accordingly. Results from extensive real-world experiments in 10 major US cities show that CrashFormer outperforms state-of-the-art sequential and non-sequential models by 1.8\% in F1-score on average when using sparse input data.</p>
 
-<p><a href="../files/crashformer.pdf">Download paper here</a></p>
-
         
       </section>
 
@@ -347,7 +336,14 @@ To address existing shortcomings, we propose CrashFormer, a multi-modal architec
     <div class="page__footer">
       <footer>
         <!-- start custom footer snippets -->
-<a href="/sitemap/">Sitemap</a>
+
+<nav class="page__footer-nav" aria-label="Secondary">
+  <a href="/publications/">Publications</a>
+  <a href="/teaching/">Teaching</a>
+  <a href="/cv/">CV</a>
+  <a href="/portfolio/">Gallery</a>
+  <a href="/sitemap/">Sitemap</a>
+</nav>
 <!-- end custom footer snippets -->
 
         

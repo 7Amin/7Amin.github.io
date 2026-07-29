@@ -86,7 +86,7 @@ analytics:
 author:
   name             : "Amin Karimi Monsefi"
   avatar           : "avatar.jpg"
-  bio              : "Ph.D. student in Computer Science at The Ohio State University. Generative modeling, representation learning, and applied ML."
+  bio              : "Ph.D. candidate at The Ohio State University. Efficient and controllable generative models — diffusion and flow matching across vision and language."
   location         : "Columbus, Ohio"
   employer         : "The Ohio State University"
   pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"

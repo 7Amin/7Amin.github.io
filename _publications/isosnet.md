@@ -10,5 +10,3 @@ paperurl: 'https://opg.optica.org/viewmedia.cfm?html=true&seq=0&uri=boe-16-8-323
 ---
 
 Adaptive-optics optical coherence tomography (AO-OCT) resolves individual cone photoreceptors in the living retina, but extracting quantitative structural measurements from the resulting B-scans has traditionally required painstaking manual annotation. ISOSNet unifies two tasks that were previously handled separately — detecting individual cone photoreceptors and measuring the lengths of their inner and outer segments — into a single deep-learning framework. The automated pipeline produces reproducible measurements at a scale that manual grading cannot match, supporting studies of photoreceptor structure in both healthy and diseased retinas.
-
-[Read the paper here](https://opg.optica.org/viewmedia.cfm?html=true&seq=0&uri=boe-16-8-3237)

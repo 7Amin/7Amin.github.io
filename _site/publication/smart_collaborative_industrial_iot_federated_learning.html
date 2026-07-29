@@ -126,16 +126,7 @@
 <meta name="theme-color" content="#ffffff">
 <link rel="stylesheet" href="/assets/css/academicons.css"/>
 
-<script type="text/x-mathjax-config"> MathJax.Hub.Config({ TeX: { equationNumbers: { autoNumber: "all" } } }); </script>
-<script type="text/x-mathjax-config">
-  MathJax.Hub.Config({
-    tex2jax: {
-      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
-      processEscapes: true
-    }
-  });
-</script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/latest.js?config=TeX-MML-AM_CHTML' async></script>
+
 
 <!-- end custom head snippets -->
 
@@ -146,13 +137,16 @@
     <!--[if lt IE 9]>
 <div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
 <![endif]-->
+
+    <a class="ak-skip" href="#main">Skip to content</a>
+
     
 
 <div class="masthead">
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
-      <nav id="site-nav" class="greedy-nav">
-        <button><div class="navicon"></div></button>
+      <nav id="site-nav" class="greedy-nav" aria-label="Main navigation">
+        <button type="button" aria-label="Toggle menu"><div class="navicon"></div></button>
         <ul class="visible-links">
           <li class="masthead__menu-item masthead__menu-item--lg"><a href="/">Amin Karimi Monsefi</a></li>
           
@@ -164,9 +158,6 @@
           
             
             <li class="masthead__menu-item"><a href="/cv/">CV</a></li>
-          
-            
-            <li class="masthead__menu-item"><a href="/portfolio/">Gallery</a></li>
           
         </ul>
         <ul class="hidden-links hidden"></ul>
@@ -200,7 +191,7 @@
 
   <div class="author__content">
     <h3 class="author__name">Amin Karimi Monsefi</h3>
-    <p class="author__bio">Ph.D. student in Computer Science at The Ohio State University. Generative modeling, representation learning, and applied ML.</p>
+    <p class="author__bio">Ph.D. candidate at The Ohio State University. Efficient and controllable generative models — diffusion and flow matching across vision and language.</p>
   </div>
 
   <div class="author__urls-wrapper">
@@ -291,8 +282,6 @@
       <section class="page__content" itemprop="text">
         <p>Industry 4.0 has become a reality by fusing the Industrial Internet of Things (IIoT) and Artificial Intelligence (AI), providing huge opportunities in the way manufacturing companies operate. However, the adoption of this paradigm shift, particularly in the field of smart factories and production, is still in its infancy, suffering from various issues, such as the lack of high-quality data, data with high-class imbalance, or poor diversity leading to inaccurate AI models. However, data is severely fragmented across different silos owned by several parties for a range of reasons, such as compliance and legal concerns, preventing discovery and insight-driven IIoT innovation. Notably, valuable and even vital information often remains unutilized as the rise and adoption of AI and IoT in parallel with the concerns and challenges associated with privacy and security. This adversely influences inter- and intra-organization collaborative use of IIoT data. To tackle these challenges, this article leverages emerging multi-party technologies, privacy-enhancing techniques (e.g., Federated Learning), and AI approaches to present a holistic, decentralized architecture to form a foundation and cradle for a cross-company collaboration platform and a federated data space to tackle the creeping fragmented data landscape. Moreover, to evaluate the efficiency of the proposed reference model, a collaborative predictive diagnostics and maintenance case study is mapped to an edge-enabled IIoT architecture. Experimental results show the potential advantages of using the proposed approach for multi-party applications accelerating sovereign data sharing through Findable, Accessible, Interoperable, and Reusable (FAIR) principles.</p>
 
-<p><a href="../files/Smart and collaborative industrial IoT_ A federated learning and data space approach-4-19.pdf">Download paper here</a></p>
-
         
       </section>
 
@@ -346,7 +335,14 @@
     <div class="page__footer">
       <footer>
         <!-- start custom footer snippets -->
-<a href="/sitemap/">Sitemap</a>
+
+<nav class="page__footer-nav" aria-label="Secondary">
+  <a href="/publications/">Publications</a>
+  <a href="/teaching/">Teaching</a>
+  <a href="/cv/">CV</a>
+  <a href="/portfolio/">Gallery</a>
+  <a href="/sitemap/">Sitemap</a>
+</nav>
 <!-- end custom footer snippets -->
 
         

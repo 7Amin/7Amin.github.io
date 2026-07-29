@@ -44,7 +44,7 @@ redirect_from:
     <span class="ak-exp__meta">May 2025 – present · Seattle, WA</span>
     <ul class="ak-exp__body">
       <li>Apple MIND team — fast and principled generative modeling with discrete diffusion and flow matching.</li>
-      <li><a href="https://arxiv.org/abs/2509.20624">FS-DFM</a>: step-aware discrete flow matching matching 1024-step diffusion quality in 8 steps (128× speedup), outperforming LLaDA-8B and Dream-7B at 40× smaller scale. <em>[ICLR 2026]</em></li>
+      <li><a href="https://arxiv.org/abs/2509.20624">FS-DFM</a>: step-aware discrete flow matching that reaches 1024-step diffusion quality in 8 steps (128× speedup), outperforming LLaDA-8B and Dream-7B at 40× smaller scale. <em>[ICLR 2026]</em></li>
       <li>Reinforcement learning for diffusion language models: per-step credit assignment and stratified likelihood estimation, with gains on MATH-500, GSM8K, and Sudoku at zero extra inference cost.</li>
       <li>Trajectory shaping for discrete flow distillation: energy-guided navigation and a contrastive curriculum let the distilled student surpass its 1024-step teacher.</li>
     </ul>

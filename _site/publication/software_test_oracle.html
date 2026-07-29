@@ -126,16 +126,7 @@
 <meta name="theme-color" content="#ffffff">
 <link rel="stylesheet" href="/assets/css/academicons.css"/>
 
-<script type="text/x-mathjax-config"> MathJax.Hub.Config({ TeX: { equationNumbers: { autoNumber: "all" } } }); </script>
-<script type="text/x-mathjax-config">
-  MathJax.Hub.Config({
-    tex2jax: {
-      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
-      processEscapes: true
-    }
-  });
-</script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/latest.js?config=TeX-MML-AM_CHTML' async></script>
+
 
 <!-- end custom head snippets -->
 
@@ -146,13 +137,16 @@
     <!--[if lt IE 9]>
 <div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
 <![endif]-->
+
+    <a class="ak-skip" href="#main">Skip to content</a>
+
     
 
 <div class="masthead">
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
-      <nav id="site-nav" class="greedy-nav">
-        <button><div class="navicon"></div></button>
+      <nav id="site-nav" class="greedy-nav" aria-label="Main navigation">
+        <button type="button" aria-label="Toggle menu"><div class="navicon"></div></button>
         <ul class="visible-links">
           <li class="masthead__menu-item masthead__menu-item--lg"><a href="/">Amin Karimi Monsefi</a></li>
           
@@ -164,9 +158,6 @@
           
             
             <li class="masthead__menu-item"><a href="/cv/">CV</a></li>
-          
-            
-            <li class="masthead__menu-item"><a href="/portfolio/">Gallery</a></li>
           
         </ul>
         <ul class="hidden-links hidden"></ul>
@@ -200,7 +191,7 @@
 
   <div class="author__content">
     <h3 class="author__name">Amin Karimi Monsefi</h3>
-    <p class="author__bio">Ph.D. student in Computer Science at The Ohio State University. Generative modeling, representation learning, and applied ML.</p>
+    <p class="author__bio">Ph.D. candidate at The Ohio State University. Efficient and controllable generative models — diffusion and flow matching across vision and language.</p>
   </div>
 
   <div class="author__urls-wrapper">
@@ -291,8 +282,6 @@
       <section class="page__content" itemprop="text">
         <p>One of the challenging issues in software designing is testing the product in different condition. Various software Oracles had suggested in the literature, and the aim of all of them is minimizing the time and cost of the testing process. Software test Oracles have designed to do this job automatically with as less as possible human contribution. In this work, a novel Oracle based on deep learning and fuzzy inference system introduced. For this purpose, by the utility of Takagi-SugenoKang fuzzy inference, the output of software mapped to the fuzzy space, and the deep neural network has trained by this data. Finally, data has remapped to the primary form and used as the competitor stage input. To validate the performance of the Oracle, four different models have chosen to assess the Oracle enforcement, and after training the Oracle by the correct output of applications, source codes have changed manually, and the efficiency of the Oracle monitored. Several measures have been applied to evaluate the accuracy of the test Oracle, and it is observed that in most cases Oracle correctly could detect the correct and false results. Finally, designing Oracles requires several preliminaries and in this work we only focus on the architecture of the system.</p>
 
-<p><a href="../files/Performing Software Test Oracle Based on Deep Neural Network with Fuzzy Inference System-2-13.pdf">Download paper here</a></p>
-
         
       </section>
 
@@ -346,7 +335,14 @@
     <div class="page__footer">
       <footer>
         <!-- start custom footer snippets -->
-<a href="/sitemap/">Sitemap</a>
+
+<nav class="page__footer-nav" aria-label="Secondary">
+  <a href="/publications/">Publications</a>
+  <a href="/teaching/">Teaching</a>
+  <a href="/cv/">CV</a>
+  <a href="/portfolio/">Gallery</a>
+  <a href="/sitemap/">Sitemap</a>
+</nav>
 <!-- end custom footer snippets -->
 
         

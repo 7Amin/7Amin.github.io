@@ -10,5 +10,3 @@ paperurl: 'https://opg.optica.org/boe/fulltext.cfm?uri=boe-15-8-4540&id=553141'
 ---
 
 Adaptive-optics OCT can resolve individual retinal ganglion cells in vivo, but building supervised models to identify them requires expert annotation of 3D volumes — slow, costly, and a bottleneck on study size. This work applies semi-supervised learning so that abundant unlabeled AO-OCT volumes contribute to training alongside a small labeled set. The approach reduces the manual labeling requirement substantially while improving retinal ganglion cell identification accuracy, making larger-scale structural studies of the ganglion cell layer practical.
-
-[Read the paper here](https://opg.optica.org/boe/fulltext.cfm?uri=boe-15-8-4540&id=553141)

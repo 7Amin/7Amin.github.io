@@ -8,6 +8,8 @@ redirect_from:
   - /about.html
 ---
 
+<p class="ak-hero__role">Ph.D. Candidate · Computer Science · The Ohio State University</p>
+
 <p class="ak-lead">
 I am a Ph.D. candidate in Computer Science at <strong>The Ohio State University</strong>, advised by
 <a href="https://cse.osu.edu/people/ramnath.6">Professor Rajiv Ramnath</a>.

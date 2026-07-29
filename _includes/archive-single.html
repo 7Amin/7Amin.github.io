@@ -42,7 +42,7 @@
           <p> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif post.collection == 'publications' %}
           {% if post.authors %}<p class="archive__item-authors">{{ post.authors }}</p>{% endif %}
-          <p class="archive__item-venue"><i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }}</p>
+          <p class="archive__item-venue">{{ post.venue }}, {{ post.date | default: "1900-01-01" | date: "%Y" }}</p>
         {% elsif post.date %}
          <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ post.date | default: "1900-01-01" | date_to_xmlschema }}">{{ post.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
         {% endif %}
@@ -53,8 +53,13 @@
     <p class="archive__item-excerpt" itemprop="description"><p>{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}<strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong></p></p>
     {% endif %}
     
-    {% if post.paperurl %}
-      <p><a href="{{ post.paperurl }}">Read the paper</a></p>
+    {% if post.paperurl or post.pdf or post.code or post.project %}
+      <p class="ak-actions">
+        {% if post.paperurl %}<a href="{{ post.paperurl }}">Paper</a>{% endif %}
+        {% if post.pdf %}<a href="{{ base_path }}/files/{{ post.pdf }}">PDF</a>{% endif %}
+        {% if post.code %}<a href="{{ post.code }}">Code</a>{% endif %}
+        {% if post.project %}<a href="{{ post.project }}">Project page</a>{% endif %}
+      </p>
     {% elsif post.citation %}
       <p>Recommended citation: {{ post.citation }}</p>
     {% endif %}

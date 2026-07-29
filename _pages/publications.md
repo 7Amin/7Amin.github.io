@@ -19,7 +19,7 @@ A complete and continuously updated list is available on
   {% capture post_year %}{{ post.date | default: "1900-01-01" | date: "%Y" }}{% endcapture %}
   {% if post_year != current_year %}
     {% assign current_year = post_year %}
-<h2 class="ak-section" id="year-{{ post_year }}">{{ post_year }}</h2>
+<h2 class="ak-year" id="year-{{ post_year }}">{{ post_year }}</h2>
   {% endif %}
   {% include archive-single.html %}
 {% endfor %}

@@ -126,16 +126,7 @@
 <meta name="theme-color" content="#ffffff">
 <link rel="stylesheet" href="/assets/css/academicons.css"/>
 
-<script type="text/x-mathjax-config"> MathJax.Hub.Config({ TeX: { equationNumbers: { autoNumber: "all" } } }); </script>
-<script type="text/x-mathjax-config">
-  MathJax.Hub.Config({
-    tex2jax: {
-      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
-      processEscapes: true
-    }
-  });
-</script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/latest.js?config=TeX-MML-AM_CHTML' async></script>
+
 
 <!-- end custom head snippets -->
 
@@ -146,13 +137,16 @@
     <!--[if lt IE 9]>
 <div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
 <![endif]-->
+
+    <a class="ak-skip" href="#main">Skip to content</a>
+
     
 
 <div class="masthead">
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
-      <nav id="site-nav" class="greedy-nav">
-        <button><div class="navicon"></div></button>
+      <nav id="site-nav" class="greedy-nav" aria-label="Main navigation">
+        <button type="button" aria-label="Toggle menu"><div class="navicon"></div></button>
         <ul class="visible-links">
           <li class="masthead__menu-item masthead__menu-item--lg"><a href="/">Amin Karimi Monsefi</a></li>
           
@@ -164,9 +158,6 @@
           
             
             <li class="masthead__menu-item"><a href="/cv/">CV</a></li>
-          
-            
-            <li class="masthead__menu-item"><a href="/portfolio/">Gallery</a></li>
           
         </ul>
         <ul class="hidden-links hidden"></ul>
@@ -200,7 +191,7 @@
 
   <div class="author__content">
     <h3 class="author__name">Amin Karimi Monsefi</h3>
-    <p class="author__bio">Ph.D. student in Computer Science at The Ohio State University. Generative modeling, representation learning, and applied ML.</p>
+    <p class="author__bio">Ph.D. candidate at The Ohio State University. Efficient and controllable generative models — diffusion and flow matching across vision and language.</p>
   </div>
 
   <div class="author__urls-wrapper">
@@ -291,8 +282,6 @@
       <section class="page__content" itemprop="text">
         <p>Deep learning as a valuable intelligence tool to deal with complicated problems plays a crucial role in the 21st century. The utility of deep learning in solving partial differential equations (PDEs) is an interesting application of AI, which has been considered in recent years. However, supervision of learning procedure needs to have considerable labeled data to train the network, and this method could not be a beneficial technique to deal with unknown PDEs which we do not have any labeled data. To tackle this issue, in this paper a new method will be presented to solve PDEs only by using boundary and initial condition. Weakly supervision as an efficient method can provide an ideal bed to tackle boundary and initial value problems. To have better judgment about this method we chose Reaction-Diffusion equation as a versatile equation in engineering and science to be solved as a case study. By using the weakly supervised method and the finite difference method reaction-diffusion equation have solved, and the results of these methods have been compared. It has been shown that the results of deep learning have high consistency with finite difference results, and weakly supervised learning can be introduced as an efficient method to solve different types of differential equations.</p>
 
-<p><a href="../files/Weakly Supervised Learning Technique-2-12.pdf">Download paper here</a></p>
-
         
       </section>
 
@@ -345,7 +334,14 @@
     <div class="page__footer">
       <footer>
         <!-- start custom footer snippets -->
-<a href="/sitemap/">Sitemap</a>
+
+<nav class="page__footer-nav" aria-label="Secondary">
+  <a href="/publications/">Publications</a>
+  <a href="/teaching/">Teaching</a>
+  <a href="/cv/">CV</a>
+  <a href="/portfolio/">Gallery</a>
+  <a href="/sitemap/">Sitemap</a>
+</nav>
 <!-- end custom footer snippets -->
 
         
