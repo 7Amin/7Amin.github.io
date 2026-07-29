@@ -164,6 +164,7 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - Gruntfile.js
+  - "ICLR___2026___FS_DFM___Few_Step_Discrete_Flow_Matching.pdf" # figure source, not for publishing
   - LICENSE
   - README
   - README.md

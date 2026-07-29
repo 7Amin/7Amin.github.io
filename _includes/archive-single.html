@@ -13,7 +13,13 @@
 {% endif %}
 
 <div class="{{ include.type | default: "list" }}__item">
-  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+  <article class="archive__item{% if post.figure %} archive__item--figured{% endif %}" itemscope itemtype="http://schema.org/CreativeWork">
+    {% if post.figure %}
+      <a class="archive__figure" href="{{ post.paperurl | default: post.url | prepend: base_path }}" tabindex="-1" aria-hidden="true">
+        <img src="{{ base_path }}/images/papers/{{ post.figure }}" alt="" loading="lazy" decoding="async">
+      </a>
+    {% endif %}
+    <div class="archive__body">
     {% if include.type == "grid" and teaser %}
       <div class="archive__item-teaser">
         <img src=
@@ -64,5 +70,6 @@
       <p>Recommended citation: {{ post.citation }}</p>
     {% endif %}
 
+    </div>
   </article>
 </div>

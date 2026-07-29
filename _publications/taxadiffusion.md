@@ -7,6 +7,7 @@ excerpt: 'TaxaDiffusion trains a diffusion model along the biological taxonomy �
 date: 2025-06-26
 venue: 'ICCV 2025 — International Conference on Computer Vision, Honolulu, Hawai''i, USA'
 paperurl: 'https://arxiv.org/abs/2506.01923'
+figure: 'taxadiffusion.jpg'
 ---
 
 Generating images of a specific species is a fine-grained problem: closely related species share most of their morphology and differ only in subtle traits, while training data per species is often scarce. TaxaDiffusion exploits the structure that biology already provides. Instead of conditioning a diffusion model on species labels alone, it trains progressively along the taxonomic hierarchy — learning shared appearance at coarse ranks first, then refining toward genus and species. This curriculum improves fidelity and accuracy for fine-grained species generation, and because knowledge is organized by taxonomic rank, the model also supports trait discovery: examining how generated appearance changes across ranks reveals which visual traits distinguish related groups.

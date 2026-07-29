@@ -1129,3 +1129,75 @@ hr {
   color: var(--ak-ink-soft);
   font-weight: 500;
 }
+
+/* Paper figures
+   ==========================================================================
+   Publication rows carry an optional teaser cropped from the paper. Entries
+   without one keep the plain single-column layout, so a missing figure is
+   never a visible gap.
+   ========================================================================== */
+
+.archive__item--figured {
+  display: grid;
+  grid-template-columns: 15rem 1fr;
+  gap: 0 1.5rem;
+  align-items: start;
+}
+
+.archive__figure {
+  display: block;
+  width: 100%;
+  padding: 0.45rem;
+  border: 1px solid var(--ak-rule);
+  border-radius: var(--ak-radius-sm);
+  background: #fff;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+
+  /* Fill the column: the figure is the point, so it should not sit
+     letterboxed inside a box larger than itself. */
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    border-radius: 2px;
+  }
+
+  &:hover {
+    border-color: var(--ak-rule-strong);
+    box-shadow: var(--ak-shadow);
+  }
+}
+
+.archive__body { min-width: 0; }
+
+@media (max-width: 37.5em) {
+  .archive__item--figured {
+    grid-template-columns: 1fr;
+    gap: 0.9rem 0;
+  }
+
+  .archive__figure { max-width: 22rem; }
+}
+
+/* Homepage selected-publication rows: a small teaser floated opposite the
+   text, so the list stays scannable. */
+.ak-pubs--figures > li { padding-right: 10rem; }
+
+.ak-pubs__fig {
+  position: absolute;
+  right: 0;
+  top: 1.05em;
+  width: 8.6rem;
+  height: 5rem;
+  padding: 0.3rem;
+  border: 1px solid var(--ak-rule);
+  border-radius: var(--ak-radius-sm);
+  background: #fff;
+  object-fit: contain;
+}
+
+@media (max-width: 52em) {
+  .ak-pubs--figures > li { padding-right: 0; }
+  .ak-pubs__fig { display: none; }
+}
