@@ -81,20 +81,6 @@ redirect_from:
       <li>Demand forecasting and smart map generation from driver GPS traces; published the ETA method.</li>
     </ul>
   </li>
-  <li>
-    <div class="ak-exp__head"><span class="ak-exp__role">Senior Software Engineer — Haft-Sang Company Group</span></div>
-    <span class="ak-exp__meta">Apr 2016 – Mar 2018 · Tehran, Iran</span>
-    <ul class="ak-exp__body">
-      <li>Built media-streaming APIs on ASP.NET / .NET Core with SQL Server.</li>
-    </ul>
-  </li>
-  <li>
-    <div class="ak-exp__head"><span class="ak-exp__role">Software Engineer — Shahid Beheshti Cyberspace Faculty</span></div>
-    <span class="ak-exp__meta">Sep 2014 – Feb 2016 · Tehran, Iran</span>
-    <ul class="ak-exp__body">
-      <li>Built a crawler and classifier covering 1,000+ websites, using fuzzy models and neural networks for real-time content classification.</li>
-    </ul>
-  </li>
 </ul>
 
 <h2 class="ak-section" id="teaching">Teaching</h2>

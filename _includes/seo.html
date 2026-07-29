@@ -44,6 +44,9 @@
   {% assign seo_author_twitter = seo_author_twitter | replace: "@", "" %}
 {% endif %}
 
+<meta name="author" content="{{ site.author.name }}">
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
+
 <meta property="og:locale" content="{{ site.locale | default: "en" }}">
 <meta property="og:site_name" content="{{ site.title }}">
 <meta property="og:title" content="{{ page.title | default: site.title | markdownify | strip_html | strip_newlines | escape_once }}">
@@ -111,14 +114,43 @@
 {% if site.social %}
   <script type="application/ld+json">
     {
-      "@context" : "http://schema.org",
-      "@type" : "{% if site.social.type %}{{ site.social.type }}{% else %}Person{% endif %}",
-      "name" : "{{ site.social.name | default: site.name }}",
-      "url" : {{ seo_url | jsonify }},{% if site.og_image %}
-      "image" : {{ site.og_image | prepend: "/images/" | prepend: seo_url | jsonify }},{% endif %}
-      "jobTitle" : "Ph.D. Candidate in Computer Science",
-      "affiliation" : "The Ohio State University",
-      "sameAs" : {{ site.social.links | jsonify }}
+      "@context": "https://schema.org",
+      "@type": "{% if site.social.type %}{{ site.social.type }}{% else %}Person{% endif %}",
+      "@id": "{{ seo_url }}/#person",
+      "name": "{{ site.social.name | default: site.name }}",
+      {% if site.social.alternate_names %}"alternateName": {{ site.social.alternate_names | jsonify }},{% endif %}
+      {% if site.author.given_name %}"givenName": "{{ site.author.given_name }}",{% endif %}
+      {% if site.author.family_name %}"familyName": "{{ site.author.family_name }}",{% endif %}
+      "url": {{ seo_url | jsonify }},{% if site.og_image %}
+      "image": {{ site.og_image | prepend: "/images/" | prepend: seo_url | jsonify }},{% endif %}
+      "description": {{ site.description | jsonify }},
+      "jobTitle": "Ph.D. Candidate in Computer Science",
+      "email": "mailto:{{ site.author.email }}",
+      "affiliation": {
+        "@type": "CollegeOrUniversity",
+        "name": "The Ohio State University",
+        "url": "https://www.osu.edu/"
+      },
+      "alumniOf": [
+        { "@type": "CollegeOrUniversity", "name": "The Ohio State University" },
+        { "@type": "CollegeOrUniversity", "name": "Shahid Beheshti University" }
+      ],
+      {% if site.knows_about %}"knowsAbout": {{ site.knows_about | jsonify }},{% endif %}
+      "sameAs": {{ site.social.links | jsonify }}
+    }
+  </script>
+
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "@id": "{{ seo_url }}/#website",
+      "url": {{ seo_url | jsonify }},
+      "name": "{{ site.title }}",
+      "description": {{ site.description | jsonify }},
+      "inLanguage": "en",
+      "publisher": { "@id": "{{ seo_url }}/#person" },
+      "about": { "@id": "{{ seo_url }}/#person" }
     }
   </script>
 {% endif %}

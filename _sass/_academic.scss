@@ -43,6 +43,8 @@
   --ak-mono: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas,
              "Liberation Mono", monospace;
 
+  color-scheme: light;
+
   /* Rhythm */
   --ak-measure:      50rem;
   --ak-radius:       10px;
@@ -227,10 +229,28 @@ hr {
   &::after  { border-color: var(--ak-bg) transparent; }
 }
 
+/* The theme paints the menu button as a solid block with white bars inside.
+   Flatten it to an icon button and colour the bars with the current ink. */
 .greedy-nav button {
   background: transparent;
-  color: var(--ak-muted);
+  color: var(--ak-ink);
+  border-radius: var(--ak-radius-sm);
+
+  &:hover { background: var(--ak-surface-2); }
+
+  .navicon,
+  .navicon::before,
+  .navicon::after {
+    background: currentColor;
+    height: 2px;
+    width: 20px;
+  }
+
+  .navicon::before { top: -6px; }
+  .navicon::after  { bottom: -6px; }
 }
+
+.greedy-nav .close .navicon { background: transparent; }
 
 /* Author sidebar
    ========================================================================== */
@@ -263,20 +283,50 @@ hr {
   &::after  { border-color: var(--ak-bg) transparent; }
 }
 
+/* The theme sets white-space: nowrap here, so long values such as
+   "The Ohio State University" overflow the bordered card. Let them wrap,
+   with the icon held in its own column so wrapped lines stay aligned. */
 .author__urls li {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.45em;
+  margin-bottom: 0.3em;
   color: var(--ak-muted);
   font-size: 0.84rem;
-  line-height: 1.9;
+  line-height: 1.45;
+  white-space: normal;
+  overflow-wrap: anywhere;
+
+  > i,
+  > .ai,
+  > a > i,
+  > a > .ai {
+    flex: 0 0 auto;
+    margin-top: 0.22em;
+  }
+
+  &:last-child { margin-bottom: 0; }
 }
 
 .author__urls a {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 0.45em;
+  margin: 0;
+  padding: 0;
+  min-width: 0;
   color: var(--ak-muted);
   text-decoration: none;
+  overflow-wrap: anywhere;
 
   &:hover {
     color: var(--ak-accent);
     text-decoration: underline;
   }
+}
+
+.author__content {
+  overflow-wrap: anywhere;
 }
 
 .author__urls-wrapper button {
@@ -889,10 +939,14 @@ hr {
 }
 
 /* Dark mode
+   ==========================================================================
+   Applied two ways: automatically when the OS asks for it (unless the
+   visitor has explicitly chosen light), and unconditionally when they pick
+   dark from the masthead control. Both routes share one mixin.
    ========================================================================== */
 
-@media (prefers-color-scheme: dark) {
-  :root {
+@mixin ak-dark-rules($root) {
+  #{$root} {
     --ak-bg:           #0e1116;
     --ak-surface:      #151a21;
     --ak-surface-2:    #1b222b;
@@ -918,22 +972,112 @@ hr {
 
     --ak-shadow:       0 1px 2px rgba(0, 0, 0, 0.4),
                        0 4px 16px rgba(0, 0, 0, 0.35);
+
+    color-scheme: dark;
   }
 
   /* Solid-black company artwork would disappear on a dark canvas */
-  .ak-exp__logo { filter: invert(1) brightness(1.7); }
+  #{$root} .ak-exp__logo { filter: invert(1) brightness(1.7); }
 
-  .page__content code,
-  .page__content pre {
+  #{$root} .page__content code,
+  #{$root} .page__content pre {
     background: var(--ak-surface-2);
     color: var(--ak-ink);
   }
 
-  .btn--inverse {
+  #{$root} .btn--inverse {
     background: var(--ak-surface-2);
     border-color: var(--ak-rule-strong);
     color: var(--ak-ink-soft);
   }
+}
+
+@media (prefers-color-scheme: dark) {
+  @include ak-dark-rules(':root:not([data-theme="light"])');
+}
+
+@include ak-dark-rules(':root[data-theme="dark"]');
+
+/* Theme switch
+   ========================================================================== */
+
+.ak-visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  white-space: nowrap;
+  border: 0;
+}
+
+.ak-theme {
+  display: inline-flex;
+  align-items: center;
+  flex: 0 0 auto;
+  gap: 2px;
+  margin: 0;
+  padding: 2px;
+  border: 1px solid var(--ak-rule);
+  border-radius: 999px;
+  background: var(--ak-surface-2);
+  min-width: 0;
+}
+
+.ak-theme__radio {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.ak-theme__opt {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 26px;
+  height: 26px;
+  border-radius: 999px;
+  cursor: pointer;
+  color: var(--ak-muted);
+  transition: color 0.15s ease, background 0.15s ease;
+
+  svg {
+    width: 15px;
+    height: 15px;
+    display: block;
+  }
+
+  &:hover { color: var(--ak-ink); }
+}
+
+.ak-theme__radio:checked + .ak-theme__opt {
+  background: var(--ak-bg);
+  color: var(--ak-accent);
+  box-shadow: 0 0 0 1px var(--ak-rule-strong), 0 1px 2px rgba(16, 24, 40, 0.12);
+}
+
+.ak-theme__radio:focus-visible + .ak-theme__opt {
+  outline: 2px solid var(--ak-accent);
+  outline-offset: 2px;
+}
+
+/* Masthead becomes a row so the switch sits opposite the navigation */
+.masthead__inner-wrap {
+  display: flex;
+  align-items: center;
+  gap: 0.75em;
+
+  &::after { display: none; }
+}
+
+.masthead__menu {
+  flex: 1 1 auto;
+  min-width: 0;
 }
 
 /* Motion

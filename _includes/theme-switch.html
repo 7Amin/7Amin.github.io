@@ -1,0 +1,61 @@
+<fieldset class="ak-theme" id="ak-theme">
+  <legend class="ak-visually-hidden">Color theme</legend>
+
+  <input class="ak-theme__radio" type="radio" name="ak-theme" id="ak-theme-auto" value="auto" checked>
+  <label class="ak-theme__opt" for="ak-theme-auto" title="Match system">
+    <svg viewBox="0 0 16 16" aria-hidden="true" focusable="false">
+      <circle cx="8" cy="8" r="6.4" fill="none" stroke="currentColor" stroke-width="1.5"/>
+      <path d="M8 1.6a6.4 6.4 0 0 1 0 12.8z" fill="currentColor"/>
+    </svg>
+    <span class="ak-visually-hidden">Match system</span>
+  </label>
+
+  <input class="ak-theme__radio" type="radio" name="ak-theme" id="ak-theme-light" value="light">
+  <label class="ak-theme__opt" for="ak-theme-light" title="Light">
+    <svg viewBox="0 0 16 16" aria-hidden="true" focusable="false">
+      <circle cx="8" cy="8" r="3.1" fill="currentColor"/>
+      <g stroke="currentColor" stroke-width="1.5" stroke-linecap="round">
+        <path d="M8 1v1.7M8 13.3V15M15 8h-1.7M2.7 8H1M12.95 3.05l-1.2 1.2M4.25 11.75l-1.2 1.2M12.95 12.95l-1.2-1.2M4.25 4.25l-1.2-1.2"/>
+      </g>
+    </svg>
+    <span class="ak-visually-hidden">Light</span>
+  </label>
+
+  <input class="ak-theme__radio" type="radio" name="ak-theme" id="ak-theme-dark" value="dark">
+  <label class="ak-theme__opt" for="ak-theme-dark" title="Dark">
+    <svg viewBox="0 0 16 16" aria-hidden="true" focusable="false">
+      <path fill="currentColor" d="M13.3 10.5A5.9 5.9 0 0 1 5.5 2.7a5.95 5.95 0 1 0 7.8 7.8z"/>
+    </svg>
+    <span class="ak-visually-hidden">Dark</span>
+  </label>
+</fieldset>
+
+<script>
+  (function () {
+    var root = document.documentElement;
+    var group = document.getElementById('ak-theme');
+    if (!group) return;
+
+    var stored = 'auto';
+    try { stored = localStorage.getItem('ak-theme') || 'auto'; } catch (e) {}
+
+    var selected = group.querySelector('input[value="' + stored + '"]');
+    if (selected) selected.checked = true;
+
+    group.addEventListener('change', function (event) {
+      var choice = event.target.value;
+      try {
+        if (choice === 'auto') {
+          root.removeAttribute('data-theme');
+          localStorage.removeItem('ak-theme');
+        } else {
+          root.setAttribute('data-theme', choice);
+          localStorage.setItem('ak-theme', choice);
+        }
+      } catch (e) {
+        if (choice === 'auto') { root.removeAttribute('data-theme'); }
+        else { root.setAttribute('data-theme', choice); }
+      }
+    });
+  })();
+</script>

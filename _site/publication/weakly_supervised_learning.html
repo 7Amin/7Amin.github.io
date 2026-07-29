@@ -30,6 +30,9 @@
 
 
 
+<meta name="author" content="Amin Karimi Monsefi">
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
+
 <meta property="og:locale" content="en-US">
 <meta property="og:site_name" content="Amin Karimi Monsefi">
 <meta property="og:title" content="Weakly Supervised Learning Technique for Solving Partial Differential Equations; Case Study of 1-D Reaction-Diffusion Equation">
@@ -66,14 +69,43 @@
 
   <script type="application/ld+json">
     {
-      "@context" : "http://schema.org",
-      "@type" : "Person",
-      "name" : "Amin Karimi Monsefi",
-      "url" : "https://7amin.github.io",
-      "image" : "https://7amin.github.io/images/avatar.jpg",
-      "jobTitle" : "Ph.D. Candidate in Computer Science",
-      "affiliation" : "The Ohio State University",
-      "sameAs" : ["https://scholar.google.com/citations?user=TLDQxC8AAAAJ&hl=en","https://github.com/7Amin","https://www.linkedin.com/in/amin-karimi-monsefi-5672b4153","https://orcid.org/0000-0002-6101-2828"]
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "@id": "https://7amin.github.io/#person",
+      "name": "Amin Karimi Monsefi",
+      "alternateName": ["Amin Karimi","Amin Monsefi","Karimi Monsefi","A. Karimi Monsefi","Amin K. Monsefi"],
+      "givenName": "Amin",
+      "familyName": "Karimi Monsefi",
+      "url": "https://7amin.github.io",
+      "image": "https://7amin.github.io/images/avatar.jpg",
+      "description": "Amin Karimi Monsefi is a Ph.D. candidate in Computer Science at The Ohio State University, working on efficient and controllable generative models — diffusion and flow matching across vision and language, self-supervised and vision-language learning, and applied machine learning.",
+      "jobTitle": "Ph.D. Candidate in Computer Science",
+      "email": "mailto:amin.karimi1992@gmail.com",
+      "affiliation": {
+        "@type": "CollegeOrUniversity",
+        "name": "The Ohio State University",
+        "url": "https://www.osu.edu/"
+      },
+      "alumniOf": [
+        { "@type": "CollegeOrUniversity", "name": "The Ohio State University" },
+        { "@type": "CollegeOrUniversity", "name": "Shahid Beheshti University" }
+      ],
+      "knowsAbout": ["Generative models","Diffusion models","Flow matching","Diffusion language models","Self-supervised learning","Vision-language models","Computer vision","Machine learning"],
+      "sameAs": ["https://scholar.google.com/citations?user=TLDQxC8AAAAJ&hl=en","https://github.com/7Amin","https://www.linkedin.com/in/amin-karimi-monsefi-5672b4153","https://orcid.org/0000-0002-6101-2828"]
+    }
+  </script>
+
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "@id": "https://7amin.github.io/#website",
+      "url": "https://7amin.github.io",
+      "name": "Amin Karimi Monsefi",
+      "description": "Amin Karimi Monsefi is a Ph.D. candidate in Computer Science at The Ohio State University, working on efficient and controllable generative models — diffusion and flow matching across vision and language, self-supervised and vision-language learning, and applied machine learning.",
+      "inLanguage": "en",
+      "publisher": { "@id": "https://7amin.github.io/#person" },
+      "about": { "@id": "https://7amin.github.io/#person" }
     }
   </script>
 
@@ -104,6 +136,19 @@
 
 <!-- start custom head snippets -->
 
+<script>
+  /* Apply the visitor's saved colour theme before first paint (no flash). */
+  (function () {
+    try {
+      var t = localStorage.getItem('ak-theme');
+      if (t === 'light' || t === 'dark') {
+        document.documentElement.setAttribute('data-theme', t);
+      }
+    } catch (e) {}
+  })();
+</script>
+
+
 <link rel="apple-touch-icon" sizes="57x57" href="/images/apple-touch-icon-57x57.png">
 <link rel="apple-touch-icon" sizes="60x60" href="/images/apple-touch-icon-60x60.png">
 <link rel="apple-touch-icon" sizes="72x72" href="/images/apple-touch-icon-72x72.png">
@@ -123,7 +168,8 @@
 <meta name="msapplication-TileColor" content="#000000">
 <meta name="msapplication-TileImage" content="/images/mstile-144x144.png">
 <meta name="msapplication-config" content="/images/browserconfig.xml">
-<meta name="theme-color" content="#ffffff">
+<meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0e1116" media="(prefers-color-scheme: dark)">
 <link rel="stylesheet" href="/assets/css/academicons.css"/>
 
 
@@ -163,6 +209,69 @@
         <ul class="hidden-links hidden"></ul>
       </nav>
     </div>
+
+    <fieldset class="ak-theme" id="ak-theme">
+  <legend class="ak-visually-hidden">Color theme</legend>
+
+  <input class="ak-theme__radio" type="radio" name="ak-theme" id="ak-theme-auto" value="auto" checked>
+  <label class="ak-theme__opt" for="ak-theme-auto" title="Match system">
+    <svg viewBox="0 0 16 16" aria-hidden="true" focusable="false">
+      <circle cx="8" cy="8" r="6.4" fill="none" stroke="currentColor" stroke-width="1.5"/>
+      <path d="M8 1.6a6.4 6.4 0 0 1 0 12.8z" fill="currentColor"/>
+    </svg>
+    <span class="ak-visually-hidden">Match system</span>
+  </label>
+
+  <input class="ak-theme__radio" type="radio" name="ak-theme" id="ak-theme-light" value="light">
+  <label class="ak-theme__opt" for="ak-theme-light" title="Light">
+    <svg viewBox="0 0 16 16" aria-hidden="true" focusable="false">
+      <circle cx="8" cy="8" r="3.1" fill="currentColor"/>
+      <g stroke="currentColor" stroke-width="1.5" stroke-linecap="round">
+        <path d="M8 1v1.7M8 13.3V15M15 8h-1.7M2.7 8H1M12.95 3.05l-1.2 1.2M4.25 11.75l-1.2 1.2M12.95 12.95l-1.2-1.2M4.25 4.25l-1.2-1.2"/>
+      </g>
+    </svg>
+    <span class="ak-visually-hidden">Light</span>
+  </label>
+
+  <input class="ak-theme__radio" type="radio" name="ak-theme" id="ak-theme-dark" value="dark">
+  <label class="ak-theme__opt" for="ak-theme-dark" title="Dark">
+    <svg viewBox="0 0 16 16" aria-hidden="true" focusable="false">
+      <path fill="currentColor" d="M13.3 10.5A5.9 5.9 0 0 1 5.5 2.7a5.95 5.95 0 1 0 7.8 7.8z"/>
+    </svg>
+    <span class="ak-visually-hidden">Dark</span>
+  </label>
+</fieldset>
+
+<script>
+  (function () {
+    var root = document.documentElement;
+    var group = document.getElementById('ak-theme');
+    if (!group) return;
+
+    var stored = 'auto';
+    try { stored = localStorage.getItem('ak-theme') || 'auto'; } catch (e) {}
+
+    var selected = group.querySelector('input[value="' + stored + '"]');
+    if (selected) selected.checked = true;
+
+    group.addEventListener('change', function (event) {
+      var choice = event.target.value;
+      try {
+        if (choice === 'auto') {
+          root.removeAttribute('data-theme');
+          localStorage.removeItem('ak-theme');
+        } else {
+          root.setAttribute('data-theme', choice);
+          localStorage.setItem('ak-theme', choice);
+        }
+      } catch (e) {
+        if (choice === 'auto') { root.removeAttribute('data-theme'); }
+        else { root.setAttribute('data-theme', choice); }
+      }
+    });
+  })();
+</script>
+
   </div>
 </div>
 
