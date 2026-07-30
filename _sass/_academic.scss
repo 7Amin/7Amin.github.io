@@ -1137,27 +1137,26 @@ hr {
    never a visible gap.
    ========================================================================== */
 
-.archive__item--figured {
-  display: grid;
-  grid-template-columns: 15rem 1fr;
-  gap: 0 1.5rem;
-  align-items: start;
-}
-
-.archive__figure {
+/* Figures sit above the entry at the full content width. A narrow side
+   column shrank wide diagrams to the point of illegibility, which defeats
+   the purpose of showing them at all. */
+.archive__item--figured .archive__figure {
   display: block;
-  width: 100%;
-  padding: 0.45rem;
+  width: fit-content;
+  max-width: 100%;
+  margin: 0 0 1.1rem;
+  padding: 0.6rem;
   border: 1px solid var(--ak-rule);
   border-radius: var(--ak-radius-sm);
   background: #fff;
   transition: border-color 0.15s ease, box-shadow 0.15s ease;
 
-  /* Fill the column: the figure is the point, so it should not sit
-     letterboxed inside a box larger than itself. */
   img {
     display: block;
-    width: 100%;
+    width: auto;
+    max-width: 100%;
+    /* Tall figures would otherwise dominate the page; wide ones run full width */
+    max-height: 24rem;
     height: auto;
     margin: 0;
     border-radius: 2px;
@@ -1172,12 +1171,7 @@ hr {
 .archive__body { min-width: 0; }
 
 @media (max-width: 37.5em) {
-  .archive__item--figured {
-    grid-template-columns: 1fr;
-    gap: 0.9rem 0;
-  }
-
-  .archive__figure { max-width: 22rem; }
+  .archive__item--figured .archive__figure img { max-height: 16rem; }
 }
 
 /* Homepage selected-publication rows: a small teaser floated opposite the
