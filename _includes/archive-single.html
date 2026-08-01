@@ -14,11 +14,6 @@
 
 <div class="{{ include.type | default: "list" }}__item">
   <article class="archive__item{% if post.figure %} archive__item--figured{% endif %}" itemscope itemtype="http://schema.org/CreativeWork">
-    {% if post.figure %}
-      <a class="archive__figure" href="{{ post.paperurl | default: post.url | prepend: base_path }}" tabindex="-1" aria-hidden="true">
-        <img src="{{ base_path }}/images/papers/{{ post.figure }}" alt="" loading="lazy" decoding="async">
-      </a>
-    {% endif %}
     <div class="archive__body">
     {% if include.type == "grid" and teaser %}
       <div class="archive__item-teaser">
@@ -49,6 +44,11 @@
         {% elsif post.collection == 'publications' %}
           {% if post.authors %}<p class="archive__item-authors">{{ post.authors }}</p>{% endif %}
           <p class="archive__item-venue">{{ post.venue }}, {{ post.date | default: "1900-01-01" | date: "%Y" }}</p>
+          {% if post.figure %}
+            <a class="archive__figure" href="{{ post.paperurl | default: post.url | prepend: base_path }}" tabindex="-1" aria-hidden="true">
+              <img src="{{ base_path }}/images/papers/{{ post.figure }}" alt="" loading="lazy" decoding="async">
+            </a>
+          {% endif %}
         {% elsif post.date %}
          <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ post.date | default: "1900-01-01" | date_to_xmlschema }}">{{ post.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
         {% endif %}

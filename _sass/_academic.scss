@@ -758,9 +758,19 @@ hr {
 /* Archive items (publications / teaching listings)
    ========================================================================== */
 
+/* Each entry is a bounded card, so a paper and its figure read as one unit */
 .archive__item {
-  padding: 1.5em 0;
-  border-bottom: 1px solid var(--ak-rule);
+  padding: 1.35rem 1.5rem;
+  margin-bottom: 0.9rem;
+  border: 1px solid var(--ak-rule);
+  border-radius: var(--ak-radius);
+  background: var(--ak-surface);
+}
+
+@media (max-width: 37.5em) {
+  .archive__item {
+    padding: 1.1rem 1rem;
+  }
 }
 
 .archive__item-title {
@@ -790,7 +800,7 @@ hr {
 }
 
 .archive__item-venue {
-  margin: 0 0 0.6em !important;
+  margin: 0 0 0.5em !important;
   font-family: var(--ak-mono);
   font-size: 0.78rem;
   letter-spacing: 0.005em;
@@ -1137,14 +1147,14 @@ hr {
    never a visible gap.
    ========================================================================== */
 
-/* Figures sit above the entry at the full content width. A narrow side
-   column shrank wide diagrams to the point of illegibility, which defeats
-   the purpose of showing them at all. */
+/* The figure sits inside the entry, below the title/authors/venue block, at
+   the full content width. A narrow side column shrank wide diagrams to the
+   point of illegibility, which defeats the purpose of showing them. */
 .archive__item--figured .archive__figure {
   display: block;
   width: fit-content;
   max-width: 100%;
-  margin: 0 0 1.1rem;
+  margin: 0.9rem 0 0.2rem;
   padding: 0.6rem;
   border: 1px solid var(--ak-rule);
   border-radius: var(--ak-radius-sm);
