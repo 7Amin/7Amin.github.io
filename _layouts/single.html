@@ -36,6 +36,9 @@ layout: default
         
         {% if page.collection == 'teaching' %}
           <p> {{ page.type }}, <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
+        {% elsif page.collection == 'publications' %}
+          {% if page.authors %}<p class="archive__item-authors">{{ page.authors }}</p>{% endif %}
+          {% if page.venue %}<p class="archive__item-venue">{{ page.venue }}, {{ page.date | default: "1900-01-01" | date: "%Y" }}</p>{% endif %}
         {% elsif page.venue and page.date %}
           <p>Published in <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif page.date %}
@@ -53,7 +56,46 @@ layout: default
       {% endunless %}
 
       <section class="page__content" itemprop="text">
-        {{ content }}
+        {% if page.collection == 'publications' %}
+          {% comment %}
+            Same figure resolution as the listing: front matter first, then
+            images/papers/<slug>.<ext> by convention.
+          {% endcomment %}
+          {% assign pub_figure = page.figure %}
+          {% unless pub_figure %}
+            {% assign pub_slug = page.permalink | default: page.url | split: "/" | last %}
+            {% for static_file in site.static_files %}
+              {% if static_file.path contains "/images/papers/" and static_file.basename == pub_slug %}
+                {% assign pub_figure = static_file.name %}
+                {% break %}
+              {% endif %}
+            {% endfor %}
+          {% endunless %}
+
+          {% if pub_figure %}
+            <figure class="page__figure">
+              <img src="{{ base_path }}/images/papers/{{ pub_figure }}" alt="Figure from {{ page.title | markdownify | strip_html | strip_newlines | escape_once }}" loading="lazy" decoding="async">
+            </figure>
+          {% endif %}
+
+          {% assign pub_body = content | strip %}
+          {% if pub_body == "" %}
+            {{ page.excerpt | markdownify }}
+          {% else %}
+            {{ content }}
+          {% endif %}
+
+          {% if page.paperurl or page.pdf or page.code or page.project %}
+            <p class="ak-actions">
+              {% if page.paperurl %}<a href="{{ page.paperurl }}">Paper</a>{% endif %}
+              {% if page.pdf %}<a href="{{ base_path }}/files/{{ page.pdf }}">PDF</a>{% endif %}
+              {% if page.code %}<a href="{{ page.code }}">Code</a>{% endif %}
+              {% if page.project %}<a href="{{ page.project }}">Project page</a>{% endif %}
+            </p>
+          {% endif %}
+        {% else %}
+          {{ content }}
+        {% endif %}
         {% if page.link %}<div><a href="{{ page.link }}" class="btn">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
       </section>
 
