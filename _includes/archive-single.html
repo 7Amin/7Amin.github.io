@@ -12,8 +12,24 @@
   {% assign title = post.title %}
 {% endif %}
 
+{% comment %}
+  A publication shows a figure if its front matter names one, or -- with no
+  configuration at all -- if an image sits at images/papers/<slug>.<ext> where
+  <slug> is the last segment of the permalink. Drop the file in and it appears.
+{% endcomment %}
+{% assign post_figure = post.figure %}
+{% unless post_figure %}
+  {% assign post_slug = post.permalink | default: post.url | split: "/" | last %}
+  {% for static_file in site.static_files %}
+    {% if static_file.path contains "/images/papers/" and static_file.basename == post_slug %}
+      {% assign post_figure = static_file.name %}
+      {% break %}
+    {% endif %}
+  {% endfor %}
+{% endunless %}
+
 <div class="{{ include.type | default: "list" }}__item">
-  <article class="archive__item{% if post.figure %} archive__item--figured{% endif %}" itemscope itemtype="http://schema.org/CreativeWork">
+  <article class="archive__item{% if post_figure %} archive__item--figured{% endif %}" itemscope itemtype="http://schema.org/CreativeWork">
     <div class="archive__body">
     {% if include.type == "grid" and teaser %}
       <div class="archive__item-teaser">
@@ -44,9 +60,9 @@
         {% elsif post.collection == 'publications' %}
           {% if post.authors %}<p class="archive__item-authors">{{ post.authors }}</p>{% endif %}
           <p class="archive__item-venue">{{ post.venue }}, {{ post.date | default: "1900-01-01" | date: "%Y" }}</p>
-          {% if post.figure %}
+          {% if post_figure %}
             <a class="archive__figure" href="{{ post.paperurl | default: post.url | prepend: base_path }}" tabindex="-1" aria-hidden="true">
-              <img src="{{ base_path }}/images/papers/{{ post.figure }}" alt="" loading="lazy" decoding="async">
+              <img src="{{ base_path }}/images/papers/{{ post_figure }}" alt="" loading="lazy" decoding="async">
             </a>
           {% endif %}
         {% elsif post.date %}
