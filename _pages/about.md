@@ -77,8 +77,11 @@ few-step discrete diffusion and flow matching for large-scale text generation.
       that approach or surpass thousand-step teachers.
     </p>
     <p class="ak-card__links">
-      <a href="https://arxiv.org/abs/2506.01923">TaxaDiffusion</a> ·
-      <a href="https://arxiv.org/abs/2410.01595">KnobGen</a>
+      <a href="/publication/direct">DiReCT</a> ·
+      <a href="/publication/taxadiffusion">TaxaDiffusion</a> ·
+      <a href="/publication/taxaadapter">TaxaAdapter</a> ·
+      <a href="/publication/knobgen">KnobGen</a> ·
+      <a href="/publication/controlla">Controlla</a>
     </p>
   </div>
 
@@ -90,7 +93,9 @@ few-step discrete diffusion and flow matching for large-scale text generation.
       assignment.
     </p>
     <p class="ak-card__links">
-      <a href="https://arxiv.org/abs/2509.20624">FS-DFM</a>
+      <a href="/publication/fs_dfm">FS-DFM</a> ·
+      <a href="/publication/trajectory_as_the_teacher">TS-DFM</a> ·
+      <a href="/publication/daca_grpo">DACA-GRPO</a>
     </p>
   </div>
 
@@ -101,8 +106,20 @@ few-step discrete diffusion and flow matching for large-scale text generation.
       generation, recognition, and segmentation.
     </p>
     <p class="ak-card__links">
-      <a href="https://arxiv.org/abs/2409.10362">FOLK</a> ·
-      <a href="https://arxiv.org/abs/2409.06809">DetailCLIP</a>
+      <a href="/publication/frequency_guided_masking">FOLK</a> ·
+      <a href="/publication/detailclip">DetailCLIP</a>
+    </p>
+  </div>
+
+  <div class="ak-card">
+    <h3>Measuring What Generative Models Get Wrong</h3>
+    <p>
+      Metrics and diagnostic protocols for failure modes that visual quality scores miss — how detectable a
+      camouflaged animal really is, and whether a generated storyboard still carries the story's meaning.
+    </p>
+    <p class="ak-card__links">
+      <a href="/publication/seamcam">SeamCam</a> ·
+      <a href="/publication/kathatrace">KathaTrace</a>
     </p>
   </div>
 
@@ -113,9 +130,10 @@ few-step discrete diffusion and flow matching for large-scale text generation.
       <strong>spatiotemporal prediction</strong> for smart mobility.
     </p>
     <p class="ak-card__links">
-      <a href="https://arxiv.org/abs/2402.06190">Masked LoGoNet</a> ·
-      <a href="https://opg.optica.org/boe/fulltext.cfm?id=574353&amp;uri=boe-16-8-3237">ISOSNet</a> ·
-      <a href="https://arxiv.org/abs/2402.05151">CrashFormer</a>
+      <a href="/publication/logonet">Masked LoGoNet</a> ·
+      <a href="/publication/isosnet">ISOSNet</a> ·
+      <a href="/publication/crashformer">CrashFormer</a> ·
+      <a href="/publication/will_construction_predicting_heterogeneous">Road Construction</a>
     </p>
   </div>
 </div>
