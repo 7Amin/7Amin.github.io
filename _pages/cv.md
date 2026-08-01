@@ -148,7 +148,7 @@ redirect_from:
 <ul class="ak-pubs ak-pubs--plain">
   <li>
     <a class="ak-pubs__title" href="https://7amin.github.io/diffulm-neurips2026/">DiffuLM — Diffusion Language Models: Foundations, Efficiency, and Reasoning</a>
-    <span class="ak-pubs__meta">Workshop organizer · NeurIPS 2026 · Sydney, Australia · 11–12 December 2026</span>
+    <span class="ak-pubs__meta">Workshop organizer · NeurIPS 2026 · Sydney, Australia · 12 December 2026</span>
   </li>
 </ul>
 
