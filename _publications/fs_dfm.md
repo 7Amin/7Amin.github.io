@@ -8,6 +8,7 @@ date: 2026-01-22
 venue: 'ICLR 2026 — The Fourteenth International Conference on Learning Representations, Rio de Janeiro, Brazil'
 paperurl: 'https://arxiv.org/abs/2509.20624'
 figure: 'fs-dfm.jpg'
+code: 'https://github.com/apple/ml-fs-dfm'
 ---
 
 Diffusion language models offer parallel, controllable generation, but in practice they have needed a large number of refinement iterations to reach the quality of autoregressive models — which erases much of their speed advantage on long text. FS-DFM (Few-Step Discrete Flow Matching) addresses this by treating the sampling budget as a first-class design variable: the model is trained so that a small, fixed number of steps is sufficient for long-form generation, rather than relying on a long iterative refinement schedule at inference time. This yields substantially faster sampling while preserving generation quality on long sequences.
