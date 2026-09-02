@@ -40,6 +40,10 @@ few-step discrete diffusion and flow matching for large-scale text generation.
     Reasoning</em> — Sydney, 12 December 2026.
   </li>
   <li>
+    <span class="ak-news__date">2027</span>
+    Serving as a reviewer for <strong>ICLR 2027</strong>, <strong>AAAI 2027</strong>, and <strong>WACV 2027</strong>.
+  </li>
+  <li>
     <span class="ak-news__date">2026</span>
     Serving as a reviewer for <strong>NeurIPS 2026</strong>, <strong>WACV 2026</strong>, and <strong>BMVC 2026</strong>.
   </li>
@@ -321,7 +325,12 @@ few-step discrete diffusion and flow matching for large-scale text generation.
     </tr>
     <tr>
       <th scope="row">ICLR</th>
-      <td>2025, 2026</td>
+      <td>2025, 2026, 2027</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <th scope="row">AAAI</th>
+      <td>2027</td>
       <td>—</td>
     </tr>
     <tr>
@@ -336,7 +345,7 @@ few-step discrete diffusion and flow matching for large-scale text generation.
     </tr>
     <tr>
       <th scope="row">WACV</th>
-      <td>2025, 2026</td>
+      <td>2025, 2026, 2027</td>
       <td>—</td>
     </tr>
     <tr>
