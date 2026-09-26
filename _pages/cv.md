@@ -21,7 +21,7 @@ redirect_from:
 <ul class="ak-pubs ak-pubs--plain">
   <li>
     <span class="ak-pubs__title">Ph.D. in Computer Science</span> — The Ohio State University, Columbus, Ohio, USA
-    <span class="ak-pubs__meta">Jan 2022 – present · Advisor: <a href="https://cse.osu.edu/people/ramnath.6">Prof. Rajiv Ramnath</a><br>
+    <span class="ak-pubs__meta">Jan 2022 – 2026 · Advisor: <a href="https://cse.osu.edu/people/ramnath.6">Prof. Rajiv Ramnath</a><br>
     Focus: efficient and controllable diffusion-based generative modeling across continuous and discrete spaces, and the representations that support it.</span>
   </li>
   <li>
@@ -40,13 +40,20 @@ redirect_from:
 
 <ul class="ak-exp">
   <li>
+    <div class="ak-exp__head"><span class="ak-exp__role">Machine Learning Researcher — Apple, MIND Team</span></div>
+    <span class="ak-exp__meta">Sep 2026 – present · Seattle, WA</span>
+    <ul class="ak-exp__body">
+      <li>Research on the efficiency of large-scale generative models — diffusion and autoregressive.</li>
+    </ul>
+  </li>
+  <li>
     <div class="ak-exp__head"><span class="ak-exp__role">ML Research Intern — Apple, MIND Team</span></div>
-    <span class="ak-exp__meta">May 2025 – present · Seattle, WA</span>
+    <span class="ak-exp__meta">May 2025 – Sep 2026 · Seattle, WA</span>
     <ul class="ak-exp__body">
       <li>Apple MIND team — fast and principled generative modeling with discrete diffusion and flow matching.</li>
       <li><a href="https://arxiv.org/abs/2509.20624">FS-DFM</a>: step-aware discrete flow matching that reaches 1024-step diffusion quality in 8 steps (128× speedup), outperforming LLaDA-8B and Dream-7B at 40× smaller scale. <em>[ICLR 2026]</em></li>
-      <li>Reinforcement learning for diffusion language models: per-step credit assignment and stratified likelihood estimation, with gains on MATH-500, GSM8K, and Sudoku at zero extra inference cost.</li>
-      <li>Trajectory shaping for discrete flow distillation: energy-guided navigation and a contrastive curriculum let the distilled student surpass its 1024-step teacher.</li>
+      <li><a href="https://arxiv.org/abs/2605.07924">TS-DFM</a>: trajectory shaping for discrete flow distillation — energy-guided navigation lets the distilled 8-step student surpass its 1024-step teacher. <em>[NeurIPS 2026]</em></li>
+      <li><a href="https://arxiv.org/abs/2605.16342">DACA-GRPO</a>: reinforcement learning for diffusion language models with per-step credit assignment and stratified likelihood estimation; gains on MATH-500, GSM8K, and Sudoku at zero extra inference cost. <em>[NeurIPS 2026]</em></li>
     </ul>
   </li>
   <li>
@@ -107,6 +114,18 @@ redirect_from:
 <h2 class="ak-section" id="publications">Selected Publications</h2>
 
 <ul class="ak-pubs">
+  <li>
+    <span class="ak-badge">NeurIPS 2026</span>
+    <a class="ak-pubs__title" href="https://arxiv.org/abs/2605.07924">Trajectory as the Teacher: Few-Step Discrete Flow Matching via Energy-Navigated Distillation</a>
+  </li>
+  <li>
+    <span class="ak-badge">NeurIPS 2026</span>
+    <a class="ak-pubs__title" href="https://arxiv.org/abs/2605.16342">DACA-GRPO: Denoising-Aware Credit Assignment for Reinforcement Learning in Diffusion Language Models</a>
+  </li>
+  <li>
+    <span class="ak-badge">NeurIPS 2026</span>
+    <a class="ak-pubs__title" href="https://arxiv.org/abs/2603.26128">TaxaAdapter: Scaling Fine-Grained Species Image Generation to the Tree of Life</a>
+  </li>
   <li>
     <span class="ak-badge">ICLR 2026</span>
     <a class="ak-pubs__title" href="https://arxiv.org/abs/2509.20624">FS-DFM: Fast and Accurate Long Text Generation with Few-Step Diffusion Language Models</a>

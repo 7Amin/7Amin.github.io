@@ -1,23 +1,23 @@
 ---
 permalink: /
 title: "Amin Karimi Monsefi"
-excerpt: "Ph.D. student in Computer Science at The Ohio State University working on generative modeling and representation learning."
+excerpt: "Machine Learning Researcher at Apple working on the efficiency of large-scale generative models, both diffusion and autoregressive. Ph.D. in Computer Science from The Ohio State University."
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-<p class="ak-hero__role">Ph.D. Candidate · Computer Science · The Ohio State University</p>
+<p class="ak-hero__role">Machine Learning Researcher · Apple</p>
 
 <p class="ak-lead">
-I am a Ph.D. candidate in Computer Science at <strong>The Ohio State University</strong>, advised by
+I am a Machine Learning Researcher on the <strong>Apple MIND team</strong>, working on the efficiency of
+large-scale generative models — both <strong>diffusion and autoregressive</strong>. My research advances
+<strong>efficient and controllable generative models</strong> and the representations that power them — few-step
+diffusion and flow matching across <strong>both continuous (vision) and discrete (language)</strong> spaces,
+self-supervised and vision–language pretraining, and the translation of both into high-impact scientific domains.
+I completed my Ph.D. in Computer Science at <strong>The Ohio State University</strong>, advised by
 <a href="https://cse.osu.edu/people/ramnath.6">Professor Rajiv Ramnath</a>.
-My research advances <strong>efficient and controllable generative models</strong> and the representations that power
-them — few-step diffusion and flow matching across <strong>both continuous (vision) and discrete (language)</strong>
-spaces, self-supervised and vision–language pretraining, and the translation of both into high-impact scientific
-domains. I am also a machine-learning research intern with the <strong>Apple MIND team</strong>, working on
-few-step discrete diffusion and flow matching for large-scale text generation.
 </p>
 
 <ul class="ak-links">
@@ -33,8 +33,20 @@ few-step discrete diffusion and flow matching for large-scale text generation.
 
 <ul class="ak-news">
   <li>
-    <span class="ak-news__date">2026</span>
+    <span class="ak-news__date">Sep 2026</span>
     <span class="ak-badge ak-badge--new">New</span>
+    Joining <strong>Apple</strong> full time as a Machine Learning Researcher on the MIND team,
+    after completing my Ph.D. at The Ohio State University.
+  </li>
+  <li>
+    <span class="ak-news__date">Sep 2026</span>
+    Three papers accepted at <strong>NeurIPS 2026</strong> — two as <strong>first author</strong>
+    (<a href="/publication/trajectory_as_the_teacher">Trajectory as the Teacher</a>,
+    <a href="/publication/daca_grpo">DACA-GRPO</a>) and one as co-author
+    (<a href="/publication/taxaadapter">TaxaAdapter</a>).
+  </li>
+  <li>
+    <span class="ak-news__date">2026</span>
     Organizing <a href="https://7amin.github.io/diffulm-neurips2026/"><strong>DiffuLM</strong></a>, the
     <strong>NeurIPS 2026</strong> workshop on <em>Diffusion Language Models: Foundations, Efficiency, and
     Reasoning</em> — Sydney, 12 December 2026.
@@ -146,6 +158,24 @@ few-step discrete diffusion and flow matching for large-scale text generation.
 
 <ul class="ak-pubs ak-pubs--figures">
   <li class="has-fig">
+    <span class="ak-badge">NeurIPS 2026</span>
+    <img class="ak-pubs__fig" src="/images/papers/trajectory_as_the_teacher.jpg" alt="" loading="lazy" decoding="async">
+    <a class="ak-pubs__title" href="/publication/trajectory_as_the_teacher">Trajectory as the Teacher: Few-Step Discrete Flow Matching via Energy-Navigated Distillation</a>
+    <span class="ak-pubs__meta">Conference on Neural Information Processing Systems, 2026</span>
+  </li>
+  <li class="has-fig">
+    <span class="ak-badge">NeurIPS 2026</span>
+    <img class="ak-pubs__fig" src="/images/papers/daca_grpo.jpg" alt="" loading="lazy" decoding="async">
+    <a class="ak-pubs__title" href="/publication/daca_grpo">DACA-GRPO: Denoising-Aware Credit Assignment for Reinforcement Learning in Diffusion Language Models</a>
+    <span class="ak-pubs__meta">Conference on Neural Information Processing Systems, 2026</span>
+  </li>
+  <li class="has-fig">
+    <span class="ak-badge">NeurIPS 2026</span>
+    <img class="ak-pubs__fig" src="/images/papers/taxaadapter.jpg" alt="" loading="lazy" decoding="async">
+    <a class="ak-pubs__title" href="/publication/taxaadapter">TaxaAdapter: Scaling Fine-Grained Species Image Generation to the Tree of Life</a>
+    <span class="ak-pubs__meta">Conference on Neural Information Processing Systems, 2026</span>
+  </li>
+  <li class="has-fig">
     <span class="ak-badge">ICLR 2026</span>
     <img class="ak-pubs__fig" src="/images/papers/fs-dfm.jpg" alt="" loading="lazy" decoding="async">
     <a class="ak-pubs__title" href="https://arxiv.org/pdf/2509.20624">FS-DFM: Fast and Accurate Long Text Generation with Few-Step Diffusion Language Models</a>
@@ -230,13 +260,23 @@ few-step discrete diffusion and flow matching for large-scale text generation.
   <li>
     <div class="ak-exp__head">
       <img class="ak-exp__logo" src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg" alt="Apple logo">
+      <span class="ak-exp__role">Machine Learning Researcher — Apple, MIND Team</span>
+    </div>
+    <span class="ak-exp__meta">Sep 2026 – present · Seattle, WA</span>
+    <ul class="ak-exp__body">
+      <li>Research on the efficiency of large-scale generative models — diffusion and autoregressive.</li>
+    </ul>
+  </li>
+
+  <li>
+    <div class="ak-exp__head">
       <span class="ak-exp__role">ML Research Intern — Apple, MIND Team</span>
     </div>
-    <span class="ak-exp__meta">May 2025 – present · Seattle, WA</span>
+    <span class="ak-exp__meta">May 2025 – Sep 2026 · Seattle, WA</span>
     <ul class="ak-exp__body">
-      <li>Developed <a href="https://arxiv.org/abs/2509.20624">FS-DFM</a>, a step-aware discrete flow-matching framework that matches the quality of 1024-step diffusion baselines in 8 steps (128× speedup), outperforming LLaDA-8B and Dream-7B while being 40× smaller. <em>[ICLR 2026]</em></li>
-      <li>Designed reinforcement-learning methods for diffusion language models based on per-step credit assignment and stratified likelihood estimation, improving reasoning on MATH-500, GSM8K, and Sudoku at zero extra inference cost.</li>
-      <li>Developed trajectory-shaping techniques for discrete flow distillation — energy-guided navigation and a contrastive curriculum — enabling a distilled 8-step student to surpass its 1024-step teacher.</li>
+      <li>Developed <a href="/publication/fs_dfm">FS-DFM</a>, a step-aware discrete flow-matching framework that matches the quality of 1024-step diffusion baselines in 8 steps (128× speedup), outperforming LLaDA-8B and Dream-7B while being 40× smaller. <em>[ICLR 2026]</em></li>
+      <li>Developed <a href="/publication/trajectory_as_the_teacher">TS-DFM</a>, which replaces blind stochastic jumps in trajectory construction with energy-guided navigation, letting a distilled 8-step student surpass its 1024-step teacher. <em>[NeurIPS 2026]</em></li>
+      <li>Designed <a href="/publication/daca_grpo">DACA-GRPO</a>, a reinforcement-learning framework for diffusion language models using per-step credit assignment and stratified likelihood estimation, improving reasoning on MATH-500, GSM8K, and Sudoku at zero extra inference cost. <em>[NeurIPS 2026]</em></li>
     </ul>
   </li>
 
@@ -395,7 +435,7 @@ few-step discrete diffusion and flow matching for large-scale text generation.
 <ul class="ak-pubs ak-pubs--plain">
   <li>
     <span class="ak-pubs__title">Ph.D. in Computer Science</span> — The Ohio State University, Columbus, Ohio
-    <span class="ak-pubs__meta">Jan 2022 – present · Advisor: <a href="https://cse.osu.edu/people/ramnath.6">Prof. Rajiv Ramnath</a></span>
+    <span class="ak-pubs__meta">Jan 2022 – 2026 · Advisor: <a href="https://cse.osu.edu/people/ramnath.6">Prof. Rajiv Ramnath</a></span>
   </li>
   <li>
     <span class="ak-pubs__title">M.Sc. in Computer Engineering (Software)</span> — Shahid Beheshti University, Tehran

@@ -1,10 +1,10 @@
 ---
-title: "TaxaAdapter: Vision Taxonomy Models are Key to Fine-Grained Image Generation over the Tree of Life"
+title: "TaxaAdapter: Scaling Fine-Grained Species Image Generation to the Tree of Life"
 authors: "Mridul Khurana, <strong>Amin Karimi Monsefi</strong>, Justin Lee, Medha Sawhney, David Carlyn, Julia Chae, Jianyang Gu, Rajiv Ramnath, Sara Beery, Wei-Lun Chao, Anuj Karpatne, Cheng Zhang"
 collection: publications
 permalink: /publication/taxaadapter
-date: 2026-03-27
-venue: 'arXiv'
+date: 2026-09-19
+venue: 'NeurIPS 2026 — Conference on Neural Information Processing Systems'
 paperurl: 'https://arxiv.org/abs/2603.26128'
 figure: 'taxaadapter.jpg'
 project: 'https://imageomics.github.io/TaxaAdapter'
