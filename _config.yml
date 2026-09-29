@@ -163,6 +163,7 @@ exclude:
   - CONTRIBUTING.md
   - Gemfile
   - Gemfile.lock
+  - Amin_Karimi_Monsefi_CV.pdf # source copy; the site serves files/Amin_Karimi_Monsefi_CV.pdf
   - amin-karimi-monsefi.jpg # source copy; the site uses images/amin-karimi-monsefi.jpg
   - Gruntfile.js
   - "ICLR___2026___FS_DFM___Few_Step_Discrete_Flow_Matching.pdf" # figure source, not for publishing
