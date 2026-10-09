@@ -356,7 +356,7 @@ I completed my Ph.D. in Computer Science at <strong>The Ohio State University</s
     <tr>
       <th scope="row">NeurIPS</th>
       <td>2026</td>
-      <td>—</td>
+      <td><strong>Top Reviewer</strong> (2026)</td>
     </tr>
     <tr>
       <th scope="row">ICML</th>
@@ -411,6 +411,10 @@ I completed my Ph.D. in Computer Science at <strong>The Ohio State University</s
     <span class="ak-badge ak-badge--award">2025–26</span>
     <strong>Graduate Research Award</strong>, Department of Computer Science and Engineering, The Ohio State University.
     <span class="ak-awards__note">Selected by the OSU CSE Department for distinguished research contributions in generative modeling.</span>
+  </li>
+  <li>
+    <span class="ak-badge ak-badge--award">2026</span>
+    <strong>Top Reviewer</strong>, NeurIPS 2026.
   </li>
   <li>
     <span class="ak-badge ak-badge--award">2026</span>

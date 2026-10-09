@@ -182,7 +182,7 @@ redirect_from:
     </tr>
   </thead>
   <tbody>
-    <tr><th scope="row">NeurIPS</th><td>2026</td><td>—</td></tr>
+    <tr><th scope="row">NeurIPS</th><td>2026</td><td><strong>Top Reviewer</strong> (2026)</td></tr>
     <tr><th scope="row">ICML</th><td>2026</td><td><strong>Silver Reviewer</strong> (2026)</td></tr>
     <tr><th scope="row">ICLR</th><td>2025, 2026, 2027</td><td>—</td></tr>
     <tr><th scope="row">AAAI</th><td>2027</td><td>—</td></tr>
@@ -207,6 +207,10 @@ redirect_from:
   <li>
     <span class="ak-badge ak-badge--award">2025–26</span>
     <strong>Graduate Research Award</strong>, Department of Computer Science and Engineering, The Ohio State University.
+  </li>
+  <li>
+    <span class="ak-badge ak-badge--award">2026</span>
+    <strong>Top Reviewer</strong>, NeurIPS 2026.
   </li>
   <li>
     <span class="ak-badge ak-badge--award">2026</span>
